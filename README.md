@@ -1,7 +1,7 @@
 Web
 ---
 
-> Static website for https://project-enyo.github.io
+> Static website for [project-enyo.github.io](https://project-enyo.github.io).
 
 ### TODO
 
@@ -9,4 +9,4 @@ Web
 
 ---
 
-Code is slightly based on [OvercastNetwork/oc.tc](https://github.com/OvercastNetwork/oc.tc).
+*Code is slightly based on [OvercastNetwork/oc.tc](https://github.com/OvercastNetwork/oc.tc).*
