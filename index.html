@@ -1,46 +1,97 @@
 <!doctype html>
 <html lang='en'>
-<head>
-    <meta charset='utf-8' />
-    <title>Project Enyo</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <style>
-        body {
-            background: #2C2F33 no-repeat center center fixed;
-        }
-        a, a:hover {
-            color: #7289DA;
-        }
-        .container {
-            margin: 0 auto;
-            text-align: center;
-            margin-top: 150px;
-        }
-        .hero-unit {
-            color: #fff;
-        }
-        .clearfix {
-            color: #da7272;
-        }
-    </style>
-</head>
-<body>
-    <div class='container'>
-        <div class='hero-unit'>
-            <h1 class='clearfix'>Project <span style="color:#99AAB5">Enyo</span></h1>
-            <p>
-                Play team based, objective oriented Minecraft PvP matches on a variety of <a href="https://youtu.be/3dLo8ytygWs" target="_blank">iconic</a> oc.tc maps!
-                <br/>Powered by <a href="https://github.com/Electroid/PGM" target="_blank">PGM</a>, originally created and used by the <a href="https://github.com/OvercastNetwork" target="_blank">Overcast Network</a>.
-            </p>
-            <p>
-                Connect to <code>projectenyo.eu</code> using any minecraft version.
-            </p>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154852120-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-154852120-1');
+        </script>
+        <meta charset='utf-8' />
+        <title>
+            Overcast Community
+        </title>
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <style>
+            body {
+                background: url(bg.jpg) #2C2F33 no-repeat center center fixed;
+            }
+            .container {
+                margin: 0 auto;
+                text-align: center;
+            }
+            .display-4 {
+                color: #da7272;
+                font-weight: bold;
+                font-size: 110px;
+                line-height: 1;
+                letter-spacing: -2px;
+            }
+            .lead {
+                font-size: 40px;
+                font-weight: 200;
+                line-height: 1.25;
+                color: #fff;
+                text-shadow: 0 1px 10px rgba(0,0,0,0.5), 0 0 30px rgba(0,0,0,0.9);
+            }
+            .play {
+                padding: 20px 24px;
+                font-size: 28px;
+                font-weight: 400;
+                color: #fff;
+                width: 180px;
+            }
+            .jumbotron {
+                background: none;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="https://oc.tc">
+                <img src="logo.png" class="d-inline-block align-top" alt="" />
+                Overcast Community
+            </a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://oc.tc">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://twitter.com/OvercastPGM">Twitter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://discord.gg/CvJGbrV">Discord</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.reddit.com/r/overcast/">Reddit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://octc.buycraft.net">Donate</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <a href="https://discord.gg/CvJGbrV"><img alt="Discord" src="https://img.shields.io/discord/86514356862320640?color=darkred&label=discord&style=flat-square" /></a>
+                </span>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="jumbotron info">
+                <h1 class="display-4">Overcast <span style="color:#99AAB5">Community</span></h1>
+                <p class="lead">The awesome server that lets you play
+                <br />large varieties of Minecraft PvP anytime, anywhere.</p>
+                <hr class="my-4" />
+                <input class="input btn btn-primary play" onclick="this.select();" readonly="" type="text" value="play.oc.tc" />
+            </div>
         </div>
-        <hr />
-        <footer>
-            <a href="https://discord.gg/WKJkgdg"><img alt="Discord" src="https://img.shields.io/discord/611166472433041418?color=darkred&label=discord&style=flat-square" /></a>
-        </footer>
-    </div>
-</body>
+    </body>
 </html>

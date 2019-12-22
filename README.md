@@ -1,11 +1,7 @@
-projectenyo.github.io
+oc.tc
 ---------------------
 
-> Static website for [projectenyo.github.io](https://projectenyo.github.io).
-
-### TODO
-
-- [ ] Favicon
+> Static website for [oc.tc](https://oc.tc).
 
 ---
 
