@@ -18,7 +18,7 @@ layout: default
                     <div class="card-body">
                         <h5 class="card-title heading">Connect to</h5>
                         <hr />
-                        <input class="input" onclick="this.select();" readonly="" type="text" value="{{ site.mc_url }}">
+                        <input class="input" data-toggle="tooltip" data-placement="top" title="Click to copy" onclick="this.select();" readonly="" type="text" value="{{ site.mc_url }}">
                     </div>
                 </div>
             </div>
