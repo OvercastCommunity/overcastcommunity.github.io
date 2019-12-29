@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="jumbotron-fluid info">
+<div class="jumbotron-fluid info" style="background: url('{{ site.url }}/assets/images/bg.jpg') #2c2f33 no-repeat center center fixed;">
     <div class="container">
         <h1 class="heading">Overcast <span style="color:#99AAB5">Community</span></h1>
         <p class="lead">The awesome server that lets you play <br />large varieties of Minecraft PvP anytime, anywhere.</p>
