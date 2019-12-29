@@ -26,12 +26,18 @@ layout: default
         <div class="col-sm-9">
             <div class="status">
                 <div class="card">
-                    <h5 class="card-header heading">Currently Playing</h5>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <span id="mapName"></span> <span id="playerCount"></span>
-                            <span id="fallback"></span>
-                        </h5>
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="" class="card-img-left" id="mapImage" onerror="this.src='{{ site.url }}/assets/images/map_notfound.png'">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <span id="mapName"></span> <span id="playerCount"></span>
+                                    <span id="fallback"></span>
+                                </h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

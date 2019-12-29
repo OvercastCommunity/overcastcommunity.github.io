@@ -3,6 +3,7 @@
 
 const api = "https://mcapi.us/server/status?ip=";
 const host = "{{ site.mc_url }}";
+const imageProvider = "https://raw.githubusercontent.com/ChemistryX/overcast-map-images/master/"
 
 setTimeout(function() {
     $.getJSON(api + host, function(json) {
@@ -15,10 +16,12 @@ setTimeout(function() {
 
         if (isOnline) {
             motd = json.motd;
-            let mapName = motd.split('»')[1].replace('«', '').replace(/§./gi, '');
+            let mapName = motd.split('»')[1].replace('«', '').replace(/.§./gi, '');
+            let mapUrl = imageProvider + mapName.toLowerCase().replace(/ /gi, "_") + "/map.png";
             count += players;
             fetchPlayerCount(count + "<small>/" + max + " players</small>");
             fetchMapName(mapName);
+            fetchMapImage(mapUrl);
         } else {            
             $("#fallback").html("Server is offline.")
         }
@@ -35,4 +38,8 @@ function fetchPlayerCount(html) {
 
 function fetchMapName(html) {
     $("#mapName").html(html);
+}
+
+function fetchMapImage(html) {
+    $("#mapImage").attr("src", html);
 }
