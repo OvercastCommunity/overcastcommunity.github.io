@@ -2,9 +2,21 @@
 layout: default
 ---
 
-<div class="jumbotron-fluid info" style="background: url('{{ site.url }}/assets/images/bg.jpg') #2c2f33 no-repeat center center fixed;">
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ site.url}}/assets/images/marketing/1.jpg" class="d-block w-100">
+        </div>
+    {% for i in (2..12) %}
+        <div class="carousel-item">
+            <img src="{{ site.url}}/assets/images/marketing/{{ i }}.jpg" class="d-block w-100">
+        </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="jumbotron-fluid info">
     <div class="container">
-        <h1 class="heading">Overcast <span style="color:#99AAB5">Community</span></h1>
+        <h1 class="heading">Overcast <span style="color:#afafaf">Community</span></h1>
         <p class="lead">The awesome server that lets you play <br />large varieties of Minecraft PvP anytime, anywhere.</p>
         <a class="btn btn-primary btn-play" href="#play">Play Now »</a>
     </div>
