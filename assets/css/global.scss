@@ -1,3 +1,6 @@
+---
+---
+
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
 
 body {
@@ -9,8 +12,11 @@ body {
 }
 
 .info {
-  background: none;
+  background: url("{{ site.url }}/assets/images/bg.jpg") #2c2f33 no-repeat center center fixed;
+  background-size: cover;
   text-align: center;
+  padding: 4em 0;
+  margin-bottom: 2em;
 
   .heading {
     color: #da7272;
@@ -84,4 +90,8 @@ small {
     background-color: #007bff;
     padding: 20px;
   }
+}
+
+.footer {
+  margin-top: 3.5em;
 }
