@@ -16,7 +16,6 @@ setTimeout(function() {
         if (isOnline) {
             motd = json.motd;
             let mapName = motd.split('»')[1].replace('«', '').replace(/§./gi, '');
-            console.log(mapName);
             count += players;
             fetchPlayerCount(count + "<small>/" + max + " players</small>");
             fetchMapName(mapName);
