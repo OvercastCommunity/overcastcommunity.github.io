@@ -5,7 +5,6 @@ $(document).ready(function() {
 
     function update() {
         if (matcher.matches) {
-            console.log("d");
             $("body").addClass("bg-dark");
             $(".footer")
                 .find("a")
@@ -17,7 +16,6 @@ $(document).ready(function() {
             $(".card").addClass("text-white");
             $(".card").addClass("bg-dark");
         } else {
-            console.log("l");
             $("body").removeClass("bg-dark");
             $(".footer")
                 .find("a")
