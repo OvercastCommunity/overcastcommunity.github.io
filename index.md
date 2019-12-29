@@ -32,8 +32,9 @@ layout: default
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">
-                                    <span id="mapName"></span> <span id="playerCount"></span>
-                                    <span id="fallback"></span>
+                                    <p id="mapName"></p>
+                                    <p id="playerCount"></p>
+                                    <p id="fallback"></p>
                                 </h5>
                             </div>
                         </div>
