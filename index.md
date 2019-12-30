@@ -2,25 +2,6 @@
 layout: default
 ---
 
-<div id="carousel" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="{{ site.url}}/assets/images/marketing/1.jpg" class="d-block w-100">
-        </div>
-    {% for i in (2..12) %}
-        <div class="carousel-item">
-            <img src="{{ site.url}}/assets/images/marketing/{{ i }}.jpg" class="d-block w-100">
-        </div>
-    {% endfor %}
-  </div>
-</div>
-<div class="jumbotron-fluid info">
-    <div class="container">
-        <h1 class="heading">Overcast <span style="color:#afafaf">Community</span></h1>
-        <p class="lead">The awesome server that lets you play <br />large varieties of Minecraft PvP anytime, anywhere.</p>
-        <a class="btn btn-primary btn-play" href="#play">Play Now »</a>
-    </div>
-</div>
 <div class="container">
     <div class="row">
         <div class="col-sm-3">
