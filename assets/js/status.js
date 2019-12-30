@@ -17,7 +17,7 @@ setTimeout(function() {
         if (isOnline) {
             motd = json.motd.clean[1];
             let mapName = motd.replace('» ', '').replace(' «', '').replace(/.§./gi, '');
-            let mapUrl = imageProvider + mapName.toLowerCase().replace(/ /gi, "_") + "/map.png";
+            let mapUrl = imageProvider + mapName.toLowerCase().replace(/ /gi, "_").replace(/:/gi, "").replace(/'/gi, "_") + "/map.png";
             count += players;
             fetchPlayerCount(count + "<small>/" + max + " players</small>");
             fetchMapName(mapName);
