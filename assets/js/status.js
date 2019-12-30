@@ -1,7 +1,7 @@
 ---
 ---
 
-const api = "https://mcapi.us/server/status?ip=";
+const api = "https://api.mcsrvstat.us/2/";
 const host = "{{ site.mc_url }}";
 const imageProvider = "https://raw.githubusercontent.com/ChemistryX/overcast-map-images/master/"
 
@@ -11,12 +11,12 @@ setTimeout(function() {
         let motd = "";
 
         const isOnline = json.online;
-        const players = json.players.now;
+        const players = json.players.online;
         const max = json.players.max;
 
         if (isOnline) {
-            motd = json.motd;
-            let mapName = motd.split('»')[1].replace('«', '').replace(/.§./gi, '');
+            motd = json.motd.clean[1];
+            let mapName = motd.replace('» ', '').replace(' «', '').replace(/.§./gi, '');
             let mapUrl = imageProvider + mapName.toLowerCase().replace(/ /gi, "_") + "/map.png";
             count += players;
             fetchPlayerCount(count + "<small>/" + max + " players</small>");
