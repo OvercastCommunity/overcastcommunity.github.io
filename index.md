@@ -20,7 +20,7 @@ layout: default
                 <div class="card">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="" class="card-img-left" id="mapImage" onerror="this.src='{{ site.url }}/assets/images/map_notfound.png'">
+                            <img src="" class="card-img-left" id="mapImage" onerror="this.src='{{ site.url }}/assets/images/fallback.png'">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
