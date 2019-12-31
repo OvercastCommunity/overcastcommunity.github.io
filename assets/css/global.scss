@@ -11,13 +11,21 @@ body {
 
 .carousel {
   overflow: hidden;
-  height: 480px;
+  height: 470px;
   position: absolute;
+  max-width: 100%;
+  width: 100%;
 
   .carousel-inner {
     z-index: -1;
-    position: relative;
-    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+
+    img {
+      width: 100%;
+      min-width: 950px;
+      min-height: 480px;
+    }
   }
 }
 
@@ -27,7 +35,7 @@ body {
   padding: 4em 0;
   margin-bottom: 0;
   position: relative;
-  height: 500px;
+  height: 480px;
 
   .heading {
     color: $red;
