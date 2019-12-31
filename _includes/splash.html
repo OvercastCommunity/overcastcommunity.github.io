@@ -1,19 +1,20 @@
 <div id="carousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
+        {% assign images = site.static_files | where: "marketing", true%} {% for image in images %} {% if forloop.first %}
         <div class="carousel-item active">
-            <img src="{{ site.url}}/assets/images/marketing/1.jpg" />
+            {% else %}
+            <div class="carousel-item">
+                {% endif %}
+                <img src="{{ site.url}}{{ image.path }}" />
+            </div>
+            {% endfor %}
         </div>
-        {% for i in (2..12) %}
-        <div class="carousel-item">
-            <img src="{{ site.url}}/assets/images/marketing/{{ i }}.jpg" />
-        </div>
-        {% endfor %}
     </div>
-</div>
-<div class="jumbotron-fluid info">
-    <div class="container">
-        <h1 class="heading">Overcast <span style="color:#afafaf">Community</span></h1>
-        <p class="lead">{{ site.lead[0] }}<br />{{ site.lead[1] }}</p>
-        <a class="btn btn-primary btn-play" href="#play">Play Now »</a>
+    <div class="jumbotron-fluid info">
+        <div class="container">
+            <h1 class="heading">Overcast <span style="color:#afafaf">Community</span></h1>
+            <p class="lead">{{ site.lead[0] }}<br />{{ site.lead[1] }}</p>
+            <a class="btn btn-primary btn-play" href="#play">Play Now »</a>
+        </div>
     </div>
 </div>
