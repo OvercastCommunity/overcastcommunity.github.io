@@ -1,9 +1,9 @@
 ---
 ---
 
-const api = "https://api.mcsrvstat.us/2/";
+const api = "{{ site.api }}";
 const host = "{{ site.mc_url }}";
-const imageProvider = "https://raw.githubusercontent.com/ChemistryX/overcast-map-images/master/"
+const imageProvider = "{{ site.image_provider }}"
 
 setTimeout(function() {
     $.getJSON(api + host, function(json) {
