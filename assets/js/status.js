@@ -3,7 +3,7 @@
 
 const api = "{{ site.api }}";
 const host = "{{ site.mc_url }}";
-const imageProvider = "{{ site.image_provider }}"
+const imageProvider = "{{ site.image_provider }}";
 const avatarProvider = "{{ site.avatar_provider }}";
 
 setTimeout(function() {

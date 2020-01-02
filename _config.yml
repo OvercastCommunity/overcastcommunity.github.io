@@ -3,7 +3,7 @@ url: "https://oc.tc"
 mc_url: play.oc.tc
 api: "https://api.mcsrvstat.us/2/"
 image_provider: "https://raw.githubusercontent.com/ChemistryX/overcast-map-images/master/"
-avatar_provider: "https://api.ashcon.app/mojang/v2/avatar/"
+avatar_provider: "https://minotar.net/helm/"
 lead:
     - The awesome server that lets you play
     - large varieties of Minecraft PvP anytime, anywhere.
