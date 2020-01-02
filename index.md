@@ -28,6 +28,7 @@ layout: default
                                     <p id="mapName"></p>
                                     <p id="playerCount"></p>
                                     <p id="fallback"></p>
+                                    <div id="players"></div>
                                 </h5>
                             </div>
                         </div>
