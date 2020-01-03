@@ -2,7 +2,7 @@ title: "Overcast Community"
 url: "https://oc.tc"
 mc_url: play.oc.tc
 api: "https://api.mcsrvstat.us/2/"
-image_provider: "https://raw.githubusercontent.com/ChemistryX/overcast-map-images/master/"
+image_provider: "https://raw.githubusercontent.com/ProjectEnyo/maps/master/"
 avatar_provider: "https://minotar.net/helm/"
 lead:
     - The awesome server that lets you play

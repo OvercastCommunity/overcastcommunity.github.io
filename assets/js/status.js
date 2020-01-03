@@ -20,7 +20,7 @@ setTimeout(function() {
             max = json.players.max;
             motd = json.motd.clean[1];
             const mapName = motd.replace('» ', '').replace(' «', '').replace(/.§./gi, '');
-            const mapUrl = imageProvider + mapName.toLowerCase().replace(/ /gi, "_").replace(/:/gi, "").replace(/'/gi, "_") + "/map.png";
+            const mapUrl = imageProvider + mapName + "/map.png";
             count += players;
             playersArray = json.players.list;
             fetchPlayerCount(count + "<small>/" + max + " players</small>");
