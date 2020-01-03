@@ -6,7 +6,7 @@ layout: default
     <div class="row">
         <div class="col-sm-3">
             <div class="sidebar" id="play">
-                <div class="card">
+                <div class="card mb-3">
                     <div class="card-body">
                         <h5 class="card-title heading">Connect to</h5>
                         <hr />
@@ -17,10 +17,10 @@ layout: default
         </div>
         <div class="col-sm-9">
             <div class="status">
-                <div class="card">
+                <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="" class="card-img-left" id="mapImage" onerror="this.src='{{ site.url }}/assets/images/fallback.png'">
+                            <img src="" class="card-img-left img-thumbnail" id="mapImage" onerror="this.src='{{ site.url }}/assets/images/fallback.png'">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">

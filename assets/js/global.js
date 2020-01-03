@@ -15,6 +15,8 @@ $(document).ready(function() {
             $(".navbar").addClass("bg-dark");
             $(".card").addClass("text-white");
             $(".card").addClass("bg-dark");
+            $(".card-img-left").removeClass("img-thumbnail");
+            $(".card-img-left").addClass("img-thumbnail-dark");
         } else {
             $("body").removeClass("bg-dark");
             $(".footer")
@@ -26,6 +28,8 @@ $(document).ready(function() {
             $(".navbar").addClass("bg-light");
             $(".card").removeClass("text-white");
             $(".card").removeClass("bg-dark");
+            $(".card-img-left").removeClass("img-thumbnail-dark");
+            $(".card-img-left").addClass("img-thumbnail");
         }
     }
 });
