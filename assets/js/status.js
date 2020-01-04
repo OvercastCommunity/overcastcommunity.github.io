@@ -8,27 +8,31 @@ const avatarProvider = "{{ site.avatar_provider }}";
 
 setTimeout(function() {
     $.getJSON(api + host, function(json) {
-        let count = 0;
-        let max = 0;
-        let motd = "";
-        let playersArray = [];
-
         const online = json.online;
 
         if (online) {
-            const players = json.players.online;
-            max = json.players.max;
-            motd = json.motd.clean[1];
-            const mapName = motd.replace('» ', '').replace(' «', '').replace(/.§./gi, '');
-            const mapUrl = imageProvider + mapName + "/map.png";
-            count += players;
-            playersArray = json.players.list;
-            fetchPlayerCount(count + "<small>/" + max + " players</small>");
-            fetchMapName(mapName);
+            const pgm = json.bukkit_extra.pgm;
+            const onlinePlayers = json.players.online;
+            const maxPlayers = json.players.max;
+            matchId = Object.keys(pgm)[0];
+            const currentMatch = pgm[matchId];
+            const currentMapName = currentMatch.map.name;
+            const currentMapObjective = currentMatch.map.objective;
+            const mapUrl = imageProvider + currentMapName + "/map.png";
+            const players = json.players.sample;
+            const tags = currentMatch.map.tags;
+            fetchPlayerCount(onlinePlayers + "<small>/" + maxPlayers + " players</small>");
+            fetchCurrentMapName(currentMapObjective, currentMapName);
+            if (currentMatch.next_map != null) {
+                fetchNextMapName(currentMatch.next_map.name);
+            }
             fetchMapImage(mapUrl);
-            $(playersArray).each(function (index, item) {
-                $('#players').append("<a href='#'><img class='avatar' title='" + item + "' src='" + avatarProvider + item + "' /></a>");
+            $(players).each(function (index, item) {
+                $('#players').append("<a href='#'><img class='avatar' title='" + item.name + "' src='" + avatarProvider + item.name + "' /></a>");
                 $('#players').children().children().tooltip({});
+            });
+            $(tags).each(function (index, item) {
+                $('#tags').append("<span class='tag'>#" + item + "</span>");
             });
         } else {            
             $("#fallback").html("Server is offline.")
@@ -42,8 +46,12 @@ function fetchPlayerCount(html) {
     $("#playerCount").html(html);
 }
 
-function fetchMapName(html) {
-    $("#mapName").html(html);
+function fetchCurrentMapName(title, html) {
+    $("#currentMap").attr("title", title).html(html).tooltip({});
+}
+
+function fetchNextMapName(html) {
+    $("#nextMap").html("<small>next:</small> " + html);
 }
 
 function fetchMapImage(html) {

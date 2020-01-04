@@ -1,7 +1,7 @@
 title: "Overcast Community"
 url: "https://oc.tc"
 mc_url: play.oc.tc
-api: "https://api.mcsrvstat.us/2/"
+api: "https://eu.mc-api.net/v3/server/ping/"
 image_provider: "https://raw.githubusercontent.com/ProjectEnyo/maps/master/"
 avatar_provider: "https://minotar.net/helm/"
 lead:

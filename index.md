@@ -3,6 +3,12 @@ layout: default
 ---
 
 <div class="container">
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <strong>Tip</strong> Hover the name of the map to see the map's objective!
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    </div>
     <div class="row">
         <div class="col-sm-3">
             <div class="sidebar" id="play">
@@ -25,10 +31,12 @@ layout: default
                         <div class="col">
                             <div class="card-body">
                                 <h5 class="card-title">
-                                    <p id="mapName"></p>
-                                    <p id="playerCount"></p>
-                                    <p id="fallback"></p>
+                                    <span id="currentMap"></span>
+                                    <span id="playerCount"></span>
+                                    <div id="tags"></div>
+                                    <p id="nextMap"></p>
                                     <div id="players"></div>
+                                    <p id="fallback"></p>
                                 </h5>
                             </div>
                         </div>

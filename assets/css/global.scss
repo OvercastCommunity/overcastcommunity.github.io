@@ -103,9 +103,14 @@ small {
     font-weight: bold;
   }
 
-  #mapName {
+  #currentMap {
     font-weight: bold;
     font-size: 32px;
+  }
+
+  #nextMap {
+    font-weight: bold;
+    font-size: 16px;
   }
 }
 
@@ -143,6 +148,17 @@ small {
   border-radius: 0.25em;
   max-width: 100%;
   height: auto;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.3em;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25em;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.125);
+  margin-bottom: 0.3em;
 }
 
 .footer {
