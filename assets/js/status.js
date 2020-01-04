@@ -2,7 +2,7 @@
 ---
 
 const api = "{{ site.api }}";
-const host = "{{ site.mc_url }}";
+const host = "{{ site.mc_url}}";
 const imageProvider = "{{ site.image_provider }}";
 const avatarProvider = "{{ site.avatar_provider }}";
 
@@ -10,7 +10,7 @@ setTimeout(function() {
     $.getJSON(api + host, function(json) {
         const online = json.online;
 
-        if (online) {
+        if (online && json.bukkit_extra != null) {
             const pgm = json.bukkit_extra.pgm;
             const onlinePlayers = json.players.online;
             const maxPlayers = json.players.max;
