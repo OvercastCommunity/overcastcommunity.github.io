@@ -19,10 +19,10 @@ layout: default
             <div class="status">
                 <div class="card mb-3">
                     <div class="row no-gutters">
-                        <div class="col-md-4">
+                        <div class="col-auto">
                             <img src="" class="card-img-left img-thumbnail" id="mapImage" onerror="this.src='{{ site.url }}/assets/images/fallback.png'">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <p id="mapName"></p>
