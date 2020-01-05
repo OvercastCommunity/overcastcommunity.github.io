@@ -1,0 +1,20 @@
+title: "Overcast Community"
+url: "https://oc.tc"
+mc_url: play.oc.tc
+api: "https://eu.mc-api.net/v3/server/ping/"
+image_provider: "https://raw.githubusercontent.com/ProjectEnyo/maps/master/"
+avatar_provider: "https://minotar.net/helm/"
+lead:
+    - The awesome server that lets you play
+    - large varieties of Minecraft PvP anytime, anywhere.
+social:
+    twitter: "https://twitter.com/OvercastPGM"
+    discord: "https://discord.gg/CvJGbrV"
+    reddit: "https://www.reddit.com/r/overcast"
+    buycraft: "https://octc.buycraft.net"
+google_analytics: "UA-154852120-1"
+defaults:
+    - scope:
+          path: "assets/images/marketing"
+      values:
+          marketing: true
