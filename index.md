@@ -38,6 +38,7 @@ layout: default
                         <div class="col">
                             <div class="card-body">
                                 <h5 class="card-title">
+                                    <span id="matchState" style="visibility: hidden;"></span>
                                     <span id="currentMap"></span>
                                     <span id="playerCount"></span>
                                     <div id="tags"></div>

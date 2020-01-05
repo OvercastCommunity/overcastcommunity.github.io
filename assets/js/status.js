@@ -22,6 +22,7 @@ setTimeout(function() {
             const players = json.players.sample;
             const tags = currentMatch.map.tags;
             const supportedProtocols = json.version.supportedVersions;
+            const matchState = currentMatch.state;
             fetchPlayerCount(onlinePlayers + "<small>/" + maxPlayers + " players</small>");
             fetchCurrentMapName(currentMapObjective, currentMapName);
             if (currentMatch.next_map != null) {
@@ -39,7 +40,9 @@ setTimeout(function() {
                 $('#tags').append("<span class='tag'>#" + item + "</span>");
             });
             fetchSupportedVersion(getVersion(supportedProtocols[0]) + " to " + getVersion(supportedProtocols[supportedProtocols.length - 1]));
-            $("#version-parent").css("visibility", "");     
+            $("#version-parent").css("visibility", "");
+            fetchMatchState(matchState);
+            $("#matchState").css("visibility", "");     
         } else {       
             $("#fallback").html("Server is offline.")
         }
@@ -66,6 +69,10 @@ function fetchMapImage(html) {
 
 function fetchSupportedVersion(html) {
     $("#version").html(html);
+}
+
+function fetchMatchState(html) {
+    $("#matchState").addClass("state-" + html).attr("title", String(html).charAt(0).toUpperCase() + String(html).slice(1)).tooltip({});
 }
 
 function getVersion(protocol) {
