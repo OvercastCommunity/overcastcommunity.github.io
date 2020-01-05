@@ -28,7 +28,7 @@ layout: default
                 </div>
             </div>
         </div>
-        <div class="col-sm">
+        <div class="col">
             <div class="status">
                 <div class="card mb-3">
                     <div class="row no-gutters">
