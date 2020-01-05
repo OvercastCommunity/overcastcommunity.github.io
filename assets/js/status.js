@@ -32,7 +32,9 @@ setTimeout(function() {
                 $('#players').append("<a href='#'><img class='avatar' title='" + item.name + "' src='" + avatarProvider + item.name + "' /></a>");
                 $('#players').children().children().tooltip({});
             });
-            $('#players').append("<div class='w-100'><span class='badge badge-primary'>And " + (onlinePlayers - players.length) + " more</span></div>");
+            if (onlinePlayers > 12) {
+                $('#players').append("<div class='w-100'><span class='badge badge-primary'>And " + (onlinePlayers - players.length) + " more</span></div>");
+            }
             $(tags).each(function (index, item) {
                 $('#tags').append("<span class='tag'>#" + item + "</span>");
             });
@@ -68,6 +70,10 @@ function fetchSupportedVersion(html) {
 
 function getVersion(protocol) {
     switch (protocol) {
+        case 4:
+            return "1.7.2";
+        case 5:
+            return "1.7.10";
         case 47:
             return "1.8";
         case 107:
