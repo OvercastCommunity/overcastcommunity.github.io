@@ -10,7 +10,7 @@ layout: default
     </button>
     </div>
     <div class="row">
-        <div class="col-sm-3">
+        <div class="col-md-3">
             <div class="sidebar" id="play">
                 <div class="card mb-3">
                     <div class="card-body">
@@ -19,9 +19,16 @@ layout: default
                         <input class="input" data-toggle="tooltip" data-placement="top" title="Click to select" onclick="this.select();" readonly="" type="text" value="{{ site.mc_url }}">
                     </div>
                 </div>
+                <div id="version-parent" class="card mb-3" style="visibility: hidden;">
+                    <div class="card-body">
+                        <h5 class="card-title heading">Version</h5>
+                        <hr />
+                        <span id="version" class="badge badge-primary w-100"></span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm">
             <div class="status">
                 <div class="card mb-3">
                     <div class="row no-gutters">

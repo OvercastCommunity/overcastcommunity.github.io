@@ -2,7 +2,7 @@
 ---
 
 const api = "{{ site.api }}";
-const host = "{{ site.mc_url}}";
+const host = "{{ site.mc_url }}";
 const imageProvider = "{{ site.image_provider }}";
 const avatarProvider = "{{ site.avatar_provider }}";
 
@@ -14,13 +14,14 @@ setTimeout(function() {
             const pgm = json.bukkit_extra.pgm;
             const onlinePlayers = json.players.online;
             const maxPlayers = json.players.max;
-            matchId = Object.keys(pgm)[0];
+            const matchId = Object.keys(pgm)[0];
             const currentMatch = pgm[matchId];
             const currentMapName = currentMatch.map.name;
             const currentMapObjective = currentMatch.map.objective;
             const mapUrl = imageProvider + currentMapName + "/map.png";
             const players = json.players.sample;
             const tags = currentMatch.map.tags;
+            const supportedProtocols = json.version.supportedVersions;
             fetchPlayerCount(onlinePlayers + "<small>/" + maxPlayers + " players</small>");
             fetchCurrentMapName(currentMapObjective, currentMapName);
             if (currentMatch.next_map != null) {
@@ -31,10 +32,13 @@ setTimeout(function() {
                 $('#players').append("<a href='#'><img class='avatar' title='" + item.name + "' src='" + avatarProvider + item.name + "' /></a>");
                 $('#players').children().children().tooltip({});
             });
+            $('#players').append("<div class='w-100'><span class='badge badge-primary'>And " + (onlinePlayers - players.length) + " more</span></div>");
             $(tags).each(function (index, item) {
                 $('#tags').append("<span class='tag'>#" + item + "</span>");
             });
-        } else {            
+            fetchSupportedVersion(getVersion(supportedProtocols[0]) + " to " + getVersion(supportedProtocols[supportedProtocols.length - 1]));
+            $("#version-parent").css("visibility", "");     
+        } else {       
             $("#fallback").html("Server is offline.")
         }
     }).fail(function() {
@@ -56,4 +60,57 @@ function fetchNextMapName(html) {
 
 function fetchMapImage(html) {
     $("#mapImage").attr("src", html);
+}
+
+function fetchSupportedVersion(html) {
+    $("#version").html(html);
+}
+
+function getVersion(protocol) {
+    switch (protocol) {
+        case 47:
+            return "1.8";
+        case 107:
+            return "1.9";
+        case 108:
+            return "1.9.1";
+        case 109:
+            return "1.9.2";
+        case 110:
+            return "1.9.4";
+        case 210:
+            return "1.10.2";
+        case 315:
+            return "1.11";
+        case 316:
+            return "1.11.2";
+        case 335:
+            return "1.12";
+        case 338:
+            return "1.12.1";
+        case 340:
+            return "1.12.2";
+        case 393:
+            return "1.13";
+        case 401:
+            return "1.13.1";
+        case 404:
+            return "1.13.2";
+        case 477:
+            return "1.14";
+        case 480:
+            return "1.14.1";
+        case 485:
+            return "1.14.2";
+        case 490:
+            return "1.14.3";
+        case 498:
+            return "1.14.4";
+        case 573:
+            return "1.15";
+        case 575:
+            return "1.15.1";
+        default:
+            return "Unknown";
+    }
 }
