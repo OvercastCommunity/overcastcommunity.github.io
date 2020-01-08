@@ -1,0 +1,6 @@
+administrators:
+    color: "#FFAA00"
+    members:
+        - username: "ChemistryX"
+          role: "role goes here"
+          social: "social goes here"
