@@ -1,0 +1,6 @@
+Administrators:
+    color: "#f89406"
+    members:
+        - username: "Brottweiler"
+          role: "Owner"
+          email: "brott@oc.tc"

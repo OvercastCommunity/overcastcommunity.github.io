@@ -23,14 +23,14 @@ setTimeout(function() {
             const tags = currentMatch.map.tags;
             const supportedProtocols = json.version.supportedVersions;
             const matchState = currentMatch.state;
-            fetchPlayerCount(onlinePlayers + "<small>/" + maxPlayers + " players</small>");
+            fetchPlayerCount(onlinePlayers + "<small id='maxPlayers'>/" + maxPlayers + " players</small>");
             fetchCurrentMapName(currentMapObjective, currentMapName);
             if (currentMatch.next_map != null) {
                 fetchNextMapName(currentMatch.next_map.name);
             }
             fetchMapImage(mapUrl);
             $(players).each(function (index, item) {
-                $('#players').append("<a href='#'><img class='avatar' title='" + item.name + "' src='" + avatarProvider + item.name + "' /></a>");
+                $('#players').append("<a><img class='avatar-sm' title='" + item.name + "' src='" + avatarProvider + item.name + "/38' /></a>");
                 $('#players').children().children().tooltip({});
             });
             if (onlinePlayers > 12) {

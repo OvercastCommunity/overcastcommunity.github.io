@@ -9,20 +9,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ site.social.twitter }}" target="_blank">Twitter</a>
+                <li class="nav-item{% if page.url contains 'play' %} active{% endif %}">
+                    <a class="nav-link" href="{{ site.url}}/play">Play</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ site.social.discord }}" target="_blank">Discord</a>
+                <li class="nav-item{% if page.url contains 'rules' %} active{% endif %}">
+                    <a class="nav-link" href="{{ site.url}}/rules">Rules</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ site.social.reddit }}" target="_blank">Reddit</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ site.social.github }}" target="_blank">GitHub</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ site.social.buycraft }}" target="_blank">Donate</a>
+                <li class="nav-item{% if page.url contains 'staff' %} active{% endif %}">
+                    <a class="nav-link" href="{{ site.url}}/staff">Staff</a>
                 </li>
             </ul>
         </div>

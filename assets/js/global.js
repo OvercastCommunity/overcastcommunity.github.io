@@ -5,7 +5,9 @@ $(document).ready(function() {
 
     function update() {
         if (matcher.matches) {
-            $("body").addClass("bg-dark");
+            $("body")
+                .addClass("bg-dark")
+                .addClass("text-white");
             $(".footer")
                 .find("a")
                 .css("color", "white");
@@ -13,12 +15,13 @@ $(document).ready(function() {
             $(".navbar").addClass("navbar-dark");
             $(".navbar").removeClass("bg-light");
             $(".navbar").addClass("bg-dark");
-            $(".card").addClass("text-white");
             $(".card").addClass("bg-dark");
             $(".card-img-left").removeClass("img-thumbnail");
             $(".card-img-left").addClass("img-thumbnail-dark");
         } else {
-            $("body").removeClass("bg-dark");
+            $("body")
+                .removeClass("bg-dark")
+                .removeClass("text-white");
             $(".footer")
                 .find("a")
                 .css("color", "");
@@ -26,7 +29,6 @@ $(document).ready(function() {
             $(".navbar").addClass("navbar-light");
             $(".navbar").removeClass("bg-dark");
             $(".navbar").addClass("bg-light");
-            $(".card").removeClass("text-white");
             $(".card").removeClass("bg-dark");
             $(".card-img-left").removeClass("img-thumbnail-dark");
             $(".card-img-left").addClass("img-thumbnail");

@@ -1,0 +1,48 @@
+.status {
+  #matchState {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    vertical-align: top;
+  }
+
+  .state-idle {
+    background-color: $gray;
+  }
+
+  .state-starting {
+    background-color: #ffc107;
+  }
+
+  .state-running {
+    background-color: #28a745;
+  }
+
+  .state-finished {
+    background-color: #dc3545;
+  }
+
+  #maxPlayers {
+    font-size: 16px;
+  }
+
+  #currentMap {
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  #nextMap {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .img-thumbnail-dark {
+    padding: 0.25rem;
+    background-color: #343a40;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25em;
+    max-width: 100%;
+    height: auto;
+  }
+}
