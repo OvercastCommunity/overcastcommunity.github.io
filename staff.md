@@ -8,7 +8,7 @@ description: "These folks help run and maintain Overcast Community"
     {% for groups in site.data.groups %}
         <div class="row staff-group">
             <div class="col">
-                <h2 style="color: {{ groups[1].color }}">{{ groups[0] }}<small class="staff-count"> {{ groups[1].members.size }}</small></h2>
+                <h2 style="color: {{ groups[1].color }}">{{ groups[0] }}<small> {{ groups[1].members.size }}</small></h2>
                 <hr />
             </div>
         </div>
