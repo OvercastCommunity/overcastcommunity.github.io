@@ -23,7 +23,7 @@ setTimeout(function() {
             const tags = currentMatch.map.tags;
             const supportedProtocols = json.version.supportedVersions;
             const matchState = currentMatch.state;
-            fetchPlayerCount(onlinePlayers + "<small>/" + maxPlayers + " players</small>");
+            fetchPlayerCount(onlinePlayers + "<small id='maxPlayers'>/" + maxPlayers + " players</small>");
             fetchCurrentMapName(currentMapObjective, currentMapName);
             if (currentMatch.next_map != null) {
                 fetchNextMapName(currentMatch.next_map.name);

@@ -41,7 +41,15 @@ small {
   color: $gray;
 }
 
+.page-heading {
+  font-weight: bold;
+}
+
 .footer {
   margin-top: 3.5em;
   margin-bottom: 2em;
+}
+
+hr {
+  border-color: #dee2e6;
 }
