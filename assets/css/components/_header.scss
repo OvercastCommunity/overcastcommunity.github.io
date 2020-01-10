@@ -1,60 +1,80 @@
 @import "../variables";
 
 .info {
-    background-color: transparent;
-    text-align: center;
-    padding: 4em 0;
-    margin-bottom: 0;
-    position: relative;
-    height: 480px;
+  background-color: transparent;
+  text-align: center;
+  padding: 4em 0;
+  margin-bottom: 1.5em;
+  position: relative;
+  height: 480px;
 
-    .heading {
-        color: $red;
-        font-weight: bold;
-        font-size: 110px;
-        line-height: 1;
-        letter-spacing: -2px;
-        text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.9);
+  .heading {
+    color: $red;
+    font-weight: bold;
+    font-size: 110px;
+    line-height: 1;
+    letter-spacing: -2px;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.9);
 
-        @media (max-width: 1200px) {
-            font-size: 100px;
-        }
-
-        @media (max-width: 992px) {
-            font-size: 74px;
-        }
+    @media (max-width: 1200px) {
+      font-size: 100px;
     }
 
-    .lead {
-        font-size: 36px;
-        font-weight: 200;
-        line-height: 1.25;
-        color: white;
-        text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.9);
-        margin-bottom: 2rem;
-
-        @media (max-width: 1200px) {
-            font-size: 28px;
-        }
-
-        @media (max-width: 992px) {
-            font-size: 24px;
-        }
+    @media (max-width: 992px) {
+      font-size: 74px;
     }
+  }
+
+  .lead {
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 1.25;
+    color: white;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.9);
+    margin-bottom: 2rem;
+
+    @media (max-width: 1200px) {
+      font-size: 28px;
+    }
+
+    @media (max-width: 992px) {
+      font-size: 24px;
+    }
+  }
 }
 
 .header {
-    background: url("../images/marketing/5.jpg") no-repeat center -150px fixed;
-    background-size: cover;
-    color: white;
+  background: url("../images/marketing/5.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
 
-    .heading {
-        font-weight: bold;
-        font-size: 48px;
-        text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.9);
-    }
+  .heading {
+    font-weight: bold;
+    font-size: 48px;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.9);
+  }
 
-    .lead {
-        text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.9);
+  .lead {
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.9);
+  }
+}
+
+.carousel {
+  overflow: hidden;
+  height: 470px;
+  position: absolute;
+  max-width: 100%;
+  width: 100%;
+
+  .carousel-inner {
+    z-index: -1;
+    top: 50%;
+    transform: translateY(-50%);
+
+    img {
+      width: 100%;
+      min-width: 950px;
+      min-height: 480px;
     }
+  }
 }

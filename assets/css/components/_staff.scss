@@ -1,0 +1,31 @@
+.staff-group {
+  .staff-count {
+    font-size: 20px;
+  }
+}
+
+.staff-entry {
+  text-align: center;
+  margin-bottom: 2em;
+
+  & > * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .staff-username {
+    font-size: 24px;
+    margin: 0.5em 0 0;
+  }
+
+  .staff-role {
+    color: $gray;
+    font-size: 14px;
+    margin-bottom: 0.4em;
+  }
+
+  .staff-discord {
+    font-size: 16px;
+  }
+}
