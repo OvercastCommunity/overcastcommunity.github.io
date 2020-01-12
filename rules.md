@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rules
-description: "Last Updated January 10, 2020"
+description: "Last Updated January 12, 2020"
 ---
 
 <div class="container">
