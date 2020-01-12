@@ -16,7 +16,7 @@ description: "These folks help run and maintain Overcast Community"
             {% for member in groups[1].members %}
                 <div class="col-md-3 col-sm-6">
                     <div class="staff-entry">
-                        <img class="avatar" src="{{ site.avatar_provider }}{{ member.username }}">
+                        <img class="avatar" src="{{ site.avatar_provider }}{{ member.username }}/84">
                         <span class="staff-username" style="color: {{ groups[1].color }}">{{ member.username }}</span>
                         <span class="staff-role">{{ member.role }}</span>
                         <div class="staff-social">
