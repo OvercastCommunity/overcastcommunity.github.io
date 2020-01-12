@@ -14,16 +14,21 @@ description: "These folks help run and maintain Overcast Community"
         </div>
         <div class="row">
             {% for member in groups[1].members %}
-            <div class="col-md-3 col-sm-6">
-                <div class="staff-entry">
-                    <img class="avatar" src="{{ site.avatar_provider }}{{ member.username }}">
-                    <span class="staff-username" style="color: {{ groups[1].color }}">{{ member.username }}</span>
-                    <span class="staff-role">{{ member.role }}</span>
-                    {% if member.social %}
-                        <span class="staff-social">{{ member.social }}</span>
-                    {% endif %}
+                <div class="col-md-3 col-sm-6">
+                    <div class="staff-entry">
+                        <img class="avatar" src="{{ site.avatar_provider }}{{ member.username }}">
+                        <span class="staff-username" style="color: {{ groups[1].color }}">{{ member.username }}</span>
+                        <span class="staff-role">{{ member.role }}</span>
+                        <div class="staff-social">
+                            {% if member.twitter %}
+                                <a href="https://twitter.com/{{ member.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
+                            {% endif %}
+                            {% if member.email %}
+                                <a href="mailto:{{ member.email }}"><i class="fas fa-envelope"></i></a>
+                            {% endif %}
+                        </div>
+                    </div>
                 </div>
-            </div>
             {% endfor %}
         </div>
     {% endfor %}

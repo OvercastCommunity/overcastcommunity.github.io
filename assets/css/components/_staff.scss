@@ -25,7 +25,11 @@
     margin-bottom: 0.4em;
   }
 
-  .staff-discord {
-    font-size: 16px;
+  .staff-social {
+    font-size: 120%;
+
+    a {
+      color: $gray;
+    }
   }
 }

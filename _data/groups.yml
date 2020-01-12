@@ -1,6 +1,6 @@
-administrators:
-    color: "#FFAA00"
+Administrators:
+    color: "#f89406"
     members:
-        - username: "ChemistryX"
-          role: "role goes here"
-          social: "social goes here"
+        - username: "Brottweiler"
+          role: "Owner"
+          email: "brott@oc.tc"
