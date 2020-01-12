@@ -2,10 +2,10 @@ Administrators:
     color: "#f89406"
     members:
         - username: "Brottweiler"
-          role: "SysAdmin"
+          role: "SysAdmin & Support"
           email: "brott@oc.tc"
         - username: "ElectroidFilms"
-          role: "Developer"
+          role: "SysAdmin & Developer"
 Moderators:
     color: "#ff2200"
     members:
