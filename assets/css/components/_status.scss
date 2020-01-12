@@ -6,6 +6,23 @@
     border-radius: 5px;
     vertical-align: top;
   }
+
+  .state-idle {
+    background-color: $gray;
+  }
+
+  .state-starting {
+    background-color: #ffc107;
+  }
+
+  .state-running {
+    background-color: #28a745;
+  }
+
+  .state-finished {
+    background-color: #dc3545;
+  }
+
   #maxPlayers {
     font-size: 16px;
   }
