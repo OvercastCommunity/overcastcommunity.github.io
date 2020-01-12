@@ -30,7 +30,7 @@ setTimeout(function() {
             }
             fetchMapImage(mapUrl);
             $(players).each(function (index, item) {
-                $('#players').append("<a href='#'><img class='avatar-sm' title='" + item.name + "' src='" + avatarProvider + item.name + "' /></a>");
+                $('#players').append("<a><img class='avatar-sm' title='" + item.name + "' src='" + avatarProvider + item.name + "' /></a>");
                 $('#players').children().children().tooltip({});
             });
             if (onlinePlayers > 12) {
