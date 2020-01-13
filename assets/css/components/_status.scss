@@ -1,39 +1,39 @@
 .status {
-  #matchState {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    vertical-align: top;
-  }
+    #matchState {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        vertical-align: top;
+    }
 
-  .state-idle {
-    background-color: $gray;
-  }
+    .state-idle {
+        background-color: $gray;
+    }
 
-  .state-starting {
-    background-color: #ffc107;
-  }
+    .state-starting {
+        background-color: #ffc107;
+    }
 
-  .state-running {
-    background-color: #28a745;
-  }
+    .state-running {
+        background-color: #28a745;
+    }
 
-  .state-finished {
-    background-color: #dc3545;
-  }
+    .state-finished {
+        background-color: #dc3545;
+    }
 
-  #maxPlayers {
-    font-size: 16px;
-  }
+    #maxPlayers {
+        font-size: 16px;
+    }
 
-  #currentMap {
-    font-weight: bold;
-    font-size: 32px;
-  }
+    #currentMap {
+        font-weight: bold;
+        font-size: 32px;
+    }
 
-  #nextMap {
-    font-weight: bold;
-    font-size: 16px;
-  }
+    #nextMap {
+        font-weight: bold;
+        font-size: 16px;
+    }
 }
