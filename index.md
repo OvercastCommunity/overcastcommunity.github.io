@@ -5,14 +5,13 @@ layout: default
 <div class="container">
     <div class="row marketing">
         <div class="col-md-4">
-            <h2>Variety</h2>
-            <p>With {{ site.title }}, you get to play a variety of classic PvP maps. Test your skills on different types of maps with
-            unique objectives by awesome designers!</p>
+            <h2>Nostalgia</h2>
+            <p>With {{ site.title }}, you get to play a variety of classic Minecraft PvP maps. Test your skills on different types of maps with
+            unique objectives by awesome designers from the former Overcast Network!</p>
         </div>
         <div class="col-md-4">
             <h2>Competiton</h2>
-            <p>There's always someone new to defeat with so many competitors. Getting revenge can be one of the most fun things and we
-            recommend you do it daily! With such a large player base, you will never run out of other players to destroy.</p>
+            <p>Managed by former administrators of the now closed Overcast Network, {{ site.title }} hosts massive PvP matches. No match is another alike, and there's always someone new to destroy!</p>
         </div>
         <div class="col-md-4">
             <h2>Reliability</h2>
