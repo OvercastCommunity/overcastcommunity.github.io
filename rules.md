@@ -42,7 +42,7 @@ description: "Last Updated January 12, 2020"
             <ol>
                 <li>Any client mods or external tools that give you an unfair advantage over vanilla Minecraft users are illegal while playing.</li>
                 <li>The following mods are explicitly <i>permitted</i>:</li>
-                <ul class='unstyled'>
+                <ul class='list-unstyled'>
                     <li>
                         <i class='fa fa-check'></i>
                         Optifine
@@ -69,7 +69,7 @@ description: "Last Updated January 12, 2020"
                     </li>
                 </ul>
                 <li>The following mods are explicitly <i>prohibited</i>:</li>
-                <ul class='unstyled'>
+                <ul class='list-unstyled'>
                     <li>
                         <i class='fa fa-times'></i>
                         Inventory Sorters
