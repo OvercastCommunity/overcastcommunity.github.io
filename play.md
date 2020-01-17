@@ -6,7 +6,7 @@ description: "Play anytime, anywhere"
 
 <div class="container">
     <div class="alert alert-primary alert-dismissible fade show" role="alert">
-        <strong>Tip</strong> Hover the name of the map to see the map's objective!
+        <strong>Tip</strong> Mouse over the name of the map to see the map's objective!
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
