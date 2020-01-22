@@ -123,6 +123,8 @@ function getVersion(protocol) {
             return "1.15";
         case 575:
             return "1.15.1";
+        case 578:
+            return "1.15.2";
         default:
             return "Unknown";
     }
