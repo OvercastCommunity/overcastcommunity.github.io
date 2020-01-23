@@ -1,0 +1,74 @@
+---
+title: Play
+description: "Play anytime, anywhere"
+permalink: play/
+in-nav: true
+---
+
+<div class="container my-4">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card connect">
+        <div class="card-body">
+          <h4 class="card-title text-center">Connect</h4>
+          <hr>
+          <div class="row">
+            <div class="col-md-6">
+              <input class="btn btn-primary btn-lg"
+                     data-toggle="tooltip"
+                     data-placement="top"
+                     title="Click to highlight"
+                     onclick="this.select();"
+                     readonly=""
+                     type="text"
+                     value="{{ site.server_address }}">
+            </div>
+            <div class="col-md-6">
+              <div>
+                <b>Players:</b>
+                <span id="data-player-count">?</span>
+              </div>
+              <div>
+                <b>Version:</b>
+                <span id="data-version-support">?</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col map-image">
+          <img src="" id="data-current-map-image" onerror="this.src = '{{ site.url }}/assets/img/fallback.png'">
+        </div>
+        <div class="col">
+          <h2>
+            <small id="data-match-state" class="match-state" data-toggle="tooltip" data-placement="top"></small>
+            <span id="data-current-map-name"></span>
+          </h2>
+          <span id="data-current-map-tags"></span>
+          <div class="online-players">
+            <span id="data-online-player-sample"></span>
+            <div>
+              <span id="data-more-player-count"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="{{ site.url }}/assets/js/play.js"></script>
+<script type="text/javascript">
+  const input = {
+    serverAddress: '{{ site.server_address }}',
+    apiUrl: '{{ site.data.providers.status_api }}',
+    mapImagesUrl: '{{ site.data.providers.map_images }}',
+    playerAvatarsUrl: '{{ site.data.providers.player_avatars }}'
+  };
+
+  getServerStatus(input);
+  setInterval(getServerStatus(input), 60 * 1000);
+</script>

@@ -1,0 +1,45 @@
+#play {
+  .connect .btn {
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .map-image {
+    flex: 0 0 200px;
+
+    img {
+      border-radius: 5px;
+    }
+  }
+
+  .match-state {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #ccc;
+    vertical-align: middle;
+    border-radius: 100%;
+
+    &.starting {
+      background-color: #ffc107;
+    }
+
+    &.running {
+      background-color: #28a745;
+    }
+
+    &.finished {
+      background-color: #dc3545;
+    }
+  }
+
+  .online-players {
+    margin-top: 1rem;
+    max-width: 247px;
+
+    img {
+      margin-bottom: 3px;
+      border-radius: 3px;
+    }
+  }
+}

@@ -1,25 +1,36 @@
-<div class="footer">
-    <div class="container">
-        <hr />
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link active" href="{{ site.url }}">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</a>
-            </li>
-            <li class="nav-item ml-auto">
-                <a class="nav-link" href="{{ site.social.twitter }}" target="_blank">Twitter</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ site.social.discord }}" target="_blank">Discord</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ site.social.reddit }}" target="_blank">Reddit</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ site.social.github }}" target="_blank">GitHub</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ site.social.buycraft }}" target="_blank">Donate</a>
-            </li>
+<footer>
+  <div class="container">
+    <hr>
+    <div class="row">
+      <div class="col-4">
+        <span class="copyright text-muted">
+          &copy; {{ site.title }}
+        </span>
+      </div>
+      <div class="col-8">
+        <ul class="nav justify-content-end">
+          <div class="nav-item">
+            <a class="nav-link" href="{{ site.data.links.twitter }}" target="_blank">Twitter</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="{{ site.data.links.discord }}" target="_blank">Discord</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="{{ site.data.links.reddit }}" target="_blank">Reddit</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="{{ site.data.links.github }}" target="_blank">GitHub</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="{{ site.data.links.donate }}" target="_blank">Donate</a>
+          </div>
         </ul>
+      </div>
     </div>
-</div>
+  </div>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+  </script>
+</footer>

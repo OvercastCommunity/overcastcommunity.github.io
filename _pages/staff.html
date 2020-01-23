@@ -1,0 +1,46 @@
+---
+title: Staff
+description: "These folks help run and maintain Overcast Community"
+permalink: staff/
+in-nav: true
+---
+
+<div class="container my-4">
+  {% for rank in site.data.staff %}
+    <div class="rank">
+      <div class="row">
+        <div class="col">
+          <h2 style="color: {{ rank[1].color }}">
+            {{ rank[0] | capitalize }}
+            <small class="text-muted">{{ rank[1].members.size }}</small>
+          </h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        {% for player in rank[1].members %}
+          <div class="col-md-3 col-sm-6 text-center">
+            <img src="{{ site.data.providers.player_avatars }}{{ player.username }}/84">
+            <h4 title="{{ player.username }}">{{ player.username }}</h4>
+            {% if player.role %}
+              <small class="text-muted">{{ player.role }}</small>
+            {% endif %}
+            {% if player.links %}
+              <div class="player-links">
+                {% if player.links.twitter %}
+                  <a href="https://twitter.com/{{ player.links.twitter }}" data-toggle="tooltip" data-placement="top" title="Twitter" class="text-muted"><i class="fab fa-twitter"></i></a>
+                {% endif %}
+                {% if player.links.github %}
+                  <a href="https://github.com/{{ player.links.github }}" data-toggle="tooltip" data-placement="top" title="GitHub" class="text-muted"><i class="fab fa-github"></i></a>
+                {% endif %}
+                {% if player.links.email %}
+                  <a href="mailto:{{ player.links.email }}" data-toggle="tooltip" data-placement="top" title="Email" class="text-muted"><i class="fa fa-envelope"></i></a>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

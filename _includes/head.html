@@ -1,36 +1,35 @@
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="{{ site.title }}" />
-    <meta name="description" content="{{ site.lead[0] }} {{ site.lead[1] }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{% unless page.url == '/' %}{{ page.title }} - {% endunless %}{{ site.title }}" />
-    <meta property="og:description" content="{{ site.lead[0] }} {{ site.lead[1] }}" />
-    <meta property="og:image" content="{{ site.url }}/assets/images/marketing/12.jpg" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <title>{% unless page.url == '/' %}{{ page.title }} - {% endunless %}{{ site.title }}</title>
-    <link rel="shortcut icon" href="{{ site.url }}/assets/images/favicon.png" type="image/x-icon" />
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/global.css" />
-    <script src="{{ site.url }}/assets/js/status.js"></script>
-    <script>
-        $(function() {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        gtag("config", "{{ site.google_analytics }}");
-    </script>
+  <link rel="shortcut icon" href="{{ site.url }}/assets/img/favicon.png">
+  <title>{% unless page.url == '/' %}{{ page.title }} - {% endunless %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="keywords" content="{{ site.title }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% unless page.url == '/' %}{{ page.title }} - {% endunless %}{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.url }}/assets/img/image-slider/12.jpg">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+          dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "{{ site.google_analytics }}");
+  </script>
 </head>
