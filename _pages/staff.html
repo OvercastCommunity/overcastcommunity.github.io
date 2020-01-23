@@ -20,7 +20,7 @@ in-nav: true
       <div class="row">
         {% for player in rank[1].members %}
           <div class="col-md-3 col-sm-6 text-center">
-            <img src="{{ site.data.providers.player_avatars }}{{ player.username }}/84">
+            <img src="{{ site.data.providers.player_avatars }}{{ player.id }}?size=84">
             <h4 title="{{ player.username }}">{{ player.username }}</h4>
             {% if player.role %}
               <small class="text-muted">{{ player.role }}</small>

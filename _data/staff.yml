@@ -2,34 +2,59 @@ administrators:
   color: "#f89406"
   members:
     - username: Brottweiler
+      id: 6968cbde-c2b7-479c-a8da-f33f109f013b
       role: SysAdmin & Support
       links:
         email: brott@oc.tc
     - username: ElectroidFilms
+      id: dad8b95c-cf6a-44df-982e-8c8dd70201e0
       role: SysAdmin & Developer
 moderators:
   color: "#ff2200"
   members:
     - username: Noel
+      id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
     - username: Pablete1234
+      id: e82603df-417d-4a95-bd1f-1720648be0b4
     - username: Pibo
+      id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
     - username: Holdfast33
+      id: f41870ba-9aff-4756-aec7-6148172e63df
     - username: luisgbr99
+      id: 3159ff86-76e2-453c-9ade-5e2ba9918396
     - username: Matic0B
+      id: 48924ea3-3aad-4e16-838c-368d8d9e0a25
     - username: Jexel
+      id: 9225421c-3c09-4d97-bb80-f6a77c1f360b
     - username: Kiyara
+      id: 15c75bdd-005f-40f6-9e20-1ecf48bb51e5
     - username: Crazy_
+      id: a9f11454-beac-4cc3-a138-1780802c8794
     - username: rayfreeze
+      id: 7ce4a2ee-f3cc-4593-8e59-5f66616d4d5b
     - username: OCNs_OMEN
+      id: b5967591-14fc-421f-a5e2-931498e10fb8
     - username: KingOfSquares
+      id: 8af5859a-1d6e-4fbd-ae5f-4c63ff630fa4
     - username: Strangey
+      id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
     - username: Pugzy
+      id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
     - username: Diamyx
+      id: f70b7a8f-93b2-480f-9d54-88e21485a042
     - username: Joel_
+      id: 5918ee40-462b-4c84-ba32-b9e71761a8ff
     - username: CoWinkKeyDinkInc
+      id: 5c79d2c9-a4f0-4343-a84b-e1720f13009b
     - username: wylt
+      id: d71152ca-187d-43c4-9901-ba001606c655
     - username: nigges60
+      id: 7cbf2168-7f49-4fb3-aea8-6df8048a7ade
     - username: 2000thehecf1
+      id: 408267c4-c749-4312-8e28-8a29113c1329
     - username: Cera
+      id: 46bdeaa9-8919-4b8f-a22d-73ca14967530
     - username: ch4teau
+      id: 1bac18ba-7935-4a5d-8eec-06be9f44b7ba
     - username: byRobo
+      id: d1e3251c-def5-4328-a7e9-09335934d316
