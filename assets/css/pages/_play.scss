@@ -16,9 +16,12 @@
     display: inline-block;
     width: 15px;
     height: 15px;
-    background: #ccc;
     vertical-align: middle;
     border-radius: 100%;
+
+    &.idle {
+      background: #ccc;
+    }
 
     &.starting {
       background-color: #ffc107;
