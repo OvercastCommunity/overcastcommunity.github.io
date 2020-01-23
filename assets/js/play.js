@@ -95,7 +95,7 @@ function setMatchInfo(currentState,
   var playersHTML = '';
   onlinePlayerSample.forEach(player => {
     playersHTML += `
-      <img src="${playerAvatarsUrl}${player.id}?size=38" data-toggle="tooltip" data-placement="top" title="${player.name}" alt="${player.name}">
+      <img src="${playerAvatarsUrl}${player.id}?size=40" data-toggle="tooltip" data-placement="top" title="${player.name}" alt="${player.name}">
     `;
   });
 
