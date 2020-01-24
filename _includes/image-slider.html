@@ -11,7 +11,10 @@
     <div class="jumbotron-fluid text-center">
       <div class="container">
         <div class="jumbotron-text">
-          <h1>{{ site.title }}</h1>
+          {% assign split = site.title | split: ' ' %}
+          <h1>
+            <span class="red">{{ split[0] }}</span> {{ split[1] }}
+          </h1>
           <p>{{ site.description }}</p>
         </div>
         <a class="btn btn-primary btn-lg" href="{{ site.url}}/play">Play Now »</a>

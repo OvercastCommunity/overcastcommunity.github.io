@@ -38,13 +38,17 @@
     text-shadow: 0 1px 10px rgba(0, 0, 0, .5), 0 0 30px rgba(0, 0, 0, .9);
 
     h1 {
-      color: #da7272;
-      font-size: 3.5rem;
+      color: #ccc;
+      font-size: 4rem;
+
+      .red {
+        color: #da7272;
+      }
     }
 
     p {
-      font-size: 1.5rem;
-      font-weight: lighter;
+      font-size: 1.75rem;
+      font-weight: 300;
     }
   }
 
