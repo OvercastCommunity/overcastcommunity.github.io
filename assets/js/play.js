@@ -97,10 +97,6 @@ function setMatchInfo(currentState,
     playersHTML += `
       <img src="${playerAvatarsUrl}${player.id}?overlay&size=40" data-toggle="tooltip" data-placement="top" title="${player.name}" alt="${player.name}">
     `;
-
-    if (index === 5) {
-      playersHTML += '<br>'
-    }
   });
 
   var morePlayersHTML = '';

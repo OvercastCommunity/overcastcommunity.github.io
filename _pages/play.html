@@ -23,26 +23,26 @@ in-nav: true
                      type="text"
                      value="{{ site.server_address }}">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-2 mt-md-0">
               <div>
                 <b>Players:</b>
                 <span id="data-player-count">?</span>
               </div>
               <div>
                 <b>Version:</b>
-                <span id="data-version-support">?</span>
+                <span class="version-support" id="data-version-support">?</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col mt-4 mt-md-0">
       <div class="row">
-        <div class="col map-image">
+        <div class="col-sm-12 col-md-4 map-image">
           <img src="" id="data-current-map-image" onerror="this.src = '{{ site.url }}/assets/img/fallback.png'">
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-8 mt-2 mt-md-0">
           <h2>
             <small id="data-match-state" class="match-state" data-toggle="tooltip" data-placement="top"></small>
             <span id="data-current-map-name"></span>

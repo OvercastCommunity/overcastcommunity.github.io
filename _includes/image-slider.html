@@ -3,8 +3,8 @@
     <div class="carousel-inner">
       {% assign images = site.static_files | where: 'image_slider', true %}
       {% for image in images %}
-        <div class="carousel-item {% if forloop.first %} active {% endif %}">
-          <img src="{{ site.url}}{{ image.path }}" />
+        <div class="carousel-item {% if forloop.first %} active {% endif %}"
+             style="background: url('{{ site.url}}{{ image.path }}') no-repeat center">
         </div>
       {% endfor %}
     </div>

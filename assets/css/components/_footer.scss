@@ -1,11 +1,20 @@
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   margin-bottom: 1rem;
 
   .copyright {
     display: block;
     padding: .5rem 1rem;
+  }
+}
+
+@media (min-width: 767px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  body {
+    padding-bottom: 89px;
   }
 }

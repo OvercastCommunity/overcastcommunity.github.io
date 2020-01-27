@@ -4,10 +4,13 @@
     font-weight: bold;
   }
 
-  .map-image {
-    flex: 0 0 200px;
+  .version-support {
+    white-space: nowrap;
+  }
 
+  .map-image {
     img {
+      width: 100%;
       border-radius: 5px;
     }
   }
@@ -38,6 +41,7 @@
 
   .online-players {
     margin-top: 1rem;
+    max-width: 300px;
 
     img {
       margin-bottom: 4px;
