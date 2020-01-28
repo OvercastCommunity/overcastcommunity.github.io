@@ -49,3 +49,9 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .map-image img {
+    max-width: 290px;
+  }
+}
