@@ -1,0 +1,16 @@
+---
+---
+
+@import 'variables';
+@import 'global';
+
+@import 'components/nav';
+@import 'components/footer';
+@import 'components/image-slider';
+
+@import 'pages/index';
+@import 'pages/play';
+@import 'pages/rules';
+@import 'pages/staff';
+
+@import 'dark-mode';

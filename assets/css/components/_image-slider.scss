@@ -1,0 +1,58 @@
+.image-slider {
+  .carousel {
+    width: 100%;
+    max-width: 100%;
+    height: 470px;
+    overflow: hidden;
+
+    .carousel-inner {
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+    }
+
+    .carousel-item {
+      width: 100%;
+      height: 100%;
+      background-size: cover !important;
+    }
+  }
+
+  .jumbotron-fluid {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 470px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .jumbotron-text {
+    text-shadow: 0 1px 10px rgba(0, 0, 0, .5), 0 0 30px rgba(0, 0, 0, .9);
+
+    h1 {
+      color: #ccc;
+      font-size: 4rem;
+
+      .red {
+        color: #da7272;
+      }
+    }
+
+    p {
+      font-size: 1.75rem;
+      font-weight: 300;
+    }
+  }
+
+  .btn {
+    margin-top: 1rem;
+  }
+}

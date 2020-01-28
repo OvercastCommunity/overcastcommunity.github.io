@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="{{ site.url }}">
+      <img src="{{ site.url }}/assets/img/logo.png" class="d-inline-block align-top" alt="Logo">
+      <span class="title">{{ site.title }}</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ml-auto">
+        {% assign pages = site.pages | sort:'url' %}
+        {% for p in pages %}
+          {% if p.in-nav == true %}
+            <li class="nav-item {% if p.url == page.url %} active {% endif %}">
+              <a class="nav-link" href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

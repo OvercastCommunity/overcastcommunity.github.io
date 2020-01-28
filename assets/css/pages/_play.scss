@@ -1,0 +1,57 @@
+#play {
+  .connect .btn {
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .version-support {
+    white-space: nowrap;
+  }
+
+  .map-image {
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+
+  .match-state {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    border-radius: 100%;
+
+    &.idle {
+      background: #ccc;
+    }
+
+    &.starting {
+      background-color: #ffc107;
+    }
+
+    &.running {
+      background-color: #28a745;
+    }
+
+    &.finished {
+      background-color: #dc3545;
+    }
+  }
+
+  .online-players {
+    margin-top: 1rem;
+    max-width: 300px;
+
+    img {
+      margin-bottom: 4px;
+      border-radius: 3px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .map-image img {
+    max-width: 290px;
+  }
+}

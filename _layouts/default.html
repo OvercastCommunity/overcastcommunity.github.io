@@ -1,7 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
     {% include head.html %}
-    <body>
-        {% include navbar.html %} {% include splash.html %} {{ content }} {% include footer.html %}
-    </body>
+  </head>
+
+  <body id="{{ page.title | downcase }}">
+    {% include nav.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+  </body>
 </html>

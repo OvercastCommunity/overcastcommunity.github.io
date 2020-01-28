@@ -1,0 +1,49 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff !important;
+    background: #222 !important;
+  }
+
+  hr {
+    border-color: #111 !important;
+  }
+
+  .navbar {
+    background: #111 !important;
+
+    .navbar-brand {
+      color: #ccc !important;
+
+      &:hover {
+        color: #ddd !important;
+      }
+    }
+
+    li {
+      a {
+        color: #ccc !important;
+
+        &:hover {
+          color: #ddd !important;
+        }
+      }
+
+      &.active a {
+        color: #fff !important;
+      }
+    }
+
+    .navbar-toggler {
+      border-color: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    }
+  }
+
+  .connect {
+    background-color: #222 !important;
+    border-color: #111 !important;
+  }
+}
