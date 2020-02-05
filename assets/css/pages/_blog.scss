@@ -1,0 +1,14 @@
+#blog {
+  .post-info {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  .excerpt {
+    color: #999;
+  }
+
+  .announcements p:last-child {
+    margin: 0;
+  }
+}

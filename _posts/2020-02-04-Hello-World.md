@@ -1,8 +1,6 @@
 ---
-layout: post
-author: brott
+title: Welcome
+author: Brottweiler
 ---
 
-# Welcome
-
-**Hello** there!
+Hello, world!

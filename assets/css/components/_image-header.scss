@@ -1,0 +1,18 @@
+.image-header {
+  color: #fff;
+  padding: 1rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    );
+
+  small {
+    display: block;
+    color: #ccc;
+    font-size: 26px;
+  }
+}
