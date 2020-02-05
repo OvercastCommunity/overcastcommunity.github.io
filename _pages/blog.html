@@ -1,18 +1,52 @@
 ---
 title: Blog
+description: Latest Updates
 permalink: blog/
 in-nav: true
 ---
 
-<div class="container my-4">
-    <h1>Latest Posts</h1>
+{% include image-header.html image='/assets/img/image-slider/17.png' %}
 
-    <ul>
+<div class="container my-4">
+  <div class="row">
+    <div class="{% if site.categories.announcement %} col-8 {% else %} col {% endif %}">
       {% for post in site.posts %}
-        <li>
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <p>{{ post.excerpt }}</p>
-        </li>
+        <div>
+          <h4 class="post-title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <div class="post-info">
+              {{ post.author }}
+              -
+              {{ post.date | date: '%B %e, %Y' }}
+            </div>
+          </h4>
+          <p class="excerpt">
+            {{ post.excerpt | strip_html }}
+          </p>
+        </div>
+        {% if forloop.last != true %}
+          <hr class="my-4">
+        {% endif %}
       {% endfor %}
-    </ul>
+    </div>
+    {% if site.categories.announcement %}
+      <div class="col-4">
+        <div class="card announcements">
+          <div class="card-body">
+            <div class="card-title text-center">
+              <h4>Announcements</h4>
+            </div>
+            <hr>
+            {% for post in site.categories.announcement %}
+              <p>
+                <a href="{{ post.url }}">
+                  {{ post.title }}
+                </a>
+              </p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
 </div>

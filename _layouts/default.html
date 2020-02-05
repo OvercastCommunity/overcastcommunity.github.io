@@ -4,7 +4,7 @@
     {% include head.html %}
   </head>
 
-  <body id="{{ page.title | downcase }}">
+  <body id="{% if page.layout == 'page' %}{{ page.title | downcase }}{% elsif page.layout == 'post' %}post{% endif %}">
     {% include nav.html %}
 
     {{ content }}
