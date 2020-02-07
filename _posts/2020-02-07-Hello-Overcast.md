@@ -68,7 +68,7 @@ OCC is aiming for a casual experience. One server, running classic PvP maps 24/7
 
 ## Are you going to host tournaments?
 
-Tournaments take quite a bit of effort, and we only have one server, so there would be very unlikely of any tournaments. We would also be unable to provide a pricepool. Please remember, OCC is not OCN.
+Tournaments take quite a bit of effort, and we only have one server, so there would be very unlikely of any tournaments. We would also be unable to provide a prizepool. Please remember, OCC is not OCN.
 
 ## Can I build and submit maps I made?
 
