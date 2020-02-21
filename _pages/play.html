@@ -6,8 +6,8 @@ in-nav: true
 ---
 
 <div class="container my-4">
-  <div class="alert alert-danger" role="alert">
-    <strong>Note</strong> Server status is temporarily disabled! You can still play using version 1.8-1.15.2.
+  <div class="alert alert-warning" role="alert">
+    <strong>Note</strong>: Map tags are temporarily disabled.
   </div>
   <div class="row">
     <div class="col-md-4">
@@ -63,7 +63,7 @@ in-nav: true
   </div>
 </div>
 
-<script src="{{ site.url }}/assets/js/play.js"></script>
+<script src="{{ site.url }}/assets/js/play-fallback.js"></script>
 <script type="text/javascript">
   const input = {
     serverAddress: '{{ site.server_address }}',
