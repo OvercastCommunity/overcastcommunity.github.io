@@ -12,6 +12,9 @@ administrators:
     - username: applenick3
       id: 5a971521-4084-4f60-b2e9-30983e4087be
       role: SysAdmin & Developer
+    - username: Crazy_
+      id: a9f11454-beac-4cc3-a138-1780802c8794
+      role: Map Developer
 moderators:
   color: "#ff2200"
   members:
@@ -31,8 +34,6 @@ moderators:
       id: 9225421c-3c09-4d97-bb80-f6a77c1f360b
     - username: Kiyara
       id: 15c75bdd-005f-40f6-9e20-1ecf48bb51e5
-    - username: Crazy_
-      id: a9f11454-beac-4cc3-a138-1780802c8794
     - username: rayfreeze
       id: 7ce4a2ee-f3cc-4593-8e59-5f66616d4d5b
     - username: OCNs_OMEN
