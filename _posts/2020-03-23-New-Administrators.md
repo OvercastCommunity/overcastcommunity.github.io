@@ -14,9 +14,9 @@ Two new staff members have been promoted to administrator. This is to lighten th
 
 AppleNick was a long time player on Overcast Network and during the closure of OCN and release of the open source PGM, he started his own network called [Thunderstorm PvP](https://tspvp.com/). After contributing a lot to [PGM](https://github.com/Electroid/PGM/commits?author=applenick), not least regarding moderation tools, he was invited to be a moderator at Overcast Community.
 
-The administration felt that AppleNick would be a very good help towards the development and maintenence side of OCC, in which he was invited to join the administrators!
+The administration felt that AppleNick would be a very good help towards the development and maintenance side of OCC, in which he was invited to join the administrators!
 
-AppleNick will be able to work more closely with PGM, since he is very familiar with PGM's codebase and be able to deploy new PGM features much faster on OCC. Other than that, he will help out with anything else regarding the server hardware and software, such as looking into any potentional bugs and errors, update plugins and configurations!
+AppleNick will be able to work more closely with PGM, since he is very familiar with PGM's codebase and be able to deploy new PGM features much faster on OCC. Other than that, he will help out with anything else regarding the server hardware and software, such as looking into any potential bugs and errors, update plugins and configurations!
 
 ## Crazy_
 
