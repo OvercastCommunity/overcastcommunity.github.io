@@ -3,18 +3,18 @@ administrators:
   members:
     - username: Brottweiler
       id: 6968cbde-c2b7-479c-a8da-f33f109f013b
-      role: SysAdmin & Support
+      role: Moderation & Support
       links:
         email: brott@oc.tc
     - username: ElectroidFilms
       id: dad8b95c-cf6a-44df-982e-8c8dd70201e0
-      role: SysAdmin & Developer
+      role: SysAdmin & Development
     - username: applenick3
       id: 5a971521-4084-4f60-b2e9-30983e4087be
-      role: SysAdmin & Developer
+      role: SysAdmin & Development
     - username: Crazy_
       id: a9f11454-beac-4cc3-a138-1780802c8794
-      role: Map Developer
+      role: Map Development
 moderators:
   color: "#ff2200"
   members:
