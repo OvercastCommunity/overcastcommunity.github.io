@@ -10,4 +10,4 @@ Community member, and recent OCC Administrator **applenick**, have forked the [M
 
 Check it out at [pgm.fyi](https://pgm.fyi/)!
 
-If you want your *public* PGM server to be added to the list, let *applenick* know in the #servers channel on our Discord!
+If you want your *public* PGM server to be added to the list, let **applenick** know in the #servers channel on our Discord!
