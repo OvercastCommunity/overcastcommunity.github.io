@@ -1,0 +1,8 @@
+# ignore map files
+*.xml
+*.dat
+region/
+data/
+
+# misc
+Thumbs.db
