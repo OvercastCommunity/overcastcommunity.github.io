@@ -22,6 +22,7 @@ moderators:
       id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
     - username: Pablete1234
       id: e82603df-417d-4a95-bd1f-1720648be0b4
+      role: Developer
     - username: Pibo
       id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
     - username: Holdfast33
@@ -41,8 +42,8 @@ moderators:
     - username: KingOfSquares
       id: 8af5859a-1d6e-4fbd-ae5f-4c63ff630fa4
     - username: Strangey
-      role: Map Developer
       id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
+      role: Map Developer
     - username: Pugzy
       id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
     - username: Diamyx
