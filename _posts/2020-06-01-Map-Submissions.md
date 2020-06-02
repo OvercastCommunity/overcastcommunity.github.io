@@ -5,29 +5,22 @@ author: KingOfSquares
 
 For a long time we have discussed opening up new map submissions, and now it is finally happening!
 
-The submission window is going to be open indefinitely, so no worries about submitting your map super fast. This post will go through the submission process, and will also include a template you will need to use at the bottom. Submissions that do not meet the requirements listed in this post and in the template will be closed, so be sure to read everything! 
+The submission window is going to be open indefinitely, so no worries about submitting your map super fast. This post will go through the submission process and answer some obvious questions, be sure to read everything! 
 
-# The submission process
+## The submission process
 
-Submissions will be done [here](https://github.com/OvercastCommunity/CommunityMaps/issues). To make a new submission click "New issue"
+Submissions will be done [here](https://github.com/OvercastCommunity/CommunityMaps/issues). To make a new submission click **New issue** and use the template **Map submission** by clicking the green **Get started** button. After the submission is completed and submitted, make sure to not update your post unnecessarily, as submissions will be processed from oldest to newest.
 
-#### The title of the post should be in the following form
-
-![Map title example](https://imgur.com/rTtjgK4.png)
-
-e.g
-
-![Map title example2](https://imgur.com/01Lfft7.png)
-
-#### For the post itself, please use the following template
-
-TEMPLATE
 
 ## FAQ
 
-### I dont know XML, what do i do?
+### I don't know how to "test my map locally", can i submit it without testing?
 
-If you need help with your XML you can read through the documentation over at [pgm.dev](https://pgm.dev) or ask for help in #maps in our Discord. (There is also currently a tool in development which will make anyone be able to make XML on a public map dev server)
+No, please look [here](https://github.com/PGMDev/PGM/blob/master/docs/RUNNING.md) for a tutorial about how to set up your own local PGM server for testing. If you need help with setting up the server you can send a message in #debug over at our [Discord](https://discord.gg/CvJGbrV).
+
+### I don't know XML, what do i do?
+
+If you need help with your XML you can read through the documentation over at [pgm.dev](https://pgm.dev) or ask for help in #maps in our [Discord](https://discord.gg/CvJGbrV). (There is also currently a tool in development which will make anyone be able to make XML on a public map dev server)
 
 ### Can my submission get closed for inactivity?
 
