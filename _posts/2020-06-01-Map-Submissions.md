@@ -9,7 +9,7 @@ The submission window is going to be open indefinitely, so no worries about subm
 
 ## The submission process
 
-Submissions will be done [here](https://github.com/OvercastCommunity/CommunityMaps/issues). To make a new submission click **New issue** and use the template **Map submission** by clicking the green **Get started** button. After the submission is completed and submitted, make sure to not update your post unnecessarily, as submissions will be processed from oldest to newest.
+Submissions will be done [here](https://github.com/OvercastCommunity/CommunityMaps/issues). To make a new submission click **New issue** and use the template **Map submission** by clicking the green **Get started** button.
 
 
 ## FAQ
