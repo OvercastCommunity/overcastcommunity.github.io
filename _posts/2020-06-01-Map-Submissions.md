@@ -11,6 +11,7 @@ The submission window is going to be open indefinitely, so no worries about subm
 
 Submissions will be done [here](https://github.com/OvercastCommunity/CommunityMaps/issues). To make a new submission click **New issue** and use the template **Map submission** by clicking the green **Get started** button.
 
+Know that by submitting a map to the community [repository](https://github.com/OvercastCommunity/CommunityMaps), you are also agreeing to put your map under the same license as the repository itself. For more information about licensing you can read [here](https://github.com/OvercastCommunity/CommunityMaps/blob/master/README.md)
 
 ## FAQ
 
