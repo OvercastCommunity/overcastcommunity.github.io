@@ -8,7 +8,7 @@ You might be wondering.. is Overcast Network back? Well, no, but almost!
 
 This is **Overcast Community**, or **OCC**; a community run server running the same custom server plugin as Overcast Network, so you can play all the classic maps you missed, with tons of other players!
 
-OCC is maintained by two administrators of the now closed Overcast Network; [Brottweiler](https://github.com/Brottweiler) and [Electroid](https://github.com/Electroid). OCC runs the **[PGM](https://github.com/Electroid/PGM)** plugin, just like OCN, but for Minecraft version 1.8 and with many new features from community contributors.
+OCC is maintained by two administrators of the now closed Overcast Network; [Brottweiler](https://github.com/Brottweiler) and [PGMDev](https://github.com/PGMDev). OCC runs the **[PGM](https://github.com/PGMDev/PGM)** plugin, just like OCN, but for Minecraft version 1.8 and with many new features from community contributors.
 
 This is the start of a blog with occasional updates about news or other things! You can also [follow](https://twitter.com/OvercastPGM) us on Twitter where we often share screenshots from awesome matches!
 
@@ -17,26 +17,26 @@ This is the start of a blog with occasional updates about news or other things! 
 The PGM plugin features some new changes from the old PGM that OCN used;
 
 - **Minecraft version 1.8 support**
-- **Dynamic Rotations** ([implemented](https://github.com/Electroid/PGM/pull/114) by [BGMP](https://github.com/BGMP))
+- **Dynamic Rotations** ([implemented](https://github.com/PGMDev/PGM/pull/114) by [BGMP](https://github.com/BGMP))
 
   Depending on how many players are online, the server will switch to another map pool or rotation with maps that play well with that player count.
-- **Map Voting** ([implemented](https://github.com/Electroid/PGM/pull/143) by [Pablete1234](https://github.com/Pablete1234))
+- **Map Voting** ([implemented](https://github.com/PGMDev/PGM/pull/143) by [Pablete1234](https://github.com/Pablete1234))
 
   At match end, a book will appear on your screen with a list of 5 maps. By clicking on the map, you vote for it. Vote for all your favourite maps to have a greater chance of having it played next match.
-- **Map Tags** ([implemented](https://github.com/Electroid/PGM/pull/172) by [TheMolkaPL](https://github.com/TheMolkaPL))
+- **Map Tags** ([implemented](https://github.com/PGMDev/PGM/pull/172) by [TheMolkaPL](https://github.com/TheMolkaPL))
 
   Detects map features via the XML to determine what kind of map it is. You will notice tags like `#wool` or `#core` in `/map` or the Voting Book, so you easily can see what type of map it is!
-- **Observer Tools** ([implemented](https://github.com/Electroid/PGM/pull/260) by [applenick](https://github.com/applenick))
+- **Observer Tools** ([implemented](https://github.com/PGMDev/PGM/pull/260) by [applenick](https://github.com/applenick))
 
   As an observer, you can select the diamond in your hotbar and have access to several different tools. Change your fly speed, enable night vision, hide other observers or switch to spectator mode with noclip! 
 
-There have been [many more](https://github.com/Electroid/PGM/graphs/contributors) contributions from other people as well, mostly fixes and improvements!
+There have been [many more](https://github.com/PGMDev/PGM/graphs/contributors) contributions from other people as well, mostly fixes and improvements!
 
 # How can I contribute?
 
-If you know how to code, you might want to look into [adding features](https://github.com/Electroid/PGM/issues?q=is%3Aopen+is%3Aissue+label%3Afeature) or [fixing bugs](https://github.com/Electroid/PGM/issues?q=is%3Aopen+is%3Aissue+label%3Abug) in the [PGM](https://github.com/Electroid/PGM) plugin!
+If you know how to code, you might want to look into [adding features](https://github.com/PGMDev/PGM/issues?q=is%3Aopen+is%3Aissue+label%3Afeature) or [fixing bugs](https://github.com/PGMDev/PGM/issues?q=is%3Aopen+is%3Aissue+label%3Abug) in the [PGM](https://github.com/PGMDev/PGM) plugin!
 
-If you don't know how to code but want to contribute other ways, take a look at the [issue tracker](https://github.com/Electroid/PGM/issues) and see if you can help reproduce issues, find error codes or come up with suggestions.
+If you don't know how to code but want to contribute other ways, take a look at the [issue tracker](https://github.com/PGMDev/PGM/issues) and see if you can help reproduce issues, find error codes or come up with suggestions.
 
 Another way to contribute is simply donating to help keep the server up! Go to [octc.buycraft.net](https://octc.buycraft.net/) for more information.
 
