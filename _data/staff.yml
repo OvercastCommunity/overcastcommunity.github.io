@@ -91,5 +91,7 @@ moderators:
       id: 9c0cd42f-fd79-45ff-b123-7da044ab2a0c
     - username: Campeh
       id: 61f8e9dd-62ab-453a-b7ef-83ce8a383fe8
+      role: Event
     - username: Nixani
       id: 2958ea4c-3501-404e-88cc-12e8632f68cc
+      role: Map Developer
