@@ -62,6 +62,7 @@ To inscribe yourself as a Wildcard player, please complete [this form](https://f
     
 
 -	The provisional map pool will be posted in #map-pool along with meta changes that we’ve made this last few days. 
+
 -	The final veto system will be released alongside the final format.
     
 
@@ -70,11 +71,8 @@ To inscribe yourself as a Wildcard player, please complete [this form](https://f
 We are opening applications to several positions in our staff, such as:
 
 -   Refs
-    
 -   Streamers
-    
 -   Scrim host
-    
 -   Gameplay (gameplay and meta related decisions)
     
 
