@@ -64,7 +64,7 @@ Please complete [this form](https://forms.gle/xZy7ktibYMZdBFF78) and we will rev
 
 ## Prize pool, passes and server upgrades
 
-*This is final and it's subject to change*
+*This is not final and it's subject to change*
 
 - The team leader of the winning team will receive a private server for a month. They will have full permissions in-game.
 - A tournament winner rank both in-game and in the Discord server, with donor perks.
