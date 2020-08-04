@@ -33,3 +33,6 @@ exclude: [
   'README.md',
   'LICENSE.md'
 ]
+
+plugins:
+  - jekyll-redirect-from

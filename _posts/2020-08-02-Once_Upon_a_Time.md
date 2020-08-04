@@ -2,6 +2,8 @@
 title: Once Upon a Time in Overcast, Badlion Anticheat (BAC), private servers and more!
 author: Head of Events Staff
 categories: announcement
+redirect_from:
+  - /tournament/
 ---
 
 [![Once Upon a Time in Overcast Banner](/assets/img/blog/tm/Once_Upon_a_Time_in_Overcast_thumb.png)](/assets/img/blog/tm/Once_Upon_a_Time_in_Overcast.png)
