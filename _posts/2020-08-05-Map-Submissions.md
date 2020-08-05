@@ -4,7 +4,7 @@ author: Crazy_
 categories: announcement
 ---
 
-Hey everyone! We've been toying with the idea of opening up community made map submissions for a few months now, and after some recent support was added to PGM, we're happy to announce that it's finally happening! This post will go through the submission process and answer some obvious questions, be sure to read everything! 
+Hey everyone! We've been toying with the idea of opening up community map submissions for a few months now. Today we’re pleased to announce it’s finally happening, thanks to support made possible by some recent PGM features.This post will go through the submission process and answer some obvious questions, be sure to read everything! 
 
 ## The submission process
 
