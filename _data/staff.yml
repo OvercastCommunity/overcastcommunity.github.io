@@ -25,7 +25,7 @@ developers:
     - username: Indicado
       id: 9b4fbb38-ed55-44ad-b510-9f0197433f93
 map developers:
-  color: "#2233aa"
+  color: "#06d"
   members:
     - username: Strangey
       id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
@@ -36,7 +36,7 @@ map developers:
     - username: Nixani
       id: 2958ea4c-3501-404e-88cc-12e8632f68cc
 event managers:
-  color: "#008888"
+  color: "#088"
   members:
     - username: Pablete1234
       id: e82603df-417d-4a95-bd1f-1720648be0b4
@@ -53,7 +53,7 @@ event managers:
     - username: Nixani
       id: 2958ea4c-3501-404e-88cc-12e8632f68cc
 moderators:
-  color: "#ff2200"
+  color: "#f20"
   members:
     - username: Noel
       id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
