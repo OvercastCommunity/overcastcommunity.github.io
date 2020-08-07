@@ -22,7 +22,7 @@ developers:
       id: e82603df-417d-4a95-bd1f-1720648be0b4
     - username: Indicado
       id: 9b4fbb38-ed55-44ad-b510-9f0197433f93
-mapdevs:
+map developers:
   color: "#2233aa"
   members:
     - username: Strangey
@@ -33,7 +33,7 @@ mapdevs:
       id: 10c1b730-49b9-4f75-9212-91facc371477
     - username: Nixani
       id: 2958ea4c-3501-404e-88cc-12e8632f68cc
-event:
+event managers:
   color: "#008888"
   members:
     - username: Pablete1234
