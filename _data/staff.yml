@@ -24,6 +24,9 @@ developers:
       id: e82603df-417d-4a95-bd1f-1720648be0b4
     - username: Indicado
       id: 9b4fbb38-ed55-44ad-b510-9f0197433f93
+      links:
+        email: me@indicado.org
+        github: Indicardo
 map developers:
   color: "#06d"
   members:
