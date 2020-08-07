@@ -15,6 +15,41 @@ administrators:
     - username: Crazy_
       id: a9f11454-beac-4cc3-a138-1780802c8794
       role: Map Development
+developers:
+  color: "#800080"
+  members:
+    - username: Pablete1234
+      id: e82603df-417d-4a95-bd1f-1720648be0b4
+    - username: Indicado
+      id: 9b4fbb38-ed55-44ad-b510-9f0197433f93
+mapdevs:
+  color: "#2233aa"
+  members:
+    - username: Strangey
+      id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
+    - username: Pugzy
+      id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
+    - username: Qixit
+      id: 10c1b730-49b9-4f75-9212-91facc371477
+    - username: Nixani
+      id: 2958ea4c-3501-404e-88cc-12e8632f68cc
+event:
+  color: "#008888"
+  members:
+    - username: Pablete1234
+      id: e82603df-417d-4a95-bd1f-1720648be0b4
+    - username: Campeh
+      id: 61f8e9dd-62ab-453a-b7ef-83ce8a383fe8
+    - username: TiTo_418
+      id: 8d02e486-66d5-46bf-8e6b-81e18ef9e6c7
+    - username: Strangey
+      id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
+    - username: Pibo
+      id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
+    - username: Claf
+      id: 6bec5c3a-4934-4b19-9aa8-c7c569820f7d
+    - username: Nixani
+      id: 2958ea4c-3501-404e-88cc-12e8632f68cc
 moderators:
   color: "#ff2200"
   members:
@@ -22,7 +57,6 @@ moderators:
       id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
     - username: Pablete1234
       id: e82603df-417d-4a95-bd1f-1720648be0b4
-      role: Developer
     - username: Pibo
       id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
       role: Marketing
@@ -40,10 +74,8 @@ moderators:
       id: 8af5859a-1d6e-4fbd-ae5f-4c63ff630fa4
     - username: Strangey
       id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
-      role: Map Developer
     - username: Pugzy
       id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
-      role: Map Developer
     - username: Diamyx
       id: f70b7a8f-93b2-480f-9d54-88e21485a042
     - username: Joel_
@@ -76,9 +108,6 @@ moderators:
       id: 3b862d71-fd84-4442-9831-ed291270f675
     - username: Qixit
       id: 10c1b730-49b9-4f75-9212-91facc371477
-      role: Map Developer
-    - username: Picajoluna
-      id: e60895f7-f208-4a29-abcb-7c7fdfa8b2e0
     - username: otherkris
       id: 9923dd17-577e-4e9b-b9fe-46c8fb3aa962
     - username: DarKrow_
@@ -91,7 +120,5 @@ moderators:
       id: 9c0cd42f-fd79-45ff-b123-7da044ab2a0c
     - username: Campeh
       id: 61f8e9dd-62ab-453a-b7ef-83ce8a383fe8
-      role: Event
     - username: Nixani
       id: 2958ea4c-3501-404e-88cc-12e8632f68cc
-      role: Map Developer
