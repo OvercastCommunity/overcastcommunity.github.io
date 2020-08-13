@@ -24,7 +24,8 @@ const protocolVersionMap = {
   575: '1.15.1',
   578: '1.15.2',
   735: '1.16',
-  736: '1.16.1'
+  736: '1.16.1',
+  751: '1.16.2'
 }
 
 function getServerStatus({ serverAddress, apiUrl, mapImagesUrl, playerAvatarsUrl }) {
