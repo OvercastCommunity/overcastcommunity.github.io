@@ -22,8 +22,8 @@ After a lot of planning, thinking, fixing and testing, we are more than excited 
 
 ## Dates
 
-- **Team registrations ends**: August 16th at 23:59 GMT-3
-- **Private servers release and wildcard registrations end**: August 18th
+- **Team registrations ends**: August 18th at 23:59 GMT-3
+- **Private servers release and wildcard registrations end**: August 19th
 - **Final format and bracket released**: August 19th
 - **Groups stage**: August 22nd & 23rd
 - **Invitationals**: August 29th & 30th
