@@ -9,7 +9,7 @@ in-nav: true
 
 <div class="container my-4">
   {% for channel in site.data.channels %}
-  a
+  a <!-- dummy character to see if it loops correctly -->
     {% include twitch-player.html id=page.twitchId %}
   {% endfor %}
 </div>
