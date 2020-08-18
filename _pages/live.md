@@ -11,7 +11,7 @@ in-nav: true
   <ul class="list-unstyled">
     {% for channel in site.data.channels %}
       <li>
-        {% assign c=channel[0]%}
+        {% assign c=channel[1]%}
         {% include twitch-player.html id=c %}
       </li>
     {% endfor %}
