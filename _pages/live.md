@@ -2,7 +2,7 @@
 title: Live
 description: "List of livestreams"
 permalink: live/
-in-nav: true
+in-nav: false
 ---
 
 {% include image-header.html image='/assets/img/image-slider/15.jpg' %}
