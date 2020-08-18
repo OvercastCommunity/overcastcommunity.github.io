@@ -1,6 +1,6 @@
 ---
-title: Live
-description: "List of livestreams"
+title: Live 🔴
+description: "The Once Upon a Time in Overcast tournament"
 permalink: live/
 in-nav: false
 ---
