@@ -13,7 +13,7 @@
         const motd = response.description;
         const motdStr = JSON.stringify(motd);
         const mapName = motdStr.substring(motdStr.lastIndexOf("»") + 4, motdStr.lastIndexOf("«") - 3)
-        const matchState = getStateName(motdStr.charAt(36)); // Get the match state from the chat color
+        const matchState = getStateName(motdStr.charAt(30)); // Get the match state from the chat color
 
         const data = {
           supportedVersions: response.version.supportedVersions,
@@ -40,8 +40,8 @@
         return "starting"
       case 'c':
         return "finished"
-      case '7':
-          return "idle";
+      default:
+        return "idle";    
     }
   }
 
