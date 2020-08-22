@@ -77,6 +77,8 @@ moderators:
       id: b5967591-14fc-421f-a5e2-931498e10fb8
     - username: KingOfSquares
       id: 8af5859a-1d6e-4fbd-ae5f-4c63ff630fa4
+      links:
+        github: KingOfSquares
     - username: Strangey
       id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
     - username: Pugzy
