@@ -51,6 +51,8 @@ event managers:
       id: 8d02e486-66d5-46bf-8e6b-81e18ef9e6c7
     - username: Pibo
       id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
+    - username: Ralloi
+      id: e79aa605-fcac-44e2-86eb-30dfc08657d3
 moderators:
   color: "#f20"
   members:
