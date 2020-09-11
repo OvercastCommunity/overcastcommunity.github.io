@@ -40,6 +40,8 @@ map developers:
       id: 10c1b730-49b9-4f75-9212-91facc371477
     - username: Nixani
       id: 2958ea4c-3501-404e-88cc-12e8632f68cc
+    - username: Jexel
+      id: 9225421c-3c09-4d97-bb80-f6a77c1f360b
 event managers:
   color: "#088"
   members:
