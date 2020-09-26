@@ -20,7 +20,7 @@ administrators:
 developers:
   color: "#800080"
   members:
-    - username: Pablete_418
+    - username: Pablete1234
       id: e82603df-417d-4a95-bd1f-1720648be0b4
       links:
         github: Pablete1234
@@ -45,11 +45,11 @@ map developers:
 event managers:
   color: "#088"
   members:
-    - username: Pablete_418
+    - username: Pablete1234
       id: e82603df-417d-4a95-bd1f-1720648be0b4
     - username: Campeh
       id: 61f8e9dd-62ab-453a-b7ef-83ce8a383fe8
-    - username: TiTo1234
+    - username: TiTo_418
       id: 8d02e486-66d5-46bf-8e6b-81e18ef9e6c7
     - username: Pibo
       id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
@@ -60,7 +60,7 @@ moderators:
   members:
     - username: Noel
       id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
-    - username: Pablete_418
+    - username: Pablete1234
       id: e82603df-417d-4a95-bd1f-1720648be0b4
     - username: Pibo
       id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
@@ -127,3 +127,5 @@ moderators:
       id: 61f8e9dd-62ab-453a-b7ef-83ce8a383fe8
     - username: Nixani
       id: 2958ea4c-3501-404e-88cc-12e8632f68cc
+    - username: Tito_418
+      id: 8d02e486-66d5-46bf-8e6b-81e18ef9e6c7
