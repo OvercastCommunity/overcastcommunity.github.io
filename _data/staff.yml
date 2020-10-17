@@ -42,6 +42,8 @@ map developers:
       id: 2958ea4c-3501-404e-88cc-12e8632f68cc
     - username: Jexel
       id: 9225421c-3c09-4d97-bb80-f6a77c1f360b
+    - username: _DISTRACTION_
+      id: f876b863-1ccd-4ae2-acad-8a09e2209e81
 event managers:
   color: "#088"
   members:
