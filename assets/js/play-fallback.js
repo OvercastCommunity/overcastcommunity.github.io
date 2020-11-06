@@ -46,7 +46,7 @@
   }
 
   function setVersionSupport(){
-    $('#data-version-support').html(`1.7.2 - 1.16.3`);
+    $('#data-version-support').html(`1.7.2 - 1.16.4`);
   }
 
   function setPlayerCount(onlinePlayerCount, maxPlayerCount) {
