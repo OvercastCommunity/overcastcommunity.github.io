@@ -36,8 +36,6 @@ map developers:
       id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
     - username: Pugzy
       id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
-    - username: Qixit
-      id: 10c1b730-49b9-4f75-9212-91facc371477
     - username: Nixani
       id: 2958ea4c-3501-404e-88cc-12e8632f68cc
     - username: Jexel
@@ -109,8 +107,6 @@ moderators:
       id: 3b42b73c-61b5-4783-a853-d354e8272b56
     - username: ThoughtfulTurtle
       id: 97e1e528-27d4-4768-b3e8-7e93b60805b8
-    - username: Qixit
-      id: 10c1b730-49b9-4f75-9212-91facc371477
     - username: otherkris
       id: 9923dd17-577e-4e9b-b9fe-46c8fb3aa962
     - username: Darkrowo
