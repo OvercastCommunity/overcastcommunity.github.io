@@ -42,6 +42,8 @@ map developers:
       id: 6803561d-f62e-47b1-ac86-f21bbe685342
     - username: _DISTRACTION_
       id: f876b863-1ccd-4ae2-acad-8a09e2209e81
+    - username: CoWinkKeyDinkInc
+      id: 5c79d2c9-a4f0-4343-a84b-e1720f13009b
 event managers:
   color: "#088"
   members:
