@@ -22,12 +22,11 @@
           onlinePlayerSample: response.players.sample,
           mapName,
           matchState,
-          currentMapImage: mapImagesUrl + mapName + '/map.png'
         }
 
         setVersionSupport();
         setPlayerCount(data.onlinePlayerCount, data.maxPlayerCount);
-        setMatchInfoTemp(data.matchState, data.mapName, data.currentMapImage, data.onlinePlayerSample, data.onlinePlayerCount, playerAvatarsUrl);
+        setMatchInfoTemp(data.matchState, data.mapName, data.onlinePlayerSample, data.onlinePlayerCount, playerAvatarsUrl);
       }
     });
   }
@@ -56,7 +55,6 @@
 
   function setMatchInfoTemp(currentState,
     currentMap,
-    currentMapImage,
     onlinePlayerSample,
     onlinePlayerCount,
     playerAvatarsUrl) {
@@ -84,7 +82,7 @@
     }
 
 
-    $('#data-current-map-image').attr('src', currentMapImage.replace(/:/g, ""));
+    $('#data-current-map-image').attr('src', mapImagesUrl + mapName + '/map.png'.replace(/:/g, ""));
     $('#data-current-map-name').html(currentMap);
     $('#data-online-player-sample').html(playersHTML);
     $('#data-more-player-count').html(morePlayersHTML);
