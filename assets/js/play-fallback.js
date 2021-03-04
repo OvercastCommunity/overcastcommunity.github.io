@@ -84,7 +84,7 @@
     }
 
 
-    $('#data-current-map-image').attr('src', currentMapImage);
+    $('#data-current-map-image').attr('src', currentMapImage.replace(/:/g, ""));
     $('#data-current-map-name').html(currentMap);
     $('#data-online-player-sample').html(playersHTML);
     $('#data-more-player-count').html(morePlayersHTML);
