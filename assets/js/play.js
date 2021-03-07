@@ -109,7 +109,7 @@ function setMatchInfo(currentState,
     `;
   }
 
-  $('#data-current-map-image').attr('src', mapImagesUrl + mapName + '/map.png'.replace(/:/g, ""));
+  $('#data-current-map-image').attr('src', mapImagesUrl + mapName + ('/map.png'.replace(/:/g, "")));
   $('#data-current-map-name').html(currentMap);
   $('#data-current-map-tags').html(tagHTML);
   $('#data-online-player-sample').html(playersHTML);
