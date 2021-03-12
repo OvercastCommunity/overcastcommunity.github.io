@@ -63,6 +63,7 @@ function getServerStatus({
         data.currentTags,
         data.onlinePlayerSample,
         data.onlinePlayerCount,
+        mapImagesUrl,
         playerAvatarsUrl
       );
     }
@@ -88,6 +89,7 @@ function setMatchInfo(
   currentTags,
   onlinePlayerSample,
   onlinePlayerCount,
+  mapImagesUrl,
   playerAvatarsUrl
 ) {
   $("#data-match-state").addClass(currentState);
@@ -122,7 +124,7 @@ function setMatchInfo(
 
   $("#data-current-map-image").attr(
     "src",
-    mapImagesUrl + mapName + "/map.png".replace(/:/g, "")
+    mapImagesUrl + currentMap + "/map.png".replace(/:/g, "")
   );
   $("#data-current-map-name").html(currentMap);
   $("#data-current-map-tags").html(tagHTML);
