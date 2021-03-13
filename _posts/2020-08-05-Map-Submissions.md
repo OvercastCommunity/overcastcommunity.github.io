@@ -24,7 +24,7 @@ As for what sort of map you can submit, go wild. We're trying to make sure we do
 
 All maps should be created in Minecraft version 1.8. If you made a map previously that you want to submit, please run it through a [nbt converter script](https://github.com/mitchts/nbt-converter) to ensure the map's nbt datas will work and remove any 1.9+ blocks and items from the map.
 
-Maps should have a XML accompanying your submission. For new maps, the XML proto should be in 1.4. However with old map submissions (maps that were created long ago) it'll be permittable to submit a XML in a lower proto. Please ensure you're following our [XML conventions](https://pgm.dev/docs/guides/xml-pointers/conventions). If you need help with your XML you can read through the documentation over at [pgm.dev](https://pgm.dev) or ask for help in #maps in our [Discord](https://discord.gg/CvJGbrV).
+Maps should have a XML accompanying your submission. For new maps, the XML proto should be in 1.4. However with old map submissions (maps that were created long ago) it'll be permittable to submit a XML in a lower proto. Please ensure you're following our [XML conventions](https://pgm.dev/docs/guides/xml-pointers/conventions). If you need help with your XML you can read through the documentation over at [pgm.dev](https://pgm.dev) or ask for help in #maps in our [Discord](https://oc.tc/discord).
 
 Make sure to prune your maps and clean up any [unneeded files](https://pgm.dev/docs/guides/packaging/cleaning-files) from the map folder before submitting!
 

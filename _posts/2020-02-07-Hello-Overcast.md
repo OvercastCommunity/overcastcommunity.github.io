@@ -38,7 +38,7 @@ If you know how to code, you might want to look into [adding features](https://g
 
 If you don't know how to code but want to contribute other ways, take a look at the [issue tracker](https://github.com/PGMDev/PGM/issues) and see if you can help reproduce issues, find error codes or come up with suggestions.
 
-Another way to contribute is simply donating to help keep the server up! Go to [octc.buycraft.net](https://octc.buycraft.net/) for more information.
+Another way to contribute is simply donating to help keep the server up! Go to [oc.tc/donate](https://oc.tc/donate) for more information.
 
 # FAQ
 
