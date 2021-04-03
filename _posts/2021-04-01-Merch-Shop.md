@@ -1,5 +1,5 @@
 ---
-title: Merch Shop
+title: Merch Shop (April Fools 2021)
 author: Brottweiler
 categories: announcement
 ---
@@ -11,3 +11,5 @@ After a long wait, we are happy to announce that you will be able to buy OCC mer
 Check out the shop at [oc.tc/shop](https://oc.tc/shop/)!
 
 Unfortunately our stock has been delayed due to the Ever Given ship being stuck blocking the Suez Canal. But you can still reserve items and get notified by our Discord bot Cloudy.
+
+**APRIL FOOLS!!** The april fool can be viewed [here](https://archive.ph/noQnZ).
