@@ -12,4 +12,4 @@ Check out the shop at [oc.tc/shop](https://oc.tc/shop/)!
 
 Unfortunately our stock has been delayed due to the Ever Given ship being stuck blocking the Suez Canal. But you can still reserve items and get notified by our Discord bot Cloudy.
 
-**APRIL FOOLS!!** The april fool can be viewed [here](https://archive.ph/noQnZ).
+**APRIL FOOLS!!** The april fool can be viewed [here](https://web.archive.org/web/20210401213021/https://oc.tc/shop/) or [here](https://archive.ph/noQnZ).
