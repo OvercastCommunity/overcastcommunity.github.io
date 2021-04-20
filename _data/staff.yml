@@ -59,6 +59,14 @@ head of events:
       id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
     - username: Ralloi
       id: e79aa605-fcac-44e2-86eb-30dfc08657d3
+    - username: Strangey
+      id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
+    - username: wylt
+      id: d71152ca-187d-43c4-9901-ba001606c655
+    - username: PoshEngineer
+      id: a6f7abbe-9081-45f2-9746-b3e918879a81
+    - username: Antnecb
+      id: b1521072-6993-4fe4-ae60-dbeeb7dc0cfa
 moderators:
   color: "#f20"
   members:
