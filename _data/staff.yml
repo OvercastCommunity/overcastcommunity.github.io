@@ -46,8 +46,8 @@ map developers:
       id: 5c79d2c9-a4f0-4343-a84b-e1720f13009b
     - username: mame_BT
       id: 430ec559-364a-4363-ac7a-2529050440ac
-event managers:
-  color: "#088"
+head of events:
+  color: "#f0c30f"
   members:
     - username: Pablete1234
       id: e82603df-417d-4a95-bd1f-1720648be0b4
