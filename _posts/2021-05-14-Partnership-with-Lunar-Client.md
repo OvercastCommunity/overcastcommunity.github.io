@@ -21,7 +21,7 @@ You can quickly join OCC directly from Lunar Client's launcher!
 Starting today, you'll be able to purchase Overcast Community cosmetics! Head over to our [Lunar Client Store](https://lunarclient.com/occ) page and check them out. Here's a small preview of what we're offering:
 
 [![Cape](/assets/img/blog/lunar/cape.webp)](https://lunarclient.com/occ)
-[![Bandana](/assets/img/blog/lunar/bandana.webp)](https://lunarclient.com/occ)
+[![bandanna](/assets/img/blog/lunar/bandanna.webp)](https://lunarclient.com/occ)
 
 We're looking forward to a bright future with Lunar. They are an exceptionally talented team and we believe this partnership will help Overcast grow in the best way. We've compiled a short list of common questions below.
 
