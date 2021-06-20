@@ -60,7 +60,7 @@ function getStateName(state) {
 }
 
 function setVersionSupport() {
-  $("#data-version-support").html(`1.7.2 - 1.16.5`);
+  $("#data-version-support").html(`1.7.2 - 1.17`);
 }
 
 function setPlayerCount(onlinePlayerCount, maxPlayerCount) {
