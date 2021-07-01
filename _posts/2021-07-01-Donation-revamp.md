@@ -47,7 +47,7 @@ The new Sponsor rank also includes a new yellow `+` flair, 7 exclusive `/fx`, 3x
 We've also added new auto-renewing subscriptions. Now during checkout you'll have the option to select 1 month or setup a monthly subscription. Now you'll never have to worry about your perks running out.
 
 # Summer Sale
-From July 1st - 14th, we'll be running our first ever Summer Sale! Both Donor and Sponsor will be available at a discounted price for a limited time. 
+From July 1st - 14th, we'll be running our first ever Summer Sale! Sponsor has an introductory price of $25 USD, and Donor will be available for $7 USD. This offer is for a limited time!
 
 We're excited to celebrate the launch of this new rank and appreciate the generosity of the community.
 
