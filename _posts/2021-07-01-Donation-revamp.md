@@ -41,7 +41,7 @@ If your map is selected, your name will also be displayed in the map welcome mes
 
 
 ## Additional perks
-The new Sponsor rank also includes a new yellow `+` flair, 7 exclusive /fx, 3x vote multiplier, and will be among the first players to be given access to new features and experiences. We have some exciting news about the first exclusive opportunity within the next week. Stay tuned!
+The new Sponsor rank also includes a new yellow `+` flair, 7 exclusive `/fx`, 3x vote multiplier, and will be among the first players to be given access to new features and experiences. We have some exciting news about the first exclusive opportunity within the next week. Stay tuned!
 
 ## Auto-Renew
 We've also added new auto-renewing subscriptions. Now during checkout you'll have the option to select 1 month or setup a monthly subscription. Now you'll never have to worry about your perks running out.
