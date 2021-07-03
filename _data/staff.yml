@@ -20,11 +20,6 @@ administrators:
 developers:
   color: "#800080"
   members:
-    - username: Pablete1234
-      id: e82603df-417d-4a95-bd1f-1720648be0b4
-      role: OCC & Bolt
-      links:
-        github: Pablete1234
     - username: Indicado
       id: 9b4fbb38-ed55-44ad-b510-9f0197433f93
       role: OCC & Bolt
@@ -60,8 +55,6 @@ map developers:
 head of events:
   color: "#f0c30f"
   members:
-    - username: Pablete1234
-      id: e82603df-417d-4a95-bd1f-1720648be0b4
     - username: Campeh
       id: 61f8e9dd-62ab-453a-b7ef-83ce8a383fe8
     - username: TiTo_418
@@ -81,8 +74,6 @@ moderators:
   members:
     - username: Noel
       id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
-    - username: Pablete1234
-      id: e82603df-417d-4a95-bd1f-1720648be0b4
     - username: Pibo
       id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
       role: Marketing
