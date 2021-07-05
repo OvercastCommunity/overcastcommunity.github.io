@@ -1,0 +1,102 @@
+---
+title: Mapmaker
+description: Learn how to use our mapmaking server
+permalink: mapmaker/
+in-nav: false
+---
+
+{% include image-header.html image='/assets/img/image-slider/18.png' %}
+
+<div class="container my-4">
+  <div class="alert alert-primary" role="alert">
+    This service is currently in a closed beta, general access will be released later this Summer.
+  </div>
+  <hr>
+
+  <div class="row">
+
+    <div class="col-md-12">
+      <h2>Creating a map</h2>
+      <p>To get started use the <code>/new</code> command. This will create a new map and teleport you to it. You can view a list of public maps with <code>/maps</code></p>  
+      <p><span class="badge bg-danger">Note</span> Currently users are allowed an unlimited # of maps, we may restrict this in the future.</p>
+      <hr/>  
+    </div>
+  
+    <div class="col-md-12">
+      <h2>Permissions</h2>
+      <p>We have an extensive permission system in place to ensure your maps stay protected. There are three permission levels:</p>
+      <div class="row text-center permission">
+        <div class="col-md-4">
+          <i class="icon fas fa-user-lock"></i>      
+          <h4>Visitor</h4>
+          <p>Visit invited or public maps (no interaction)</p>
+        </div>
+        <div class="col-md-4">
+          <i class="icon fas fa-user-edit"></i>
+          <h4>Contributor</h4>
+          <p>Build and use basic utility commands</p>
+        </div>
+        <div class="col-md-4">
+          <i class="icon fas fa-user-check"></i>
+          <h4>Author</h4>
+          <p>Adjust map settings, set other user permissions, and use WorldEdit.</p>
+        </div>
+      </div>
+      <hr/>
+    </div>
+
+    <div class="col-md-12">
+      <h2>Invitations</h2>
+      <p>
+      By default your new map will be private, so only you can enter. However, if you would like to invite players to view your map use <code>/privacy</code> to toggle the map between private and public. When your map is set to <code>PRIVATE</code> only invited players, contributors, and authors are allowed to enter. You can manage individual players by using <code>/invite [username]</code>, <code>/uninvite [username]</code>, and <code>/invites</code> to view a list of invited players. 
+      </p>
+    
+      <p>Maps with a <code>PUBLIC</code> privacy level can be visited by anyone. Visiting players will be unable to interact with your map.</p>
+      <hr/>  
+    </div>
+
+    <div class="col-md-12">
+      <h2>WorldEdit</h2>
+      <p>WorldEdit is provided for players who have author permissions for a map. At the moment we're very generous with WorldEdit permissions, by using MapMaker we hope that no commands are abused/used to an extreme level. <b>Access will be revoked if this privilege is misused.</b></p>  
+      <p>If you're unfamiliar with WorldEdit, please consult a MapDev for assistance.</p>
+      <hr/>
+    </div>
+      
+  
+    <div class="col-md-12">
+      <h2>Coming Soon</h2>
+      <p>The following features will be added soon</p>
+      <ul>
+        <li>Downloads: Download a copy of your map with <code>/download</code></li>
+        <li>XML tools: A set of tools which will directly help with creating PGM XML</li>
+      </ul>
+      <hr/>  
+    </div>
+
+    <div class="col-md-12">
+      <h2>Commands</h2>
+      <div class="container">
+        <p>Below is a general list of commands that can be used and at what permission level.</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Command</th>
+              <th scope="col">Description</th>
+              <th scope="col">Permission</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for command in site.data.mapmaker.commands %}
+            <tr>
+              <td><code>{{command.command}}</code></td>
+              <td>{{command.description}}</td>
+              <td><i class="{{site.data.mapmaker.permission-icons[command.permission]}}""></i> {{site.data.mapmaker.permissions[command.permission]}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+</div>

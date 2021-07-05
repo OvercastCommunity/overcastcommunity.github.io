@@ -1,0 +1,81 @@
+permissions:
+  - "EVERYONE"    # 0
+  - "CONTRIBUTOR" # 1
+  - "AUTHOR"      # 2
+permission-icons:
+  - "fas fa-globe" # Everyone
+  - "fas fa-edit"  # Contributor
+  - "fas fa-cog"   # Author
+commands:
+  - command: "/new"
+    description: "Create a new map"
+    permission: 0
+  - command: "/map"
+    description: "View info related to the map (name, authors, description)"
+    permission: 0
+  - command: "/maps"
+    description: "View a list of all maps you have access to"
+    permission: 0
+  - command: "/spawn"
+    description: "Teleport to the map spawnpoint"
+    permission: 0
+  - command: "/lobbyspawn"
+    description: "Teleport to the mapmaker lobby"
+    permission: 0
+  - command: "/tp [name]"
+    description: "Teleport to another player"
+    permission: 0
+  - command: "/tools"
+    description: "Reset your inventory with the default tool layout"
+    permission: 0
+  - command: "/skull [name]"
+    description: "Spawn a player skull"
+    permission: 0
+  - command: "/g [message]"
+    description: "Send a global message"
+    permission: 0
+  - command: "/armorcolor"
+    description: "Easily create colored leather armor"
+    permission: 1
+  - command: "/banner"
+    description: "Create banner designs using an interactive GUI"
+    permission: 1
+  - command: "/secretblocks"
+    description: "Use blocks normally not accessible by creative mode"
+    permission: 1
+  - command: "/i [item] [amount]"
+    description: "Spawn in an item, use item ID or name"
+    permission: 1
+  - command: "/astools"
+    description: "Access armorstand tools"
+    permission: 1
+  - command: "/add [name] [contributor|author]"
+    description: "Add building permission for another player. (Player must be online)"
+    permission: 2
+  - command: "/remove [name] [contributor|author]"
+    description: "Remove building permission for another player. (Player must be online)"
+    permission: 2
+  - command: "/invite [name]"
+    description: "Send an invite to another player"
+    permission: 2
+  - command: "/uninvite [name]"
+    description: "Revoke an another player's invite"
+    permission: 2 
+  - command: "/invites"
+    description: "View a list of all invited players"
+    permission: 2
+  - command: "/privacy"
+    description: "Toggle map privacy between <code>PUBLIC</code> and <code>PRIVATE</code>"
+    permission: 2
+  - command: "/setname [name]"
+    description: "Set the name of the map"
+    permission: 2
+  - command: "/setdescription [description]"
+    description: "Set the map description"
+    permission: 2
+  - command: "/setversion [version]"
+    description: "Set the version of your map"
+    permission: 2
+  - command: "/setgamemode"
+    description: "Opens a GUI to select the gamemode"
+    permission: 2
