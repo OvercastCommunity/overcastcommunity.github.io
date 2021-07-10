@@ -1,10 +1,12 @@
 ---
- title: CTW Map Making Contest
- author: Strangey
- categories: announcement
+title: CTW Map Making Contest
+author: Strangey
+categories: announcement
+excerpt: Learn about our 1st ever CTW Map Making competition.
 ---
+
 Hey everyone! Welcome to Overcast Community’s 1st ever Map Making Competition! 
-![Donor](/assets/img/blog/ctw_contest/mapmaking_contest.png)
+![Contest](/assets/img/blog/ctw_contest/mapmaking_contest.png)
 
 # General Format
 This event will revolve around a **3 week** period where players will compete at making the best **Mega/Giga-sized CTW map** they can achieve. You can have a group of people help you or you can make it yourself, as long as it's completed and submitted within 3 weeks you are qualified for judging.
@@ -81,5 +83,3 @@ To request access please contact a mapdev for more information.
  - Feedback: [OCC Discord](https://discord.gg/2nU9qSfw9B) #mapmaking
 
 If you have any questions regarding the contest, you can message Strangey on Discord (Strangey#5777).
-
-

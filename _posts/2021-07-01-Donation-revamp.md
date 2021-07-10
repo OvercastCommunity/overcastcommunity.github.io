@@ -2,6 +2,7 @@
 title: Donation revamp
 author: applenick
 categories: announcement
+excerpt: Learn about our 2021 donation rank revamp and Summer Sale!
 ---
 
 We're launching a new donor rank!

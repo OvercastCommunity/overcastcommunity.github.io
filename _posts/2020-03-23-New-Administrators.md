@@ -2,6 +2,7 @@
 title: New Administrators!
 author: Brottweiler
 categories: announcement
+excerpt: The administration got some reinforcements!
 ---
 
 The administration got some reinforcements!

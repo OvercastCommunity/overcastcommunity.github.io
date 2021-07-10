@@ -2,6 +2,7 @@
 title: Hello, Overcast!
 author: Brottweiler
 categories: announcement
+excerpt: You might be wondering.. is Overcast Network back? Well, no, but almost!
 ---
 
 You might be wondering.. is Overcast Network back? Well, no, but almost!

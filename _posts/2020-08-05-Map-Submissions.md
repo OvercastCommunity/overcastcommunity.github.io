@@ -2,6 +2,7 @@
 title: Map Submissions
 author: Crazy_
 categories: announcement
+excerpt: Learn about the community map submission process.
 ---
 
 Hey everyone! We've been toying with the idea of opening up community map submissions for a few months now. Today we’re pleased to announce it’s finally happening, thanks to support made possible by some recent PGM features. This post will go through the submission process and answer some obvious questions, be sure to read everything! 

@@ -2,6 +2,7 @@
 title: Once Upon a Time in Overcast, Badlion Anticheat (BAC), private servers and more!
 author: Head of Events Staff
 categories: announcement
+excerpt: Learn about the first official Overcast Community tournament.
 redirect_from:
   - /tournament/
 ---

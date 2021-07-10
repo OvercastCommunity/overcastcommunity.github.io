@@ -2,6 +2,7 @@
 title: Better System for Appeals
 author: Brottweiler
 categories: announcement
+excerpt: Learn about our new discord based appeal and report process.
 ---
 
 We have made the appeal process more convenient, and also improved how reports are handled on our Discord server!

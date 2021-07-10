@@ -2,6 +2,7 @@
 title: Partnership with Lunar Client
 author: Brottweiler & applenick
 categories: announcement
+excerpt: Learn about our new partnership with Lunar Client.
 ---
 
 We're excited to announce we are partnering with Lunar Client!

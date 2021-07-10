@@ -1,6 +1,7 @@
 ---
 title: Community Spotlight&#58; PGM Tracker
 author: Brottweiler
+excerpt: Learn about an awesome community project for tracking PGM servers.
 ---
 
 Minetrack is a tracker for the largest Minecraft servers. Now there is one for PGM servers as well!
