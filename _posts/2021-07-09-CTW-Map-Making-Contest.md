@@ -3,6 +3,8 @@ title: CTW Map Making Contest
 author: Strangey
 categories: announcement
 excerpt: Learn about our 1st ever CTW Map Making competition.
+redirect_from:
+  - /contest/
 ---
 
 Hey everyone! Welcome to Overcast Community’s 1st ever Map Making Competition! 
