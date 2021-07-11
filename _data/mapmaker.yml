@@ -16,6 +16,12 @@ commands:
   - command: "/maps"
     description: "View a list of all maps you have access to"
     permission: 0
+  - command: "/maptp [map name]"
+    description: "Teleport to a map with the given name (permission required)"
+    permission: 0
+  - command: "/g [message]"
+    description: "Send a global message"
+    permission: 0
   - command: "/spawn"
     description: "Teleport to the map spawnpoint"
     permission: 0
@@ -30,9 +36,6 @@ commands:
     permission: 0
   - command: "/skull [name]"
     description: "Spawn a player skull"
-    permission: 0
-  - command: "/g [message]"
-    description: "Send a global message"
     permission: 0
   - command: "/armorcolor"
     description: "Easily create colored leather armor"
