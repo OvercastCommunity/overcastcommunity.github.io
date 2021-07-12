@@ -82,3 +82,7 @@ commands:
   - command: "/setgamemode"
     description: "Opens a GUI to select the gamemode"
     permission: 2
+  - command: "/download"
+    description: "Generate a download link for your map (active for 5 mins)"
+    permission: 2
+    
