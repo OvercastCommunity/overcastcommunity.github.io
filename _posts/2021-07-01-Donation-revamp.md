@@ -6,7 +6,7 @@ excerpt: Learn about our 2021 donation rank revamp and Summer Sale!
 ---
 
 We're launching a new donor rank!
-![Donor](/assets/img/blog/donor/donor_sale.png)
+![Donor](/assets/img/blog/donor/donation_ranks.png)
 
 After carefully planning and adding some cool new features to PGM, Sponsor is ready for all to enjoy. From the beginning, we wanted to ensure that this new rank revolved around a unique aspect of OCC. 
 
