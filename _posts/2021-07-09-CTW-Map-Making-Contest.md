@@ -67,7 +67,7 @@ Each user who submits a map will receive 3 tokens to add a map of their choice t
 
  - 3 months of Donor
 
-If you already have a Donor rank, you can request for it to be given to somebody else. A map author can only claim the prize of their highest placement if they submitted more than 1 map, but they will still receive 5 map tokens per submission.
+If you already have a Donor rank, you can request for it to be given to somebody else. Participants may claim a maximum of 3 sponsor tokens, multiple submissions will not earn additional tokens. 
 
 # Map Making Server
 We’re always looking to help our map building community by introducing new tools and services. With this contest we’re launching a closed beta of our map making server. This will be an ever evolving experience, designed with PGM maps in mind. We plan to release new features on a regular basis with a public launch later this summer. 
