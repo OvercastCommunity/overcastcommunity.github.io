@@ -29,6 +29,7 @@ const protocolVersionMap = {
   753: "1.16.3",
   754: "1.16.5",
   755: "1.17",
+  756: "1.17.1",
 };
 
 function getServerStatus({
