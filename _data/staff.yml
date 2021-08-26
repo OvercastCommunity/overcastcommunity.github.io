@@ -14,9 +14,6 @@ administrators:
     - username: applenick
       id: f54a1b17-3167-4162-948a-9c95d65a18a5
       role: SysAdmin & Development
-    - username: Crazy_
-      id: a9f11454-beac-4cc3-a138-1780802c8794
-      role: Map Development
 developers:
   color: "#800080"
   members:
@@ -163,3 +160,14 @@ moderators:
       id: 28ef7c16-854d-4a0b-965c-9c9fe0d7d1f8
     - username: bend
       id: 36dc036a-dfbc-4627-b66a-501223f08075
+advisors:
+  color: "#BD0909"
+  members:
+    - username: Siceth
+      id: 1e4cbacc-0fb5-445a-a99d-7c76f9d0b564
+      role: Executive Advisor
+    - username: Crazy_
+      id: a9f11454-beac-4cc3-a138-1780802c8794
+    - username: Pablete1234
+      id: e82603df-417d-4a95-bd1f-1720648be0b4
+
