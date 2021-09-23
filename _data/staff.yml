@@ -15,7 +15,7 @@ administrators:
       id: f54a1b17-3167-4162-948a-9c95d65a18a5
       role: SysAdmin & Development
 developers:
-  color: "#a0a"
+  color: "#a5a"
   members:
     - username: Indicado
       id: 9b4fbb38-ed55-44ad-b510-9f0197433f93
@@ -33,7 +33,7 @@ developers:
       id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
       role: Bolt
 map developers:
-  color: "#55f"
+  color: "#44f"
   members:
     - username: Strangey
       id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
@@ -50,7 +50,7 @@ map developers:
     - username: mamemame187
       id: 430ec559-364a-4363-ac7a-2529050440ac
 head of events:
-  color: "#ff5"
+  color: "#fc0"
   members:
     - username: Campeh
       id: 61f8e9dd-62ab-453a-b7ef-83ce8a383fe8
@@ -67,7 +67,7 @@ head of events:
     - username: Antnecb
       id: b1521072-6993-4fe4-ae60-dbeeb7dc0cfa
 moderators:
-  color: "#f55"
+  color: "#f33"
   members:
     - username: Noel
       id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
