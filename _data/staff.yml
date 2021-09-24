@@ -155,6 +155,11 @@ moderators:
       id: 06b7b11d-3f35-4557-8fd2-0f96d7683c82
     - username: Zet
       id: 12272c21-3716-44a4-9d35-0c5221756439
+junior moderators:
+  color: "#f5f"
+  members:
+    - username: TeaTea0ne
+      id: 9e285503-119d-409c-82d5-9fa9cfa72e05
 advisors:
   color: "#a00"
   members:
