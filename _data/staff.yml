@@ -14,6 +14,15 @@ administrators:
     - username: applenick
       id: f54a1b17-3167-4162-948a-9c95d65a18a5
       role: SysAdmin & Development
+senior moderators:
+  color: "#a00"
+  members:
+    - username: Noel
+      id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
+    - username: wylt
+      id: d71152ca-187d-43c4-9901-ba001606c655
+    - username: Deoz
+      id: a29d7ed5-1ca3-4953-a102-e874b8e6c83e
 developers:
   color: "#a5a"
   members:
@@ -67,8 +76,6 @@ head of events:
 moderators:
   color: "#f55"
   members:
-    - username: Noel
-      id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
     - username: Pibo
       id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
       role: Marketing
@@ -90,10 +97,6 @@ moderators:
       id: f70b7a8f-93b2-480f-9d54-88e21485a042
     - username: CoWinkKeyDinkInc
       id: 5c79d2c9-a4f0-4343-a84b-e1720f13009b
-    - username: wylt
-      id: d71152ca-187d-43c4-9901-ba001606c655
-    - username: Deoz
-      id: a29d7ed5-1ca3-4953-a102-e874b8e6c83e
     - username: ocktick
       id: 18ae0b62-8015-43b9-9409-f59246332bb4
     - username: Arzanex
