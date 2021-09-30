@@ -2,14 +2,13 @@
 title: Senior and Junior Moderators
 author: Brottweiler
 categories: announcement
-excerpt: Introducing Senior and Junior Moderators!
+excerpt: We are introducing Senior & Junior Moderators!
 ---
 
-We are introducing Senior & Junior Moderators!
 
 # Senior Moderators
 
-A few days ago, we introduced the new Senior Moderator rank. You might remember it from Overcast Network, and it has a similar purpose here.
+Recently, we introduced the new Senior Moderator rank. You might remember it from Overcast Network, and it has a similar purpose here.
 
 It's a special moderator rank that have some additional tasks and duties. Senior moderators will handle appeals and make sure reports are handled. They will also help out with promoting new moderators as well as assisting mods in general.
 
@@ -17,6 +16,6 @@ The senior moderators are **Noel**, **wylt** and **Deoz**. They have years of ex
 
 # Junior Moderators
 
-The Junior Moderator rank is a new rank for new moderators! It lets us know who's new. They have the same permissions as regular mods, with a few minor exceptions. You can recognize them by their pink staff flair!
+Also making a return is the Junior Moderator rank! The purpose of a junior moderator is to help new moderators get familiar with their new role. We hope this will help the community get to know our latest mods in a more clear manner.
 
-Junior moderators are promoted to moderator when we think they've gotten a hang of how it is to be a moderator.
+You can recognize them by their pink staff flair or checking our staff lineup at [oc.tc/staff](https://oc.tc/staff).
