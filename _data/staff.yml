@@ -28,19 +28,25 @@ developers:
   members:
     - username: Indicado
       id: 9b4fbb38-ed55-44ad-b510-9f0197433f93
-      role: OCC & Bolt
+      role: Executive Web Developer
       links:
         email: me@indicado.org
         github: Indicardo
     - username: unixfox
       id: 02407912-8bbf-4b7b-a34c-a45339841436
-      role: Bolt
+      role: Bolt Developer
     - username: dentmaged
       id: 30401f63-f5bb-4f24-9a5a-0ecd5f706115
-      role: Bolt
+      role: Bolt Developer
     - username: Pugzy
       id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
-      role: Bolt
+      role: Bolt Developer
+    - username: Pibo
+      id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
+      role: Executive Bolt Developer & Marketing
+    - username: oc_tc
+      id: 745c1536-dfb6-4ee8-92c5-aab069e7b6b2
+      role: Web Developer
 map developers:
   color: "#55f"
   members:
@@ -61,6 +67,7 @@ head of events:
   members:
     - username: Campeh
       id: 61f8e9dd-62ab-453a-b7ef-83ce8a383fe8
+      role: Executive Head of Events
     - username: TiTo_418
       id: 8d02e486-66d5-46bf-8e6b-81e18ef9e6c7
     - username: Ralloi
@@ -76,9 +83,6 @@ head of events:
 moderators:
   color: "#f55"
   members:
-    - username: Pibo
-      id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
-      role: Marketing
     - username: luisgbr99
       id: 3159ff86-76e2-453c-9ade-5e2ba9918396
     - username: someGuyWithADHD
@@ -131,8 +135,6 @@ moderators:
       id: bb2c7f64-5aa1-452c-a6da-515862f033cb
     - username: MajorMcDonalds
       id: a53b7c56-ddc6-4fcb-a121-9a3829aabc28
-    - username: alejitox
-      id: a90be681-0d8d-4d76-9094-c609a5d4596a
     - username: ImJeezus
       id: 20985d45-20c1-45f7-a7e9-daeaf7c08c2e
     - username: Josh123uaJ
