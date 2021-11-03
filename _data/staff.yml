@@ -52,6 +52,7 @@ map developers:
   members:
     - username: Strangey
       id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
+      role: Executive Map Developer
     - username: Pugzy
       id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
     - username: jexel
