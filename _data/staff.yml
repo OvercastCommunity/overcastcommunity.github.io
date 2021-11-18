@@ -167,6 +167,19 @@ junior moderators:
       id: 3a3f756e-7925-409a-be5e-e8c1694b3e2c
     - username: Cazadorian
       id: 6863869b-4b8c-4445-b778-a8e016775ae4
+builders:
+  color: "#6FF"
+  members:
+    - username: rockymine
+      id: fe3608b7-d105-4029-8800-34b3147065b6
+    - username: Zero_Frosty
+      id: 74948888-fdb8-4446-9340-f7688c2435cc
+    - username: Tundren
+      id: ec5ec930-5cf3-4f8a-ad9f-09056aeed71b
+    - username: Mewzzy
+      id: b2539be1-8f98-4375-b653-9d91cd04c30e
+    - username: Technodono
+      id: 1aad55f7-2dea-4f22-85ca-ad9de3a78609
 advisors:
   color: "#a00"
   members:
