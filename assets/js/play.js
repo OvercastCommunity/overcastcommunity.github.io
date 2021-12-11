@@ -30,6 +30,8 @@ const protocolVersionMap = { // https://wiki.vg/Protocol_version_numbers
   754: "1.16.5",
   755: "1.17",
   756: "1.17.1",
+  757: "1.18",
+  757: "1.18.1",
 };
 
 function getServerStatus({
