@@ -1,4 +1,4 @@
-const protocolVersionMap = {
+const protocolVersionMap = { // https://wiki.vg/Protocol_version_numbers
   4: "1.7.2",
   5: "1.7.10",
   47: "1.8",
