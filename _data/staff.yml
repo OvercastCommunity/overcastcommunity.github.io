@@ -167,6 +167,10 @@ junior moderators:
   members:
     - username: Chiddy_
       id: 2fde9fe3-8aa0-43bf-9f74-e1c46f4dae72
+  color: "#f5f"
+  members:
+    - username: catzzy
+      id: 1f7851a8-3a58-4d68-839f-939727a11080
 builders:
   color: "#6FF"
   members:
