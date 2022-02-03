@@ -159,13 +159,13 @@ moderators:
       id: 3a3f756e-7925-409a-be5e-e8c1694b3e2c
     - username: Cazadorian
       id: 6863869b-4b8c-4445-b778-a8e016775ae4
-junior moderators:
-  color: "#f5f"
-  members:
-    - username: Chiddy_
-      id: 2fde9fe3-8aa0-43bf-9f74-e1c46f4dae72
     - username: catzzy
       id: 1f7851a8-3a58-4d68-839f-939727a11080
+    - username: Chiddy_
+      id: 2fde9fe3-8aa0-43bf-9f74-e1c46f4dae72
+junior moderators:
+  color: "#f5f"
+  members: []
 builders:
   color: "#6FF"
   members:
@@ -179,6 +179,10 @@ builders:
       id: b2539be1-8f98-4375-b653-9d91cd04c30e
     - username: Technodono
       id: 1aad55f7-2dea-4f22-85ca-ad9de3a78609
+    - username: DerStiv
+      id: f1ff7ecc-2e79-4320-85de-adb392eb2822
+    - username: Eliminate
+      id: d5a64b26-15ea-46c4-8319-f9c83e82a1fa
 advisors:
   color: "#a00"
   members:
