@@ -13,7 +13,7 @@ We are expanding the admin team!
 
 ## Strangey
 
-The Strange Boy has been around oc.tc for a long time. No one though he would become a staff member on Overcast Network, until one day in in 2015(2014?), he became a junior moderator.
+The Strange Boy has been around oc.tc for a long time. No one thought he would become a staff member on Overcast Network, until one day in early 2015, he became a junior moderator.
 
 From moderator, to map developer, to running events, Strangey has collected his fair share of staff ranks over the years, and today we welcome him to the Admin team!
 
