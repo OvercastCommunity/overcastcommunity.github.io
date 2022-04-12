@@ -71,8 +71,6 @@ map developers:
 head of events:
   color: "#fc0"
   members:
-    - username: TiTo_418
-      id: 8d02e486-66d5-46bf-8e6b-81e18ef9e6c7
     - username: Ralloi
       id: e79aa605-fcac-44e2-86eb-30dfc08657d3
     - username: wylt
@@ -81,6 +79,8 @@ head of events:
       id: a6f7abbe-9081-45f2-9746-b3e918879a81
     - username: Antnecb
       id: b1521072-6993-4fe4-ae60-dbeeb7dc0cfa
+    - username: mameBT
+      id: 430ec559-364a-4363-ac7a-2529050440ac
 moderators:
   color: "#f55"
   members:
