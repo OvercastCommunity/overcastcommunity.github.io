@@ -30,8 +30,10 @@ senior moderators:
       id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
     - username: wylt
       id: d71152ca-187d-43c4-9901-ba001606c655
-    - username: Deoz
-      id: a29d7ed5-1ca3-4953-a102-e874b8e6c83e
+    - username: Kiyara
+      id: 15c75bdd-005f-40f6-9e20-1ecf48bb51e5
+    - username: EgoPlaZa
+      id: 06b7b11d-3f35-4557-8fd2-0f96d7683c82
 developers:
   color: "#a5a"
   members:
@@ -105,8 +107,6 @@ moderators:
       id: 3159ff86-76e2-453c-9ade-5e2ba9918396
     - username: jexel
       id: 9225421c-3c09-4d97-bb80-f6a77c1f360b
-    - username: Kiyara
-      id: 15c75bdd-005f-40f6-9e20-1ecf48bb51e5
     - username: KingOfSquares
       id: 8af5859a-1d6e-4fbd-ae5f-4c63ff630fa4
       links:
@@ -159,8 +159,6 @@ moderators:
       id: 28ef7c16-854d-4a0b-965c-9c9fe0d7d1f8
     - username: bend
       id: 36dc036a-dfbc-4627-b66a-501223f08075
-    - username: EgoPlaZa
-      id: 06b7b11d-3f35-4557-8fd2-0f96d7683c82
     - username: Zet
       id: 12272c21-3716-44a4-9d35-0c5221756439
     - username: NotTeaTea0ne
