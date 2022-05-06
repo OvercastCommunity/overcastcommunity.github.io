@@ -70,6 +70,8 @@ map developers:
       id: 430ec559-364a-4363-ac7a-2529050440ac
     - username: Ruediger_LP
       id: e2d2c2c6-cea9-4510-9ab2-a091b5605b30
+    - username: Tywnis
+      id: 2ca8072f-74be-4798-85b8-bbce03aa91af
 head of events:
   color: "#fc0"
   members:
@@ -193,6 +195,12 @@ builders:
       id: f1ff7ecc-2e79-4320-85de-adb392eb2822
     - username: Eliminate
       id: d5a64b26-15ea-46c4-8319-f9c83e82a1fa
+    - username: Kazoha
+      id: 2ee523ce-6bf2-430f-aba5-2a2cd8608f64
+    - username: Shuliett
+      id: f6f5dce8-a158-461d-b26d-dc8acfaeedd7
+    - username: lunaceee
+      id: 97d1cc45-0f69-482b-9974-09351aef9dfa
 advisors:
   color: "#a00"
   members:
