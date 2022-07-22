@@ -150,8 +150,6 @@ moderators:
       id: a53b7c56-ddc6-4fcb-a121-9a3829aabc28
     - username: ImJeezus
       id: 20985d45-20c1-45f7-a7e9-daeaf7c08c2e
-    - username: Josh123uaJ
-      id: fc7ab053-d7c0-454c-8a27-8965d6455b16
     - username: Target
       id: 46d1f4a5-023b-47c2-b69f-6bbe060a5072
     - username: CincoDeMayo
@@ -176,7 +174,13 @@ moderators:
       id: c1d94f18-6ea3-495a-8d1b-7d9eaf393f64
 junior moderators:
   color: "#f5f"
-  members: []
+  members:
+    - username: JacketJack_
+      id: 8c82e83e-4d7e-40d4-9eb7-3b3eaf08c048
+    - username: Heirokos
+      id: 45b61852-eacd-4cee-8e6d-1c96f8213b02
+    - username: Quanteey
+      id: 2c222e01-fc43-4a35-8a61-9b4af9202094
 builders:
   color: "#6FF"
   members:
