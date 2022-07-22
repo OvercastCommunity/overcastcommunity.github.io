@@ -181,6 +181,8 @@ junior moderators:
       id: 45b61852-eacd-4cee-8e6d-1c96f8213b02
     - username: Quanteey
       id: 2c222e01-fc43-4a35-8a61-9b4af9202094
+    - username: Luna_45
+      id: 2bdb6f44-86e1-4f1d-8d87-518d0888ed5a
 builders:
   color: "#6FF"
   members:
@@ -213,4 +215,6 @@ advisors:
       id: e82603df-417d-4a95-bd1f-1720648be0b4
     - username: Cobol72
       id: f2b92aaf-40cc-4272-ad73-179f1b624658
+    - username: Pibo
+      id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
 
