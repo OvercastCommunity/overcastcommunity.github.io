@@ -1,0 +1,10 @@
+sites:
+  - name: PlanetMinecraft
+    link: "https://www.planetminecraft.com/server/overcast-community"
+    image: "site-1.png"
+  - name: "MinecraftServers.org"
+    link: "https://minecraftservers.org/server/636786"
+    image: "site-2.png"
+  - name: "Top Minecraft Servers"
+    link: "https://topminecraftservers.org/server/29505"
+    image: "site-3.png"
