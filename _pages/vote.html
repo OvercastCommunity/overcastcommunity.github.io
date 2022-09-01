@@ -21,9 +21,10 @@ in-nav: true
             {% for site in site.data.vote-sites.sites %}
                 <div class="col-lg-4 d-flex">
                     <div class="card">
-                        <img class="card-img-top logo" src="/assets/img/vote/{{site.image}}" alt="{{site.name}} image">
+                        <img class="card-img-top logo" src="/assets/img/vote/{{site.image}}" alt="{{site.name}} image">    
                         <div class="card-body" style="text-align: center;">
-                            <a href={{site.link}} class="btn btn-success" target="_blank">{{site.name}}</a>
+                            <h3>{{site.name}}</h3>
+                            <a href={{site.link}} class="btn btn-success btn-lg btn-block" target="_blank">Vote</a>
                         </div>
                     </div>
                 </div>
