@@ -174,9 +174,6 @@ moderators:
       id: 2fde9fe3-8aa0-43bf-9f74-e1c46f4dae72
     - username: sqyid
       id: c1d94f18-6ea3-495a-8d1b-7d9eaf393f64
-junior moderators:
-  color: "#f5f"
-  members:
     - username: JacketJack_
       id: 8c82e83e-4d7e-40d4-9eb7-3b3eaf08c048
     - username: Heirokos
@@ -187,6 +184,9 @@ junior moderators:
       id: 2bdb6f44-86e1-4f1d-8d87-518d0888ed5a
     - username: MishM0sh
       id: 4011d739-4dfb-41f6-8e60-5179d035cab7
+junior moderators:
+  color: "#f5f"
+  members: []
 builders:
   color: "#6FF"
   members:
