@@ -37,12 +37,6 @@ senior moderators:
 developers:
   color: "#a5a"
   members:
-    - username: Indicado
-      id: 9b4fbb38-ed55-44ad-b510-9f0197433f93
-      role: Executive Web Developer
-      links:
-        email: me@indicado.org
-        github: Indicardo
     - username: unixfox
       id: 02407912-8bbf-4b7b-a34c-a45339841436
       role: Bolt Developer
@@ -204,8 +198,8 @@ builders:
       id: f1ff7ecc-2e79-4320-85de-adb392eb2822
     - username: Eliminate
       id: d5a64b26-15ea-46c4-8319-f9c83e82a1fa
-    - username: Kazoha
-      id: 2ee523ce-6bf2-430f-aba5-2a2cd8608f64
+    - username: Le0n4rdo
+      id: 38ef938a-7020-4c04-9d12-4875ed0598ca
     - username: Shuliett
       id: f6f5dce8-a158-461d-b26d-dc8acfaeedd7
     - username: lunaceee
@@ -221,4 +215,9 @@ advisors:
       id: f2b92aaf-40cc-4272-ad73-179f1b624658
     - username: Pibo
       id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
+    - username: Indicado
+      id: 9b4fbb38-ed55-44ad-b510-9f0197433f93
+      links:
+        email: me@indicado.org
+        github: Indicardo
 
