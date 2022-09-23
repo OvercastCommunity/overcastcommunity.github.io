@@ -23,13 +23,16 @@ administrators:
     - username: Siceth
       id: 1e4cbacc-0fb5-445a-a99d-7c76f9d0b564
       role: Business & Strategy
+      links:
+        email: seth@seth-phillips.com
+    - username: wylt
+      id: d71152ca-187d-43c4-9901-ba001606c655
+      role: Community & Partnerships
 senior moderators:
   color: "#a00"
   members:
     - username: Noel
       id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
-    - username: wylt
-      id: d71152ca-187d-43c4-9901-ba001606c655
     - username: Kiyara
       id: 15c75bdd-005f-40f6-9e20-1ecf48bb51e5
     - username: EgoPlaZa
