@@ -15,7 +15,10 @@
         {% for p in pages %}
           {% if p.in-nav == true %}
             <li class="nav-item {% if p.url == page.url %} active {% endif %}">
-              <a class="nav-link" href="{{ p.url }}">{{ p.title }}</a>
+              <a class="nav-link" href="{{ p.url }}">
+                <i class="{{ p.icon }}""></i>
+                {{ p.title }}
+              </a>
             </li>
           {% endif %}
         {% endfor %}
