@@ -6,7 +6,6 @@ administrators:
       role: Moderation & Support
       links:
         email: brott@oc.tc
-        twitter: Brottsie
         github: Brottweiler
     - username: ElectroidFilms
       id: dad8b95c-cf6a-44df-982e-8c8dd70201e0
