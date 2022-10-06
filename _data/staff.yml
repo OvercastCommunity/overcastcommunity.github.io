@@ -146,6 +146,8 @@ moderators:
       id: bb2c7f64-5aa1-452c-a6da-515862f033cb
     - username: MajorMcDonalds
       id: a53b7c56-ddc6-4fcb-a121-9a3829aabc28
+    - username: alejitox
+      id: a90be681-0d8d-4d76-9094-c609a5d4596a
     - username: ImJeezus
       id: 20985d45-20c1-45f7-a7e9-daeaf7c08c2e
     - username: CincoDeMayo
@@ -178,7 +180,13 @@ moderators:
       id: 4011d739-4dfb-41f6-8e60-5179d035cab7
 junior moderators:
   color: "#f5f"
-  members: []
+  members:
+    - username: mennd
+      id: 3c896d60-b709-4d68-8cfc-7bf62ae92437
+    - username: Riuw
+      id: 3de0af8e-b1e6-4de7-95dc-7b2ed9333d3f
+    - username: miniature_Joe
+      id: 69803996-1115-414c-b698-5986535f02b4
 builders:
   color: "#6FF"
   members:
