@@ -210,6 +210,10 @@ builders:
       id: f6f5dce8-a158-461d-b26d-dc8acfaeedd7
     - username: lunaceee
       id: 97d1cc45-0f69-482b-9974-09351aef9dfa
+    - username: zzuf
+      id: 9d4779a8-d35f-45d2-b51c-95de7a77e128
+    - username: samschaap
+      id: 63ddf58a-ba2c-4d39-8481-6358bb46c63a
 advisors:
   color: "#a00"
   members:
