@@ -174,15 +174,15 @@ moderators:
       id: 2bdb6f44-86e1-4f1d-8d87-518d0888ed5a
     - username: MishM0sh
       id: 4011d739-4dfb-41f6-8e60-5179d035cab7
-junior moderators:
-  color: "#f5f"
-  members:
     - username: mennd
       id: 3c896d60-b709-4d68-8cfc-7bf62ae92437
     - username: Riuw
       id: 3de0af8e-b1e6-4de7-95dc-7b2ed9333d3f
     - username: miniature_Joe
       id: 69803996-1115-414c-b698-5986535f02b4
+junior moderators:
+  color: "#f5f"
+  members: []
 builders:
   color: "#6FF"
   members:
