@@ -1,0 +1,17 @@
+#retired {
+  .col-md-3 {
+    padding: 15px;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+
+  h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

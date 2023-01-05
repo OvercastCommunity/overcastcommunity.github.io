@@ -1,0 +1,26 @@
+---
+title: Retired
+description: "These folks may have retired from Overcast Community, but their legacy lives on."
+permalink: retired/
+in-nav: false
+icon: "fas fa-users"
+---
+
+{% include image-header.html image='/assets/img/image-slider/18.png' %}
+
+<div class="container my-4">
+    <div class="row">
+      {% for staff_member in site.data.retired.retired %}
+        <div class="col-md-3 col-sm-6 text-center">
+          <img
+            src="{{ site.data.providers.player_avatars }}{{ staff_member.id }}?overlay&size=84"
+          />
+          <div title="Retired on {{ staff_member.date | date: "%B %d, %Y" }}" data-toggle="tooltip">
+            <h4>{{ staff_member.username }}</h4>
+            <small class="text-muted">{{ staff_member.role }}</small>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+</div>
+  
