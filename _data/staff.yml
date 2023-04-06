@@ -105,6 +105,8 @@ media:
       id: a53b7c56-ddc6-4fcb-a121-9a3829aabc28
     - username: Diamyx
       id: f70b7a8f-93b2-480f-9d54-88e21485a042
+    - username: Cazadorian
+      id: 6863869b-4b8c-4445-b778-a8e016775ae4
 moderators:
   color: "#f55"
   members:
@@ -186,7 +188,19 @@ moderators:
       id: 69803996-1115-414c-b698-5986535f02b4
 junior moderators:
   color: "#f5f"
-  members: []
+  members:
+    - username: arcadeboss
+      id: c25a6f7b-4c42-40da-8cd6-add53f0c84eb
+    - username: serendipidU
+      id: 8442c79d-54f1-426c-9929-f82b0c215d2f
+    - username: Flamiix
+      id: 654a9fe7-c75c-4b45-91df-8d48c4a5e072
+    - username: vYurita
+      id: 76b83a94-f0c7-4efd-ac0d-3556cff41a9d
+    - username: nuttydragon
+      id: b83f7de9-9d69-468a-8cea-dc3864b584cb
+    - username: MagiG67
+      id: 27ea204b-440f-4f5e-bd12-4e21777ffa37
 builders:
   color: "#6FF"
   members:
