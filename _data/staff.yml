@@ -50,12 +50,6 @@ developers:
     - username: Pugzy
       id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
       role: Bolt Developer
-    - username: oc_tc
-      id: 745c1536-dfb6-4ee8-92c5-aab069e7b6b2
-      role: Web Developer
-    - username: smnl
-      id: 7cd493a1-1214-4da3-9ac1-a0bfef50b75c
-      role: Web Developer
 map developers:
   color: "#55f"
   members:

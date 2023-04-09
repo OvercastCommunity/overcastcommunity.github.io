@@ -1,125 +1,129 @@
 retired:
+  - username: oc_tc
+    id: 745c1536-dfb6-4ee8-92c5-aab069e7b6b2
+    role: Web Developer
+    date: 2023-04-08
   - username: Luna_45
     id:  2bdb6f44-86e1-4f1d-8d87-518d0888ed5a
     role: Former Moderator
     date:  2023-03-12
-  - username: Crazy_ 
-    id:  a9f11454-beac-4cc3-a138-1780802c8794 
+  - username: Crazy_
+    id:  a9f11454-beac-4cc3-a138-1780802c8794
     role: Former Administrator and Advisor
     date:  2023-01-03
-  - username: Ralloi 
-    id:  e79aa605-fcac-44e2-86eb-30dfc08657d3 
+  - username: Ralloi
+    id:  e79aa605-fcac-44e2-86eb-30dfc08657d3
     role: Former Head of Events
     date:  2022-10-30
-  - username: PoshEngineer 
-    id:  a6f7abbe-9081-45f2-9746-b3e918879a81 
+  - username: PoshEngineer
+    id:  a6f7abbe-9081-45f2-9746-b3e918879a81
     role: Former Head of Events
     date:  2022-10-30
-  - username: Zero_Frosty 
-    id:  74948888-fdb8-4446-9340-f7688c2435cc 
+  - username: Zero_Frosty
+    id:  74948888-fdb8-4446-9340-f7688c2435cc
     role: Former Builder
     date:  2022-10-18
-  - username: ThoughtfulTurtle 
-    id:  97e1e528-27d4-4768-b3e8-7e93b60805b8 
+  - username: ThoughtfulTurtle
+    id:  97e1e528-27d4-4768-b3e8-7e93b60805b8
     role: Former Moderator
     date:  2022-09-28
-  - username: Target 
-    id:  46d1f4a5-023b-47c2-b69f-6bbe060a5072 
+  - username: Target
+    id:  46d1f4a5-023b-47c2-b69f-6bbe060a5072
     role: Former Moderator
     date:  2022-09-28 19
-  - username: xTrina 
-    id:  0a359aef-794b-4d88-97ca-5672d9421532 
+  - username: xTrina
+    id:  0a359aef-794b-4d88-97ca-5672d9421532
     role: Former Moderator
     date:  2022-09-28
-  - username: Josh123uaJ 
-    id:  fc7ab053-d7c0-454c-8a27-8965d6455b16 
+  - username: Josh123uaJ
+    id:  fc7ab053-d7c0-454c-8a27-8965d6455b16
     role: Former Moderator
     date:  2022-07-03
-  - username: drunken 
-    id:  28ef7c16-854d-4a0b-965c-9c9fe0d7d1f8 
+  - username: drunken
+    id:  28ef7c16-854d-4a0b-965c-9c9fe0d7d1f8
     role: Former Moderator
     date:  2022-05-06
-  - username: Deoz 
-    id:  a29d7ed5-1ca3-4953-a102-e874b8e6c83e 
+  - username: Deoz
+    id:  a29d7ed5-1ca3-4953-a102-e874b8e6c83e
     role: Former Senior Moderator
     date:  2022-04-13
-  - username: Tito_418 
-    id:  8d02e486-66d5-46bf-8e6b-81e18ef9e6c7 
+  - username: Tito_418
+    id:  8d02e486-66d5-46bf-8e6b-81e18ef9e6c7
     role: Former Head of Events
     date:  2022-02-03
-  - username: anbu_ 
-    id:  98fccebe-d58b-4735-9e03-79683ca47bc4 
+  - username: anbu_
+    id:  98fccebe-d58b-4735-9e03-79683ca47bc4
     role: Former Moderator
     date:  2022-02-03
-  - username: Kenner_ 
-    id:  3b42b73c-61b5-4783-a853-d354e8272b56 
+  - username: Kenner_
+    id:  3b42b73c-61b5-4783-a853-d354e8272b56
     role: Former Moderator
     date:  2021-09-24
-  - username: Nixani 
-    id:  2958ea4c-3501-404e-88cc-12e8632f68cc 
+  - username: Nixani
+    id:  2958ea4c-3501-404e-88cc-12e8632f68cc
     role: Former Moderator and Map Developer
     date:  2021-09-23
-  - username: Joel_ 
-    id:  5918ee40-462b-4c84-ba32-b9e71761a8ff 
+  - username: Joel_
+    id:  5918ee40-462b-4c84-ba32-b9e71761a8ff
     role: Former Moderator
     date:  2021-09-23
-  - username: 2000thehecf1 
-    id:  408267c4-c749-4312-8e28-8a29113c1329 
+  - username: 2000thehecf1
+    id:  408267c4-c749-4312-8e28-8a29113c1329
     role: Former Moderator
     date:  2021-09-23
-  - username: Brumei 
-    id:  af9c1942-af66-42d1-89f9-9b677c281e03 
+  - username: Brumei
+    id:  af9c1942-af66-42d1-89f9-9b677c281e03
     role: Former Moderator
     date:  2021-09-23
-  - username: Merlijn 
-    id:  9c0cd42f-fd79-45ff-b123-7da044ab2a0c 
+  - username: Merlijn
+    id:  9c0cd42f-fd79-45ff-b123-7da044ab2a0c
     role: Former Moderator
     date:  2021-09-23
-  - username: Holdfast33 
-    id:  f41870ba-9aff-4756-aec7-6148172e63df 
+  - username: Holdfast33
+    id:  f41870ba-9aff-4756-aec7-6148172e63df
     role: Former Moderator
     date:  2020-12-23
-  - username: Winarve 
-    id:  9909505b-1f0f-4af1-ae21-afbee92427ce 
+  - username: Winarve
+    id:  9909505b-1f0f-4af1-ae21-afbee92427ce
     role: Former Moderator
     date:  2020-12-23
-  - username: Qixit 
-    id:  10c1b730-49b9-4f75-9212-91facc371477 
+  - username: Qixit
+    id:  10c1b730-49b9-4f75-9212-91facc371477
     role: Former Moderator and Map Developer
     date:  2020-11-29
-  - username: BGMP 
-    id:  2cef6d05-ec9a-44b3-bedc-53359c68ae65 
+  - username: BGMP
+    id:  2cef6d05-ec9a-44b3-bedc-53359c68ae65
     role: Former Moderator
     date:  2020-10-17
-  - username: OCNs_OMEN 
-    id:  b5967591-14fc-421f-a5e2-931498e10fb8 
+  - username: OCNs_OMEN
+    id:  b5967591-14fc-421f-a5e2-931498e10fb8
     role: Former Moderator
     date:  2020-08-31
-  - username: Picajoluna 
-    id:  e60895f7-f208-4a29-abcb-7c7fdfa8b2e0 
+  - username: Picajoluna
+    id:  e60895f7-f208-4a29-abcb-7c7fdfa8b2e0
     role: Former Moderator
     date:  2020-07-31
-  - username: rayfreeze 
-    id:  7ce4a2ee-f3cc-4593-8e59-5f66616d4d5b 
+  - username: rayfreeze
+    id:  7ce4a2ee-f3cc-4593-8e59-5f66616d4d5b
     role: Former Moderator
     date:  2020-06-26
-  - username: Matic0B 
-    id:  48924ea3-3aad-4e16-838c-368d8d9e0a25 
+  - username: Matic0B
+    id:  48924ea3-3aad-4e16-838c-368d8d9e0a25
     role: Former Moderator
     date:  2020-05-25
-  - username: ch4teau 
-    id:  1bac18ba-7935-4a5d-8eec-06be9f44b7ba 
+  - username: ch4teau
+    id:  1bac18ba-7935-4a5d-8eec-06be9f44b7ba
     role: Former Moderator
     date:  2020-05-25
-  - username: AMSGamingTQ 
-    id:  0fdf1faa-6a98-4f27-983c-968648e12720 
+  - username: AMSGamingTQ
+    id:  0fdf1faa-6a98-4f27-983c-968648e12720
     role: Former Moderator
     date:  2020-05-25
-  - username: GabeIsAwesome199 
-    id:  ccb7a66f-ed6c-4f8d-953e-78205c33abba 
+  - username: GabeIsAwesome199
+    id:  ccb7a66f-ed6c-4f8d-953e-78205c33abba
     role: Former Moderator
     date:  2020-05-25
-  - username: Cera 
-    id:  46bdeaa9-8919-4b8f-a22d-73ca14967530 
+  - username: Cera
+    id:  46bdeaa9-8919-4b8f-a22d-73ca14967530
     role: Former Moderator
     date:  2020-05-17
