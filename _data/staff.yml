@@ -200,6 +200,8 @@ builders:
   members:
     - username: rockymine
       id: fe3608b7-d105-4029-8800-34b3147065b6
+    - username: Zero_Frosty
+      id: 74948888-fdb8-4446-9340-f7688c2435cc
     - username: Tundren
       id: ec5ec930-5cf3-4f8a-ad9f-09056aeed71b
     - username: Mewzzy
