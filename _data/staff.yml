@@ -180,6 +180,10 @@ moderators:
       id: 3de0af8e-b1e6-4de7-95dc-7b2ed9333d3f
     - username: miniature_Joe
       id: 69803996-1115-414c-b698-5986535f02b4
+    - username: Flamiix
+      id: 654a9fe7-c75c-4b45-91df-8d48c4a5e072
+    - username: nuttydragon
+      id: b83f7de9-9d69-468a-8cea-dc3864b584cb
 junior moderators:
   color: "#f5f"
   members:
@@ -187,12 +191,8 @@ junior moderators:
       id: c25a6f7b-4c42-40da-8cd6-add53f0c84eb
     - username: serendipidU
       id: 8442c79d-54f1-426c-9929-f82b0c215d2f
-    - username: Flamiix
-      id: 654a9fe7-c75c-4b45-91df-8d48c4a5e072
     - username: vYurita
       id: 76b83a94-f0c7-4efd-ac0d-3556cff41a9d
-    - username: nuttydragon
-      id: b83f7de9-9d69-468a-8cea-dc3864b584cb
     - username: MagiG67
       id: 27ea204b-440f-4f5e-bd12-4e21777ffa37
 builders:
