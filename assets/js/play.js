@@ -35,6 +35,8 @@ const protocolVersionMap = { // https://wiki.vg/Protocol_version_numbers
   758: "1.18.2",
   759: "1.19",
   760: "1.19.2",
+  761: "1.19.3",
+  762: "1.19.4",
 };
 
 function getServerStatus({
