@@ -37,6 +37,7 @@ const protocolVersionMap = { // https://wiki.vg/Protocol_version_numbers
   760: "1.19.2",
   761: "1.19.3",
   762: "1.19.4",
+  763: "1.20",
   763: "1.20.1",
 };
 
