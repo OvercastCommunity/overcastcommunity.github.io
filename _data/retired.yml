@@ -1,4 +1,8 @@
 retired:
+  - username: Eliminate
+    id: d5a64b26-15ea-46c4-8319-f9c83e82a1fa
+    role: Builder
+    date: 2023-06-15
   - username: oc_tc
     id: 745c1536-dfb6-4ee8-92c5-aab069e7b6b2
     role: Web Developer
