@@ -19,11 +19,6 @@ administrators:
     - username: Campeh
       id: 61f8e9dd-62ab-453a-b7ef-83ce8a383fe8
       role: Events
-    - username: Siceth
-      id: 1e4cbacc-0fb5-445a-a99d-7c76f9d0b564
-      role: Business & Strategy
-      links:
-        email: seth@seth-phillips.com
     - username: wylt
       id: d71152ca-187d-43c4-9901-ba001606c655
       role: Community & Partnerships
@@ -234,4 +229,5 @@ advisors:
       links:
         email: me@indicado.org
         github: Indicardo
-
+    - username: Siceth
+      id: 1e4cbacc-0fb5-445a-a99d-7c76f9d0b564
