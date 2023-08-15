@@ -45,6 +45,9 @@ developers:
     - username: Pugzy
       id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
       role: Bolt Developer
+    - username: cs_
+      id: cc2292de-fcb3-412d-9319-f3177f73b605
+      role: OCC Developer
 map developers:
   color: "#55f"
   members:
@@ -191,6 +194,8 @@ moderators:
       id: 8442c79d-54f1-426c-9929-f82b0c215d2f
     - username: MagiG67
       id: 27ea204b-440f-4f5e-bd12-4e21777ffa37
+    - username: cs_
+      id: cc2292de-fcb3-412d-9319-f3177f73b605
 junior moderators:
   color: "#f5f"
   members: []
