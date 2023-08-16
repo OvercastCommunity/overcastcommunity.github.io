@@ -1,5 +1,8 @@
 sites:
-  - name: PlanetMinecraft
+  - name: "FindMCServer"
+    link: "https://findmcserver.com/server/overcast-community?vote=true"
+    image: "site-4.png"
+  - name: "PlanetMinecraft"
     link: "https://www.planetminecraft.com/server/overcast-community/vote/"
     image: "site-1.png"
   - name: "MinecraftServers.org"
