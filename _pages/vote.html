@@ -9,27 +9,26 @@ icon: "fas fa-vote-yea"
 {% include image-header.html image='/assets/img/image-slider/7.jpg' %}
 
 <div class="container my-4">
-    <div>
-        <div>
-            <h2>Why vote?</h2>
-            <p>Voting is a great way to help support Overcast Community! Your help will bring in new players and support growing our community. As a thank you we reward each vote with a <b>raindrop bonus</b>, plus for every consecutive day of voting you'll receive an additional raindrop streak bonus.</p>
+    <div class="text-center">
+        <h2>Why Vote?</h2>
+        <p class="lead">Voting is a great way to support the Overcast Community! Your votes bring in new players and help grow our community. As a thank you, we reward each vote with a <b>raindrop bonus</b>. Additionally, consecutive daily voting earns you a raindrop streak bonus.</p>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-lg-12 text-center">
+            <h2>Voting Sites</h2>
+            <p>Vote for each site once every 24 hours to maximize rewards!</p>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Voting Sites</h2>
-                <p>You may vote for each site once every 24 hours, make sure to visit all three links to get the maximum reward!</p>
-            </div>
-            {% for site in site.data.vote-sites.sites %}
-                <div class="col-lg-4 d-flex">
-                    <div class="card">
-                        <img class="card-img-top logo" src="/assets/img/vote/{{site.image}}" alt="{{site.name}} image">    
-                        <div class="card-body" style="text-align: center;">
-                            <h3>{{site.name}}</h3>
-                            <a href={{site.link}} class="btn btn-success btn-lg btn-block" target="_blank">Vote</a>
-                        </div>
-                    </div>
+        {% for site in site.data.vote-sites.sites %}
+        <div class="col-lg-4 mb-4">
+            <div class="card shadow">
+                <img class="card-img-top logo" src="/assets/img/vote/{{site.image}}" alt="{{site.name}} image">
+                <div class="card-body text-center">
+                    <h3 class="card-title">{{site.name}}</h3>
+                    <a href="{{site.link}}" class="btn btn-success btn-block" target="_blank">Vote</a>
                 </div>
-            {% endfor %}
+            </div>
         </div>
+        {% endfor %}
     </div>
 </div>
