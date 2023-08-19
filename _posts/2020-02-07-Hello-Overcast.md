@@ -11,7 +11,7 @@ This is **Overcast Community**, or **OCC**; a community run server running the s
 
 OCC is maintained by two administrators of the now closed Overcast Network; [Brottweiler](https://github.com/Brottweiler) and [PGMDev](https://github.com/PGMDev). OCC runs the **[PGM](https://github.com/PGMDev/PGM)** plugin, just like OCN, but for Minecraft version 1.8 and with many new features from community contributors.
 
-This is the start of a blog with occasional updates about news or other things! You can also [follow](https://twitter.com/OvercastPGM) us on Twitter where we often share screenshots from awesome matches!
+This is the start of a blog with occasional updates about news or other things! You can also [follow]({{ site.data.links.twitter }}) us on Twitter where we often share screenshots from awesome matches!
 
 # Notable features
 
@@ -39,7 +39,7 @@ If you know how to code, you might want to look into [adding features](https://g
 
 If you don't know how to code but want to contribute other ways, take a look at the [issue tracker](https://github.com/PGMDev/PGM/issues) and see if you can help reproduce issues, find error codes or come up with suggestions.
 
-Another way to contribute is simply donating to help keep the server up! Go to [oc.tc/donate](https://oc.tc/donate) for more information.
+Another way to contribute is simply donating to help keep the server up! Go to [oc.tc/store]({% link _pages/store.html %}) for more information.
 
 # FAQ
 
@@ -77,7 +77,7 @@ The requirement for a map to be added OCC is that it was loaded in the map repos
 
 We are not able to accept submissions for new maps, but if you notice a great map that is missing from the pool, let us know!
 
-If you find any map errors, please make an issue at the [issue tracker](https://github.com/OvercastCommunity/maps/issues)!
+If you find any map errors, please make an issue at the [issue tracker]({{ site.data.links.github | append: '/CommunityMaps/issues' }})!
 
 ## What PvP version does OCC use?
 

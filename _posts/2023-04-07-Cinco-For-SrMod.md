@@ -2,6 +2,7 @@
 title: Cinco is our new Senior Moderator!
 author: Brottweiler
 categories: announcement
+excerpt: Announcing our latest senior moderator, CincoDeMayo! 
 ---
 
 Announcing our latest senior moderator, **CincoDeMayo**!

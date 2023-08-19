@@ -11,7 +11,7 @@ We have made the appeal process more convenient, and also improved how reports a
 
 Since Overcast Community launched, ban appeals were handled via email. If you were banned, you could email us and get it resolved. This worked fine for a while but naturally we got more and more appeals, and they could only be handled by one person. Emails can also be annoying and slow when you wait for an answer.
 
-Starting today, ban appeals will be handled via our Discord server. We launched a new [appeal](https://oc.tc/appeal/) page that explains this process and clarifies what can be appealed.
+Starting today, ban appeals will be handled via our Discord server. We launched a new [appeal]({% link _pages/appeal.html %}) page that explains this process and clarifies what can be appealed.
 
 In short, banned players who wish to appeal will be asked to join our Discord server, create a new ticket in the `#appeal` channel, and explain their case. All admins will see these channels and the relevant staff member who issued the punishment may be added to the appeal channel. An ongoing discussion can then occur with all parties involved.
 

@@ -18,4 +18,4 @@ The senior moderators are **Noel**, **wylt** and **Deoz**. They have years of ex
 
 Also making a return is the Junior Moderator rank! The purpose of a junior moderator is to help new moderators get familiar with their new role. We hope this will help the community get to know our latest mods in a more clear manner.
 
-You can recognize them by their pink staff flair or checking our staff lineup at [oc.tc/staff](https://oc.tc/staff).
+You can recognize them by their pink staff flair or checking our staff lineup at [oc.tc/staff]({% link _pages/staff.html %}).

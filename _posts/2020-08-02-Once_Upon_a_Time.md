@@ -75,7 +75,7 @@ Please complete [this form](https://forms.gle/xZy7ktibYMZdBFF78) and we will rev
 
 ## Rules and Anticheat
 
-Overcast Community [rules](/rules/) will apply, and will be updated soon to include a tournament section that will apply immediately.
+Overcast Community [rules]({% link _pages/rules.html %}) will apply, and will be updated soon to include a tournament section that will apply immediately.
 
 Last but not least, we want to announce a partnership with the [Badlion Client](https://client.badlion.net/). The anticheat is now live on oc.tc, and Overcast Community should be shown on the BAC server list soon. Its use will be **mandatory** to all players during the tournament. If you have any technical impediment and it's impossible for you to run it, please fill out [this form](https://forms.gle/QSb8KpptsM9kamZ37).
 

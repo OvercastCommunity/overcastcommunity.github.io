@@ -4,7 +4,7 @@
       {% assign images = site.static_files | where: 'image_slider', true %}
       {% for image in images %}
         <div class="carousel-item {% if forloop.first %} active {% endif %}"
-             style="background: url('{{ site.url}}{{ image.path }}') no-repeat center">
+             style="background: url('{{ site.baseurl }}{{ image.path }}') no-repeat center">
         </div>
       {% endfor %}
     </div>
@@ -12,12 +12,12 @@
       <div class="container">
         <div class="jumbotron-text">
           {% assign split = site.title | split: ' ' %}
-          <h1>
+          <h1 style="font-size: calc(3rem + 2vw);">
             <span class="accent">{{ split[0] }}</span> {{ split[1] }}
           </h1>
           <p>{{ site.description }}</p>
         </div>
-        <a class="btn btn-primary btn-lg" href="{{ site.url}}/play">Play Now »</a>
+        <a class="btn btn-primary btn-lg" href="{% link _pages/play.html %}">Play Now »</a>
       </div>
     </div>
   </div>

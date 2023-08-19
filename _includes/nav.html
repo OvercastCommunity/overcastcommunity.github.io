@@ -1,14 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
     <a class="navbar-brand" href="{{ site.url }}">
-      <img src="{{ site.url }}/assets/img/logo.png" class="d-inline-block align-top" alt="Logo">
+      <img src="{% link /assets/img/logo.png %}" class="d-inline-block align-top" alt="Logo" width="30" height="34">
       <span class="title">{{ site.title }}</span>
     </a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="menu">
       <ul class="navbar-nav ml-auto">
         {% assign pages = site.pages | sort:'url' %}
@@ -16,7 +14,7 @@
           {% if p.in-nav == true %}
             <li class="nav-item {% if p.url == page.url %} active {% endif %}">
               <a class="nav-link" href="{{ p.url }}">
-                <i class="{{ p.icon }}""></i>
+                <i class="{{ p.icon }}"></i>
                 {{ p.title }}
               </a>
             </li>

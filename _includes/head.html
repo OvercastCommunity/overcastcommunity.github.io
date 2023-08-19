@@ -1,20 +1,32 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="shortcut icon" href="{{ site.url }}/assets/img/favicon.png">
   <title>{% unless page.url == '/' %}{{ page.title }} - {% endunless %}{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{% if page.url == '/' %}{{ site.description }}{% elsif page.is_post %}{{ page.excerpt }}{% else %}{{ page.description }}{% endif %}">
   <meta name="keywords" content="{{ site.title }}">
+  <meta name="theme-color" content="#4C0704">
 
+  {% if page.is_post %}
+  <meta property="og:type" content="article">
+  {% else %}
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{% unless page.url == '/' %}{{ page.title }} - {% endunless %}{{ site.title }}">
-  <meta property="og:description" content="{{ site.description }}">
+  {% endif %}
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.url == '/' %}{{ site.description }}{% elsif page.is_post %}{{ page.excerpt }}{% else %}{{ page.description }}{% endif %}">
   <meta property="og:image" content="{{ site.url }}/assets/img/image-slider/12.jpg">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  {% if page.is_post %}
+  <meta name="author" content="{{ page.author }}">
+  <meta property="article:author" content="{{ page.author }}">
+  <meta name="twitter:card" content="summary_large_image">
+  {% endif %}
+  <meta name="twitter:site" content="{{ '@' | append: site.data.links.twitter | replace: 'https://twitter.com/', '' }}">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -22,10 +34,10 @@
   <!-- Making CSS changes? Comment the above line and use the line below -->
   <!-- <link rel="stylesheet" href="/assets/css/main.css"> -->
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/releases/v5.15.0/js/all.js"></script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
@@ -34,7 +46,6 @@
           dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "{{ site.google_analytics }}");
   </script>
 </head>

@@ -8,10 +8,11 @@ redirect_from:
 ---
 
 Hey everyone! Welcome to Overcast Community’s 1st ever Map Making Competition! 
-![Contest](/assets/img/blog/ctw_contest/mapmaking_contest.png)
+![Contest]({% link /assets/img/blog/ctw_contest/mapmaking_contest.png %})
 
 # General Format
-This event will revolve around a **3 week** period where players will compete at making the best **Mega/Giga-sized CTW map** they can achieve. You can have a group of people help you or you can make it yourself, as long as it's completed and submitted within 3 weeks you are qualified for judging.
+This event will revolve around a **3 week** period where players will compete at making the best **Mega/Giga-sized CTW map** they can achieve. You can have a group of people help you or you can make it yourself,
+as long as it's completed and submitted within 3 weeks you are qualified for judging.
 
 Once the maps are submitted they will all be playtested on our public servers and judges will rank each map to determine the winners.
 
@@ -20,7 +21,7 @@ Your map must be built to hold **at least 64 (32v32) players and a maximum of 10
 
 Each map is limited to a maximum of 4 authors and you can create multiple maps. Your highest ranked map will be the only one that counts towards prizes.
 
-There will be no registration for this competition, instead, in order to be part of this event you must submit a map before the time limit is up to our [CommunityMaps GitHub page](https://github.com/OvercastCommunity/CommunityMaps/issues). Please include the ‘contest’ label on your submission on GitHub.
+There will be no registration for this competition, instead, in order to be part of this event you must submit a map before the time limit is up to our [CommunityMaps GitHub page]({{ site.data.links.github | append: '/CommunityMaps/issues' }}). Please include the ‘contest’ label on your submission on GitHub.
 
 Your map must not have been previously built/submitted to any server before this contest announcement.
 
@@ -70,18 +71,18 @@ Each user who submits a map will receive 3 tokens to add a map of their choice t
 If you already have a Donor rank, you can request for it to be given to somebody else. Participants may claim a maximum of 3 sponsor tokens, multiple submissions will not earn additional tokens. 
 
 # Map Making Server
-We’re always looking to help our map building community by introducing new tools and services. With this contest we’re launching a closed beta of our map making server. This will be an ever evolving experience, designed with PGM maps in mind. We plan to release new features on a regular basis with a public launch later this summer. 
+We’re always looking to help our map building community by introducing new tools and services. With this contest, we’re launching a closed beta of our map making server. This will be an ever evolving experience, designed with PGM maps in mind. We plan to release new features on a regular basis with a public launch later this summer. 
 
-To request access please contact a mapdev for more information. 
+To request access, please contact a mapdev for more information. 
 
-**Visit our Mapmaker page at [http://oc.tc/mapmaker/](http://oc.tc/mapmaker/) to learn more!**
+**Visit our Mapmaker page at [http://oc.tc/mapmaker/]({% link _pages/mapmaker.html %}) to learn more!**
 
 ## Resources
 
  - XML: [pgm.dev/docs](https://pgm.dev/docs/modules/general/introduction/)
  - XML: [maps.oc.tc](https://github.com/OvercastNetwork/maps.oc.tc) (use for references)
- - Building: [Single Player Commands](http://www.minecraftforum.net/topic/94310-162-single-player-commands-v49-official-download-spc-noclip/)
- - Building: [World Edit](http://wiki.sk89q.com/wiki/WorldEdit/Installation/Single_player)
- - Feedback: [OCC Discord](https://discord.gg/2nU9qSfw9B) #mapmaking
+ - Building: [Single Player Commands](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1272348-single-player-commands-v4-9-official-download-spc)
+ - Building: [World Edit](https://worldedit.enginehub.org/en/latest/install/#forge-single-player)
+ - Feedback: [OCC Discord]({{ site.data.links.discord }}) #mapmaking
 
 If you have any questions regarding the contest, you can message Strangey on Discord (Strangey#5777).

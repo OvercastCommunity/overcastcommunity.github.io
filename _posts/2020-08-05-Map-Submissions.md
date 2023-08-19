@@ -9,11 +9,11 @@ Hey everyone! We've been toying with the idea of opening up community map submis
 
 # The submission process
 
-Submissions will be done [here](https://github.com/OvercastCommunity/CommunityMaps/issues/new/choose). To submit your map, select the Map Submission template, and fill in the correct information. If you're looking for any more help, feel free to refer to this example map submission found [here](https://github.com/OvercastCommunity/CommunityMaps/issues/1). Alternatively, you can create a pull request to the CommunityMaps repo with your map and submit it to us that way.
+Submissions will be done [here]({{ site.data.links.github | append: '/CommunityMaps/issues/new/choose' }}). To submit your map, select the Map Submission template, and fill in the correct information. If you're looking for any more help, feel free to refer to this example map submission found [here]({{ site.data.links.github | append: '/CommunityMaps/issues/1' }}). Alternatively, you can create a pull request to the CommunityMaps repo with your map and submit it to us that way.
 
-A Map Developer or a member of the map making community will respond to your map submission issue and give feedback. Please be open to altering some map details if requested. We'll go though your XML and point out any issues as well. If your map is accepted, it'll be added to the server for testing. We'll be hosting community map testing events every week or so. If more changes are needed before putting your map on the public rotation, feedback will be posted in the original submission issue.
+A Map Developer or a member of the mapmaking community will respond to your map submission issue and give feedback. Please be open to altering some map details if requested. We'll go though your XML and point out any issues as well. If your map is accepted, it'll be added to the server for testing. We'll be hosting community map testing events every week or so. If more changes are needed before putting your map on the public rotation, feedback will be posted in the original submission issue.
 
-Know that by submitting a map to the community [repository](https://github.com/OvercastCommunity/CommunityMaps), you are also agreeing to put your map under the same license as the repository itself (CC BY-SA). For more information about licensing you can read [here](https://github.com/OvercastCommunity/CommunityMaps/blob/master/README.md).
+Know that by submitting a map to the community [repository]({{ site.data.links.github | append: '/CommunityMaps' }}), you are also agreeing to put your map under the same license as the repository itself (CC BY-SA). For more information about licensing you can read [here]({{ site.data.links.github | append: '/CommunityMaps/blob/master/README.md' }}).
 
 # What are we looking for?
 
@@ -25,7 +25,7 @@ As for what sort of map you can submit, go wild. We're trying to make sure we do
 
 All maps should be created in Minecraft version 1.8. If you made a map previously that you want to submit, please run it through a [nbt converter script](https://github.com/mitchts/nbt-converter) to ensure the map's nbt datas will work and remove any 1.9+ blocks and items from the map.
 
-Maps should have a XML accompanying your submission. For new maps, the XML proto should be in 1.4. However with old map submissions (maps that were created long ago) it'll be permittable to submit a XML in a lower proto. Please ensure you're following our [XML conventions](https://pgm.dev/docs/guides/xml-pointers/conventions). If you need help with your XML you can read through the documentation over at [pgm.dev](https://pgm.dev) or ask for help in #maps in our [Discord](https://oc.tc/discord).
+Maps should have a XML accompanying your submission. For new maps, the XML proto should be in 1.4. However with old map submissions (maps that were created long ago), it'll be permittable to submit a XML in a lower proto. Please ensure you're following our [XML conventions](https://pgm.dev/docs/guides/xml-pointers/conventions). If you need help with your XML, you can read through the documentation over at [pgm.dev](https://pgm.dev) or ask for help in #maps in our [Discord]({{ site.data.links.discord }}).
 
 Make sure to prune your maps and clean up any [unneeded files](https://pgm.dev/docs/guides/packaging/cleaning-files) from the map folder before submitting!
 
@@ -41,7 +41,8 @@ Alternatively, if you're tech savvy, you could set up your own map building loca
 
 ## Can my submission get closed for inactivity?
 
-Yes, if you get a response on your submission make sure to respond to it before 7 days has passed. Any submission with a reply from a Map Developer which is inactive for 7 days will be closed. Do not re-open closed issues!
+Yes, if you get a response on your submission make sure to respond to it before 7 days has passed. Any submission with a reply from a Map Developer which is inactive for 7 days will be closed. 
+Do not re-open closed issues!
 
 ## I have an update for a map I made that was accepted, how do I submit it?
 

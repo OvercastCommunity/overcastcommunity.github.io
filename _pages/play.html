@@ -43,7 +43,7 @@ icon: "fas fa-play"
     <div class="col mt-4 mt-md-0">
       <div class="row">
         <div class="col-sm-12 col-md-5 map-image">
-          <img src="" id="data-current-map-image" onerror="this.src = '{{ site.url }}/assets/img/fallback.png'">
+          <img src="" id="data-current-map-image" onerror="this.src = '{% link /assets/img/fallback.png %}'">
         </div>
         <div class="col-sm-12 col-md-7 mt-2 mt-md-0">
           <h2>
@@ -62,8 +62,7 @@ icon: "fas fa-play"
     </div>
   </div>
 </div>
-
-<script src="{{ site.url }}/assets/js/play-fallback.js"></script>
+<script src="{% link /assets/js/play-fallback.js %}"></script>
 <script type="text/javascript">
   const input = {
     serverAddress: '{{ site.server_address }}',
@@ -71,6 +70,5 @@ icon: "fas fa-play"
     mapImagesUrl: '{{ site.data.providers.map_images }}',
     playerAvatarsUrl: '{{ site.data.providers.player_avatars }}'
   };
-
   setInterval(getServerStatus(input), 60 * 1000);
 </script>
