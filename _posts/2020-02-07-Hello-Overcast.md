@@ -3,6 +3,7 @@ title: Hello, Overcast!
 author: Brottweiler
 categories: announcement
 excerpt: You might be wondering.. is Overcast Network back? Well, no, but almost!
+redirect_from: /announcement/2020/02/07/Hello-Overcast.html
 ---
 
 You might be wondering.. is Overcast Network back? Well, no, but almost!
@@ -39,7 +40,7 @@ If you know how to code, you might want to look into [adding features](https://g
 
 If you don't know how to code but want to contribute other ways, take a look at the [issue tracker](https://github.com/PGMDev/PGM/issues) and see if you can help reproduce issues, find error codes or come up with suggestions.
 
-Another way to contribute is simply donating to help keep the server up! Go to [oc.tc/store]({% link _pages/store.html %}) for more information.
+Another way to contribute is simply donating to help keep the server up! Go to [oc.tc/store]({{ site.baseurl }}{% link _pages/store.html %}) for more information.
 
 # FAQ
 

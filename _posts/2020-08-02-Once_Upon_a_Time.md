@@ -5,6 +5,7 @@ categories: announcement
 excerpt: Learn about the first official Overcast Community tournament.
 redirect_from:
   - /tournament/
+  - /announcement/2020/08/02/Once_Upon_a_Time.html
 ---
 
 [![Once Upon a Time in Overcast Banner](/assets/img/blog/tm/Once_Upon_a_Time_in_Overcast_thumb.png)](/assets/img/blog/tm/Once_Upon_a_Time_in_Overcast.png)
@@ -75,7 +76,7 @@ Please complete [this form](https://forms.gle/xZy7ktibYMZdBFF78) and we will rev
 
 ## Rules and Anticheat
 
-Overcast Community [rules]({% link _pages/rules.html %}) will apply, and will be updated soon to include a tournament section that will apply immediately.
+Overcast Community [rules]({{ site.baseurl }}{% link _pages/rules.html %}) will apply, and will be updated soon to include a tournament section that will apply immediately.
 
 Last but not least, we want to announce a partnership with the [Badlion Client](https://client.badlion.net/). The anticheat is now live on oc.tc, and Overcast Community should be shown on the BAC server list soon. Its use will be **mandatory** to all players during the tournament. If you have any technical impediment and it's impossible for you to run it, please fill out [this form](https://forms.gle/QSb8KpptsM9kamZ37).
 

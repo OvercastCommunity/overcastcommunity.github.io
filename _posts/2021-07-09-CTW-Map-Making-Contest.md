@@ -3,12 +3,14 @@ title: CTW Map Making Contest
 author: Strangey
 categories: announcement
 excerpt: Learn about our 1st ever CTW Map Making competition.
+image: https://oc.tc/assets/img/blog/ctw_contest/mapmaking_contest.png
 redirect_from:
   - /contest/
+  - /announcement/2021/07/09/CTW-Map-Making-Contest.html
 ---
 
 Hey everyone! Welcome to Overcast Community’s 1st ever Map Making Competition! 
-![Contest]({% link /assets/img/blog/ctw_contest/mapmaking_contest.png %})
+![Contest]({{ site.baseurl }}{% link /assets/img/blog/ctw_contest/mapmaking_contest.png %})
 
 # General Format
 This event will revolve around a **3 week** period where players will compete at making the best **Mega/Giga-sized CTW map** they can achieve. You can have a group of people help you or you can make it yourself,
@@ -73,9 +75,9 @@ If you already have a Donor rank, you can request for it to be given to somebody
 # Map Making Server
 We’re always looking to help our map building community by introducing new tools and services. With this contest, we’re launching a closed beta of our map making server. This will be an ever evolving experience, designed with PGM maps in mind. We plan to release new features on a regular basis with a public launch later this summer. 
 
-To request access, please contact a mapdev for more information. 
+To request access, please contact a mapdev for more information.
 
-**Visit our Mapmaker page at [http://oc.tc/mapmaker/]({% link _pages/mapmaker.html %}) to learn more!**
+**Visit our Mapmaker page at [http://oc.tc/mapmaker/]({{ site.baseurl }}{% link _pages/mapmaker.html %}) to learn more!**
 
 ## Resources
 

@@ -3,6 +3,7 @@ title: Additional Leadership!
 author: Siceth
 categories: announcement
 excerpt: There's a new sheriff in town...
+redirect_from: /announcement/2022/09/22/Additional-Leadership.html
 ---
 
 # Administration

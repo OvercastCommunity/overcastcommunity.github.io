@@ -3,6 +3,7 @@ title: Map Submissions
 author: Crazy_
 categories: announcement
 excerpt: Learn about the community map submission process.
+redirect_from: /announcement/2020/08/05/Map-Submissions.html
 ---
 
 Hey everyone! We've been toying with the idea of opening up community map submissions for a few months now. Today we’re pleased to announce it’s finally happening, thanks to support made possible by some recent PGM features. This post will go through the submission process and answer some obvious questions, be sure to read everything! 
@@ -27,7 +28,7 @@ All maps should be created in Minecraft version 1.8. If you made a map previousl
 
 Maps should have a XML accompanying your submission. For new maps, the XML proto should be in 1.4. However with old map submissions (maps that were created long ago), it'll be permittable to submit a XML in a lower proto. Please ensure you're following our [XML conventions](https://pgm.dev/docs/guides/xml-pointers/conventions). If you need help with your XML, you can read through the documentation over at [pgm.dev](https://pgm.dev) or ask for help in #maps in our [Discord]({{ site.data.links.discord }}).
 
-Make sure to prune your maps and clean up any [unneeded files](https://pgm.dev/docs/guides/packaging/cleaning-files) from the map folder before submitting!
+Make sure to prune your maps and clean up any [unneeded files](https://pgm.dev/docs/guides/preparing/cleaning-files) from the map folder before submitting!
 
 # FAQ
 

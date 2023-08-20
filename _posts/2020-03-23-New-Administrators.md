@@ -3,6 +3,7 @@ title: New Administrators!
 author: Brottweiler
 categories: announcement
 excerpt: The administration got some reinforcements!
+redirect_from: /announcement/2020/03/23/New-Administrators.html
 ---
 
 The administration got some reinforcements!

@@ -2,7 +2,8 @@
 title: Cinco is our new Senior Moderator!
 author: Brottweiler
 categories: announcement
-excerpt: Announcing our latest senior moderator, CincoDeMayo! 
+excerpt: Announcing our latest senior moderator, CincoDeMayo!
+redirect_from: /announcement/2023/04/07/Cinco-For-SrMod.html
 ---
 
 Announcing our latest senior moderator, **CincoDeMayo**!

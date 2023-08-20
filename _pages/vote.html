@@ -19,13 +19,13 @@ icon: "fas fa-vote-yea"
             <h2>Voting Sites</h2>
             <p>Vote for each site once every 24 hours to maximize rewards!</p>
         </div>
-        {% for site in site.data.vote-sites.sites %}
+        {% for provider in site.data.vote-sites.sites %}
         <div class="col-lg-4 mb-4">
             <div class="card shadow">
-                <img class="card-img-top logo" src="/assets/img/vote/{{site.image}}" alt="{{site.name}} image">
+                <img class="card-img-top logo" src="{{ site.baseurl }}/assets/img/vote/{{ provider.image }}" alt="{{ provider.name }} logo">  
                 <div class="card-body text-center">
-                    <h3 class="card-title">{{site.name}}</h3>
-                    <a href="{{site.link}}" class="btn btn-success btn-block" target="_blank">Vote</a>
+                    <h3 class="card-title">{{ provider.name }}</h3>
+                    <a href="{{ provider.link }}" class="btn btn-success btn-block" target="_blank">Vote</a>
                 </div>
             </div>
         </div>
