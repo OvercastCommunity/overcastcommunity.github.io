@@ -7,11 +7,11 @@ layout: default
     <header>
       <h2 class="post-title">
         {{ page.title }}
-        <div class="post-info">
+        <hgroup class="post-info">
           {{ page.author }}
           -
-          {{ page.date | date: '%B %e, %Y' }}
-        </div>
+          <time datetime="{{ page.date | date: '%F' }}">{{ page.date | date: '%B %e, %Y' }}</time>
+        </hgroup>
       </h2>
     </header>
     <hr>
