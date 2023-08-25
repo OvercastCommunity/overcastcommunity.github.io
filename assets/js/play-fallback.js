@@ -86,7 +86,7 @@ function setMatchInfoTemp(
   if (onlinePlayerSample != null) {
     onlinePlayerSample.forEach((player, index) => {
       playersHTML += `
-          <img src="${playerAvatarsUrl}${player.id}?overlay&size=40" data-toggle="tooltip" data-placement="top" title="${player.name}" alt="${player.name}">
+          <img src="${playerAvatarsUrl}${player.id}?overlay&size=40" data-toggle="tooltip" data-placement="top" title="${player.name}" alt="${player.name}" width="40" height="40">
         `;
     });
 

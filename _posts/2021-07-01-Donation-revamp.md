@@ -3,10 +3,12 @@ title: Donation revamp
 author: applenick
 categories: announcement
 excerpt: Learn about our 2021 donation rank revamp and Summer Sale!
+image: https://oc.tc/assets/img/blog/donor/donation_ranks.png
+redirect_from: /announcement/2021/07/01/Donation-revamp.html
 ---
 
 We're launching a new donor rank!
-![Donor](/assets/img/blog/donor/donation_ranks.png)
+![Donor]({{ site.baseurl }}{% link /assets/img/blog/donor/donation_ranks.png %})
 
 After carefully planning and adding some cool new features to PGM, Sponsor is ready for all to enjoy. From the beginning, we wanted to ensure that this new rank revolved around a unique aspect of OCC. 
 
@@ -34,11 +36,11 @@ After a sponsor request is processed, there will be a 1 hour cooldown to ensure 
 
 ## Visibility
 Once added to the votebook, all users will be shown the sponsor's name when hovering over their map.
-<img src="/assets/img/blog/donor/votebook.png" alt="Example of votebook" width="700"/>
+<img src="{{ site.baseurl }}{% link /assets/img/blog/donor/votebook.png %}" alt="Example of votebook" width="700"/>
 
 
 If your map is selected, your name will also be displayed in the map welcome message for the entire duration of the match!
-<img src="/assets/img/blog/donor/welcome.png" alt="Example of map welcome" width="700"/>
+<img src="{{ site.baseurl }}{% link /assets/img/blog/donor/welcome.png %}" alt="Example of map welcome" width="700"/>
 
 
 ## Additional perks
@@ -52,4 +54,4 @@ From July 1st - 14th, we'll be running our first ever Summer Sale! Sponsor has a
 
 We're excited to celebrate the launch of this new rank and appreciate the generosity of the community.
 
-**Visit our donation page at [https://oc.tc/donate](https://oc.tc/donate) to learn more**
+**Visit our donation page at [https://oc.tc/store]({{ site.baseurl }}{% link _pages/store.html %}) to learn more**

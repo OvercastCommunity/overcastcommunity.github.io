@@ -3,6 +3,7 @@ title: More admins!
 author: Brottweiler
 categories: announcement
 excerpt: We are expanding the admin team!
+redirect_from: /announcement/2022/03/11/More-Admins.html
 ---
 
 **Strangey**, **Campeh** and **Siceth** have been promoted to administrator. We hope this will improve the efficiency and communication within the staff and the community.

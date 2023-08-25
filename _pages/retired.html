@@ -12,9 +12,7 @@ icon: "fas fa-users"
     <div class="row">
       {% for staff_member in site.data.retired.retired %}
         <div class="col-md-3 col-sm-6 text-center">
-          <img
-            src="{{ site.data.providers.player_avatars }}{{ staff_member.id }}?overlay&size=84"
-          />
+          <img src="{{ site.data.providers.player_avatars }}{{ staff_member.id }}?overlay&size=84" width="84" height="84" alt="{{ staff_member.username | append: ' Minecraft avatar' }}" title="{{ staff_member.username | append: ' Minecraft avatar' }}"/>
           <div title="Retired on {{ staff_member.date | date: "%B %d, %Y" }}" data-toggle="tooltip">
             <h4>{{ staff_member.username }}</h4>
             <small class="text-muted">{{ staff_member.role }}</small>

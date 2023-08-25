@@ -19,7 +19,10 @@ defaults:
   - scope:
       type: posts
     values:
+      permalink: /blog/:year/:month/:day/:title/ # Removes .html/.md extension from all blog posts
+      image: https://oc.tc/assets/img/image-slider/12.jpg # Front matter doesn't support Liquid, use absolute link instead
       layout: post
+      is_post: true
   - scope:
       path: assets/img/image-slider
     values:
@@ -36,3 +39,4 @@ exclude: [
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap

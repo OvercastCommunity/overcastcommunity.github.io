@@ -2,6 +2,7 @@
 title: Community Spotlight&#58; PGM Tracker
 author: Brottweiler
 excerpt: Learn about an awesome community project for tracking PGM servers.
+redirect_from: /2020/03/27/PGM-Tracker.html
 ---
 
 Minetrack is a tracker for the largest Minecraft servers. Now there is one for PGM servers as well!
@@ -10,4 +11,4 @@ Community member, and recent OCC Administrator **applenick**, has forked the [Mi
 
 Check it out at [pgm.fyi](https://pgm.fyi/)!
 
-If you want your *public* PGM server to be added to the list, let **applenick** know in the #servers channel on our [Discord](https://oc.tc/discord)!
+If you want your *public* PGM server to be added to the list, let **applenick** know in the #servers channel on our [Discord]({{ site.data.links.discord }})!

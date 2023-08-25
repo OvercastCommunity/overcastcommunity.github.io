@@ -3,6 +3,7 @@ title: New Senior Moderators, and a goodbye
 author: Brottweiler
 categories: announcement
 excerpt: The Senior Moderators are getting reinforcements!
+redirect_from: /announcement/2022/04/22/Senior-Moderators-and-Goodbye.html
 ---
 
 Today, we are announcing new senior moderators. But first...

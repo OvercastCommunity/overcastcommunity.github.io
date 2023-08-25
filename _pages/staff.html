@@ -23,21 +23,21 @@ icon: "fas fa-users"
       <div class="row">
         {% for player in rank[1].members %}
           <div class="col-md-3 col-sm-6 text-center">
-            <img src="{{ site.data.providers.player_avatars }}{{ player.id }}?overlay&size=84">
-            <h4 title="{{ player.username }}">{{ player.username }}</h4>
+            <img src="{{ site.data.providers.player_avatars }}{{ player.id }}?overlay&size=84" width="84" height="84" alt="{{ player.username | append: ' Minecraft avatar' }}" title="{{ player.username | append: ' Minecraft avatar' }}">
+            <h4>{{ player.username }}</h4>
             {% if player.role %}
               <small class="text-muted">{{ player.role }}</small>
             {% endif %}
             {% if player.links %}
               <div class="player-links">
                 {% if player.links.twitter %}
-                  <a href="https://twitter.com/{{ player.links.twitter }}" data-toggle="tooltip" data-placement="top" title="Twitter" class="text-muted"><i class="fab fa-twitter"></i></a>
+                  <a href="https://twitter.com/{{ player.links.twitter }}" data-toggle="tooltip" data-placement="top" title="Twitter" aria-label="Twitter" class="text-muted"><i class="fab fa-twitter"></i></a>
                 {% endif %}
                 {% if player.links.github %}
-                  <a href="https://github.com/{{ player.links.github }}" data-toggle="tooltip" data-placement="top" title="GitHub" class="text-muted"><i class="fab fa-github"></i></a>
+                  <a href="https://github.com/{{ player.links.github }}" data-toggle="tooltip" data-placement="top" title="GitHub" aria-label="GitHub" class="text-muted"><i class="fab fa-github"></i></a>
                 {% endif %}
                 {% if player.links.email %}
-                  <a href="mailto:{{ player.links.email }}" data-toggle="tooltip" data-placement="top" title="Email" class="text-muted"><i class="fa fa-envelope"></i></a>
+                  <a href="mailto:{{ player.links.email }}" data-toggle="tooltip" data-placement="top" title="Email" aria-label="Email" class="text-muted"><i class="fa fa-envelope"></i></a>
                 {% endif %}
               </div>
             {% endif %}
@@ -48,9 +48,9 @@ icon: "fas fa-users"
   {% endfor %}
   <div>
     <hr/>
-    <center>
+    <div class="text-center">
       <p>We are proud to honor the many talented staff members who have contributed to Overcast over the years. Their hard work and dedication have had a lasting impact and we are grateful for their service.</p>
-      <a class="btn btn-primary btn-md" href="/retired">Retired Staff</a>
-    </center>
+      <a class="btn btn-primary btn-md" href="{{ site.baseurl }}{% link _pages/retired.html %}">Retired Staff</a>
+    </div>
   </div>
 </div>

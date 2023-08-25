@@ -41,6 +41,12 @@
       color: #ccc;
       font-size: 6rem;
       font-weight: 700;
+    
+      @media (max-width: 544px) {
+        & {
+          font-size: 3rem;
+        }
+      }
 
       .accent {
         color: #CC0000;

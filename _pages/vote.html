@@ -11,7 +11,7 @@ icon: "fas fa-vote-yea"
 <div class="container my-4">
     <div class="text-center">
         <h2>Why Vote?</h2>
-        <p class="lead">Voting is a great way to support the Overcast Community! Your votes bring in new players and help grow our community. As a thank you, we reward each vote with a <b>raindrop bonus</b>. Additionally, consecutive daily voting earns you a raindrop streak bonus.</p>
+        <p class="lead">Voting is a great way to support {{ site.title }}! Your votes bring in new players and help grow our community. As a thank you, we reward each vote with a <b>raindrop bonus</b>. Additionally, consecutive daily voting earns you a raindrop streak bonus.</p>
     </div>
 
     <div class="row mt-4">
@@ -19,13 +19,13 @@ icon: "fas fa-vote-yea"
             <h2>Voting Sites</h2>
             <p>Vote for each site once every 24 hours to maximize rewards!</p>
         </div>
-        {% for site in site.data.vote-sites.sites %}
+        {% for provider in site.data.vote-sites.sites %}
         <div class="col-lg-4 mb-4">
             <div class="card shadow">
-                <img class="card-img-top logo" src="/assets/img/vote/{{site.image}}" alt="{{site.name}} image">
+                <img class="card-img-top logo" src="{{ site.baseurl }}/assets/img/vote/{{ provider.image }}" alt="{{ provider.name }} logo">  
                 <div class="card-body text-center">
-                    <h3 class="card-title">{{site.name}}</h3>
-                    <a href="{{site.link}}" class="btn btn-success btn-block" target="_blank">Vote</a>
+                    <h3 class="card-title">{{ provider.name }}</h3>
+                    <a href="{{ provider.link }}" class="btn btn-success btn-block" target="_blank">Vote</a>
                 </div>
             </div>
         </div>

@@ -2,9 +2,11 @@
 title: Moderator Applications
 author: Brottweiler
 categories: announcement
+excerpt: Finally, a way for you to apply!
+redirect_from: /announcement/2022/07/04/Moderator-Applications.html
 ---
 
-Finally, a way for You to apply!
+Finally, a way for you to apply!
 
 # Why?
 
@@ -12,7 +14,7 @@ oc.tc has a long history of finding and hand picking our staff from the communit
 
 # How?
 
-Just visit [https://oc.tc/apply](https://oc.tc/apply) and answer the questions.
+Just visit [https://oc.tc/apply]({{ site.baseurl }}{% link _pages/apply.html %}) and answer the questions.
 There are several questions, and some are optional. Answering the optional questions does however increase your chances of getting contacted.
 
 # Then what?

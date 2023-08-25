@@ -13,7 +13,7 @@ icon: "fas fa-play"
     <div class="col-md-4">
       <div class="card connect">
         <div class="card-body">
-          <h4 class="card-title text-center">Connect</h4>
+          <h2 class="h4 card-title text-center">Connect</h2>
           <hr>
           <div class="row">
             <div class="col-md-6">
@@ -24,7 +24,8 @@ icon: "fas fa-play"
                      onclick="this.select();"
                      readonly=""
                      type="text"
-                     value="{{ site.server_address }}">
+                     value="{{ site.server_address }}"
+                     aria-label="{{ site.server_address }}">
             </div>
             <div class="col-md-6 mt-2 mt-md-0">
               <div>
@@ -43,7 +44,7 @@ icon: "fas fa-play"
     <div class="col mt-4 mt-md-0">
       <div class="row">
         <div class="col-sm-12 col-md-5 map-image">
-          <img src="" id="data-current-map-image" onerror="this.src = '{{ site.url }}/assets/img/fallback.png'">
+          <img src="" id="data-current-map-image" onerror="this.src = '{{ site.baseurl }}{% link /assets/img/fallback.png %}'" alt="Current map image" width="290" height="246">
         </div>
         <div class="col-sm-12 col-md-7 mt-2 mt-md-0">
           <h2>
@@ -62,8 +63,7 @@ icon: "fas fa-play"
     </div>
   </div>
 </div>
-
-<script src="{{ site.url }}/assets/js/play-fallback.js"></script>
+<script src="{{ site.baseurl }}{% link /assets/js/play-fallback.js %}"></script>
 <script type="text/javascript">
   const input = {
     serverAddress: '{{ site.server_address }}',
@@ -71,6 +71,5 @@ icon: "fas fa-play"
     mapImagesUrl: '{{ site.data.providers.map_images }}',
     playerAvatarsUrl: '{{ site.data.providers.player_avatars }}'
   };
-
   setInterval(getServerStatus(input), 60 * 1000);
 </script>

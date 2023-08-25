@@ -1,12 +1,12 @@
 <div class="image-header"
-     {% if include.image %}
-      style="background-image:
-              linear-gradient(
-                rgba(0, 0, 0, 0.4),
-                rgba(0, 0, 0, 0.4)
-              ),
-              url('{{ include.image }}')"
-     {% endif %}>
+  {% if include.image %}
+   style="background-image:
+           linear-gradient(
+             rgba(0, 0, 0, 0.4),
+             rgba(0, 0, 0, 0.4)
+           ),
+           url('{{ site.baseurl }}{{ include.image }}')"
+  {% endif %}>
   <div class="container">
     <h1>
       {{ page.title }}

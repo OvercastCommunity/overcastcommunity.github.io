@@ -10,12 +10,18 @@ administrators:
     - username: ElectroidFilms
       id: dad8b95c-cf6a-44df-982e-8c8dd70201e0
       role: SysAdmin & Development
+      links:
+        github: Electroid
     - username: applenick
       id: f54a1b17-3167-4162-948a-9c95d65a18a5
       role: SysAdmin & Development
+      links:
+        github: applenick
     - username: Strangey
       id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
       role: Map Development & Community
+      links:
+        github: Strangeys
     - username: Campeh
       id: 61f8e9dd-62ab-453a-b7ef-83ce8a383fe8
       role: Events
@@ -38,31 +44,55 @@ developers:
   members:
     - username: Pugzy
       id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
+      links:
+        github: Pugzy
     - username: cs_
       id: cc2292de-fcb3-412d-9319-f3177f73b605
+      links:
+        github: cswhite2000
 map developers:
   color: "#55f"
   members:
     - username: Pugzy
       id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
+      links:
+        github: Pugzy
     - username: jexel
       id: 9225421c-3c09-4d97-bb80-f6a77c1f360b
+      links:
+        github: Jexel
     - username: _DISTRACTION_
       id: f876b863-1ccd-4ae2-acad-8a09e2209e81
+      links:
+        github: master00ofdsiware
     - username: CoWinkKeyDinkInc
       id: 5c79d2c9-a4f0-4343-a84b-e1720f13009b
+      links:
+        github: CoWinkKeyDinkInc
     - username: mameBT
       id: 430ec559-364a-4363-ac7a-2529050440ac
+      links:
+        github: calcastor
     - username: Ruediger_LP
       id: e2d2c2c6-cea9-4510-9ab2-a091b5605b30
+      links:
+        github: RuedigerLP
     - username: Tywnis
       id: 2ca8072f-74be-4798-85b8-bbce03aa91af
+      links:
+        github: Tywnis
     - username: Cazadorian
       id: 6863869b-4b8c-4445-b778-a8e016775ae4
+      links:
+        github: Cazadorian
     - username: zzuf
       id: 9d4779a8-d35f-45d2-b51c-95de7a77e128
+      links:
+        github: zzufx
     - username: _Pear
       id: 6ff4ade9-e968-4acd-80eb-1a6fa89629fb
+      links:
+        github: TheRealPear
 head of events:
   color: "#fc0"
   members:
@@ -219,6 +249,8 @@ advisors:
   members:
     - username: Pablete1234
       id: e82603df-417d-4a95-bd1f-1720648be0b4
+      links:
+        github: Pablete1234
     - username: Cobol72
       id: f2b92aaf-40cc-4272-ad73-179f1b624658
     - username: Pibo
@@ -229,9 +261,15 @@ advisors:
         github: Indicardo
     - username: Siceth
       id: 1e4cbacc-0fb5-445a-a99d-7c76f9d0b564
+      links:
+        github: Siceth
     - username: unixfox
       id: 02407912-8bbf-4b7b-a34c-a45339841436
       role: Development Advisor
+      links:
+        github: unixfox
     - username: dentmaged
       id: 30401f63-f5bb-4f24-9a5a-0ecd5f706115
       role: Development Advisor
+      links:
+        github: dentmaged

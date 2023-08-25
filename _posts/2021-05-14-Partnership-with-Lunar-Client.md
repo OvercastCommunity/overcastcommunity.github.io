@@ -3,11 +3,13 @@ title: Partnership with Lunar Client
 author: Brottweiler & applenick
 categories: announcement
 excerpt: Learn about our new partnership with Lunar Client.
+image: https://oc.tc/assets/img/blog/lunar/lunar_partner.png
+redirect_from: /announcement/2021/05/14/Partnership-with-Lunar-Client.html
 ---
 
 We're excited to announce we are partnering with Lunar Client!
 
-![Lunar Partnership Banner](/assets/img/blog/lunar/lunar_partner.png)
+![Lunar Partnership Banner]({{ site.baseurl }}{% link assets/img/blog/lunar/lunar_partner.png %})
 
 Overcast Community is now an official partner with [Lunar Client](https://www.lunarclient.com/). We believe this partnership will provide benefits for everyone.
 
@@ -15,14 +17,14 @@ Overcast Community is now an official partner with [Lunar Client](https://www.lu
 
 You can quickly join OCC directly from Lunar Client's launcher!
 
-![LAuncher Server Icon](/assets/img/blog/lunar/server.png)
+![Launcher Server Icon]({{ site.baseurl }}{% link /assets/img/blog/lunar/server.png %})
 
 # Cosmetics
 
 Starting today, you'll be able to purchase Overcast Community cosmetics! Head over to our [Lunar Client Store](https://lunarclient.com/occ) page and check them out. Here's a small preview of what we're offering:
 
-[![Cape](/assets/img/blog/lunar/cape.webp)](https://lunarclient.com/occ)
-[![bandanna](/assets/img/blog/lunar/bandanna.webp)](https://lunarclient.com/occ)
+[![Cape]({{ site.baseurl }}{% link assets/img/blog/lunar/cape.webp %})](https://lunarclient.com/occ)
+[![Bandanna]({{ site.baseurl }}{% link /assets/img/blog/lunar/bandanna.webp %})](https://lunarclient.com/occ)
 
 We're looking forward to a bright future with Lunar. They are an exceptionally talented team and we believe this partnership will help Overcast grow in the best way. We've compiled a short list of common questions below.
 

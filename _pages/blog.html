@@ -10,11 +10,11 @@ icon: "far fa-newspaper"
 
 <div class="container my-4">
   <div class="row">
-    <div class="{% if site.categories.announcement %} col-8 {% else %} col {% endif %}">
+    <div class="col">
       {% for post in site.posts %}
         <div>
           <h4 class="post-title">
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             <div class="post-info">
               {{ post.author }}
               -
@@ -31,7 +31,7 @@ icon: "far fa-newspaper"
       {% endfor %}
     </div>
     {% if site.categories.announcement %}
-      <div class="col-4">
+      <div class="col-4 d-none d-lg-block">
         <div class="card announcements">
           <div class="card-body">
             <div class="card-title text-center">
@@ -40,7 +40,7 @@ icon: "far fa-newspaper"
             <hr>
             {% for post in site.categories.announcement %}
               <p>
-                <a href="{{ post.url }}">
+                <a href="{{ site.baseurl }}{{ post.url }}">
                   {{ post.title }}
                 </a>
               </p>

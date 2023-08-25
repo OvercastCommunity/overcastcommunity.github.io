@@ -3,6 +3,7 @@ title: Merch Shop (April Fools 2021)
 author: Brottweiler
 categories: announcement
 excerpt: Learn about our limited time merch!
+redirect_from: /announcement/2021/04/01/Merch-Shop.html
 ---
 
 We're launching our own merch!
