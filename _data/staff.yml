@@ -39,6 +39,8 @@ senior moderators:
       id: 06b7b11d-3f35-4557-8fd2-0f96d7683c82
     - username: CincoDeMayo
       id: 57c4813e-ecc2-4aee-9479-8d58991d1a0c
+    - username: otherkris
+      id: 9923dd17-577e-4e9b-b9fe-46c8fb3aa962
 developers:
   color: "#a5a"
   members:
@@ -148,8 +150,6 @@ moderators:
       id: 18ae0b62-8015-43b9-9409-f59246332bb4
     - username: Arzanex
       id: 62b6d081-8df8-4c09-aa15-71141ca7df76
-    - username: otherkris
-      id: 9923dd17-577e-4e9b-b9fe-46c8fb3aa962
     - username: _DISTRACTION_
       id: f876b863-1ccd-4ae2-acad-8a09e2209e81
     - username: Nidho0gg
