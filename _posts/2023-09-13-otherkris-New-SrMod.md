@@ -1,6 +1,6 @@
 ---
 title: otherkris is our new Senior Moderator!
-author: Brottweiler & applenick
+author: Brottweiler, applenick
 categories: announcement
 excerpt: Welcome otherkris to our senior moderation team!
 ---
